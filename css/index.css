@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000FE;
-	background-color: #5ECC0B;
+	color: #0000F9;
+	background-color: #206167;
 }
 
 .html
@@ -334,23 +334,21 @@
 	position: relative;
 }
 
-#u274-3
+#u274-5
+{
+	font-size: 20px;
+	line-height: 22px;
+	font-family: lato, sans-serif;
+	font-weight: 300;
+}
+
+#u274-3,#u274-6
 {
 	font-size: 20px;
 	text-align: justify;
 	line-height: 20px;
 	color: #FFFFFF;
-	font-family: raleway, sans-serif;
-	font-weight: 300;
-}
-
-#u274-6
-{
-	font-size: 16px;
-	text-align: justify;
-	line-height: 16px;
-	color: #FFFFFF;
-	font-family: open-sans, sans-serif;
+	font-family: lato, sans-serif;
 	font-weight: 300;
 }
 
