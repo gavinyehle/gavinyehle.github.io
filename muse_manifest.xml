@@ -1,0 +1,49 @@
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1439662910100">
+  <folder name="css">
+    <file name="site_global.css" crc="531450794"/>
+    <file name="master_a-master.css" crc="9460580" ref="stage-management:acting:index:design:baking"/>
+    <file name="stage-management.css" crc="4064234778" ref="stage-management"/>
+    <file name="acting.css" crc="26309114" ref="acting"/>
+    <file name="index.css" crc="23429813" ref="index"/>
+    <file name="design.css" crc="4097824549" ref="design"/>
+    <file name="baking.css" crc="319737344" ref="baking"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:acting:design:stage-management:baking"/>
+    <file name="museutils.js" crc="183364071" ref="index:acting:design:stage-management:baking"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:acting:design:stage-management:baking"/>
+    <file name="pie.js" crc="3827607177" ref="index:acting"/>
+    <file name="jquery.musemenu.js" crc="3957776250" ref="index:acting:design:stage-management:baking"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="index:acting:design:stage-management"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:acting:design:stage-management:baking"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:acting:design:stage-management:baking"/>
+    <file name="webpro.js" crc="3803554875" ref="acting"/>
+    <file name="musewpslideshow.js" crc="242596657" ref="acting"/>
+    <file name="jquery.museoverlay.js" crc="493285861" ref="acting"/>
+    <file name="touchswipe.js" crc="4038331989" ref="acting"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="76046571" ref="index"/>
+    <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="index:acting:design:stage-management:baking"/>
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="332803982" ref="index:acting:design:stage-management:baking"/>
+    <file name="dsc_0500.jpg" crc="259556918" ref="index"/>
+    <file name="dsc_0500_2x.jpg" crc="3965575298" ref="index"/>
+    <file name="screen shot 2013-12-24 at 103243 pm.jpg" crc="530563844" ref="acting"/>
+    <file name="resume thumb.jpg" crc="3911369860" seo="true" ref="acting"/>
+    <file name="resume.jpg" crc="4001435144" seo="true" ref="acting"/>
+    <file name="resume_2x.jpg" crc="3589505" seo="true" ref="acting"/>
+    <file name="acting final 2015 thumb.jpg" crc="3773670067" seo="true" ref="acting"/>
+    <file name="alice thumb.jpg" crc="3777499916" seo="true" ref="acting"/>
+    <file name="thumbelina thumb.jpg" crc="3889964031" ref="acting"/>
+    <file name="thumbelina thumb_2x.jpg" crc="122418451" ref="acting"/>
+    <file name="cat-in-the-hat-u835-fr.png" crc="288683327" ref="acting"/>
+    <file name="cat-in-the-hat-u835-fr_2x.png" crc="3857644284" ref="acting"/>
+    <file name="img_1287.jpg" crc="498266068" ref="design"/>
+    <file name="img_4126.jpg" crc="3802999528" ref="stage-management"/>
+  </folder>
+  <file name="index.html" crc="153279770" seo="true" mt="1436160414868" redirect="true"/>
+  <file name="acting.html" crc="4167164752" seo="true" mt="1439662637020" redirect="true"/>
+  <file name="design.html" crc="4207251833" seo="true" mt="1436160414868" redirect="true"/>
+  <file name="stage-management.html" crc="243088583" seo="true" mt="1436160545151" redirect="true"/>
+  <file name="baking.html" crc="42701841" seo="true" mt="1436160414868" redirect="true"/>
+</manifest>
