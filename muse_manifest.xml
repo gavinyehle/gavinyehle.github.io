@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="gavin.yehle.io" resolutions="1x,2x" timestamp="1439679668679">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="gavin.yehle.io" resolutions="1x,2x" timestamp="1439680219599">
   <folder name="images">
     <file name="favicon.ico" crc="3818145440" ref="index"/>
     <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="index:acting:design:stage-management"/>
@@ -19,7 +19,7 @@
     <file name="img_4126.jpg" crc="3802999528" ref="stage-management"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4273856563"/>
+    <file name="site_global.css" crc="3837279782"/>
     <file name="index.css" crc="4267625483" ref="index"/>
     <file name="master_a-master.css" crc="3903351193" ref="acting:design:index:stage-management"/>
     <file name="acting.css" crc="3858957034" ref="acting"/>
@@ -40,7 +40,7 @@
     <file name="jquery.museoverlay.js" crc="342093292" ref="acting"/>
     <file name="touchswipe.js" crc="4218319045" ref="acting"/>
   </folder>
-  <file name="index.html" crc="3769638247" seo="true" mt="1439679585489" redirect="true"/>
+  <file name="index.html" crc="161373262" seo="true" mt="1439680169790" redirect="true"/>
   <file name="acting.html" crc="3845690866" seo="true" mt="1439679342746" redirect="true"/>
   <file name="design.html" crc="3654727" seo="true" mt="1439679349290" redirect="true"/>
   <file name="stage-management.html" crc="3766423812" seo="true" mt="1439677280722" redirect="true"/>
