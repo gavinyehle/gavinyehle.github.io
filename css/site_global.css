@@ -85,6 +85,12 @@ body
 	body { text-rendering:auto; }
 }
 
+a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 a:link
 {
 	color: #6464DC;
@@ -136,6 +142,84 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-indent: 0px;
 	text-transform: none;
 	vertical-align: 0px;
+	padding: 0px;
+}
+
+.Paragraph-Style
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 157px;
+	font-weight: 300;
+	line-height: 118px;
+	padding: 0px;
+}
+
+.Paragraph-Style-1
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 55px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+	padding: 0px;
+}
+
+.Paragraph-Style-2
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0px;
+}
+
+.Page-Subheading
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 72px;
+	font-weight: 300;
+	padding: 0px;
+}
+
+.Page-Heading
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 157px;
+	font-weight: 300;
+	padding: 0px;
+}
+
+.Show-Titles
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 40px;
+	padding: 0px;
+}
+
+.Show-Info
+{
+	color: #FFFFFF;
+	font-family: lato, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 0px;
+}
+
+.Show-Description
+{
+	color: #FFFFFF;
+	font-family: lato, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 	padding: 0px;
 }
 

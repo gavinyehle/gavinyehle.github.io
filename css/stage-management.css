@@ -1,7 +1,7 @@
 .version.stage_management /* version checker */
 {
-	color: #0000F2;
-	background-color: #3F4D1A;
+	color: #0000E5;
+	background-color: #BE918E;
 }
 
 .html
@@ -35,22 +35,22 @@
 	width: 0.01px;
 }
 
-#u196
+#u939-3
 {
 	z-index: 15;
-	height: 37px;
+	min-height: 37px;
 	top: 0px;
 }
 
-#u196-bw
+#u939-3-bw
 {
 	z-index: 15;
 }
 
 #menuu153
 {
-	z-index: 16;
-	width: 544px;
+	z-index: 18;
+	width: 452px;
 	top: 5px;
 	left: 50%;
 	margin-left: -460px;
@@ -134,6 +134,15 @@
 }
 
 #u169:hover #u170-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 54px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u169.MuseMenuActive #u170-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -235,54 +244,6 @@
 	padding-bottom: 0px;
 	min-height: 24px;
 	width: 151px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u189
-{
-	width: 90px;
-	min-height: 34px;
-	margin-right: -10000px;
-	left: 454px;
-}
-
-#u190
-{
-	width: 90px;
-	padding-bottom: 10px;
-}
-
-#u190.MuseMenuActive
-{
-	width: 90px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u193-4
-{
-	width: 54px;
-	min-height: 24px;
-	margin-right: -10000px;
-	top: 5px;
-	left: 18px;
-}
-
-#u169.MuseMenuActive #u170-4,#u190:hover #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u190.MuseMenuActive #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
 	margin: 0px -10000px 0px 0px;
 }
 

@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #0000F4;
-	background-color: #3FD725;
+	color: #00000A;
+	background-color: #9CE08B;
 }
 
 .html
@@ -35,22 +35,22 @@
 	width: 0.01px;
 }
 
-#u196
+#u939-3
 {
-	z-index: 15;
-	height: 37px;
+	z-index: 11;
+	min-height: 37px;
 	top: 0px;
 }
 
-#u196-bw
+#u939-3-bw
 {
-	z-index: 15;
+	z-index: 11;
 }
 
 #menuu153
 {
-	z-index: 16;
-	width: 544px;
+	z-index: 14;
+	width: 452px;
 	top: 5px;
 	left: 50%;
 	margin-left: -460px;
@@ -134,6 +134,15 @@
 }
 
 #u169:hover #u170-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 54px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u169.MuseMenuActive #u170-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -238,54 +247,6 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u189
-{
-	width: 90px;
-	min-height: 34px;
-	margin-right: -10000px;
-	left: 454px;
-}
-
-#u190
-{
-	width: 90px;
-	padding-bottom: 10px;
-}
-
-#u190.MuseMenuActive
-{
-	width: 90px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u193-4
-{
-	width: 54px;
-	min-height: 24px;
-	margin-right: -10000px;
-	top: 5px;
-	left: 18px;
-}
-
-#u169.MuseMenuActive #u170-4,#u190:hover #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u190.MuseMenuActive #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
 #pu911
 {
 	width: 0.01px;
@@ -310,61 +271,25 @@
 #u912-4
 {
 	z-index: 3;
-	width: 917px;
+	width: 920px;
 	min-height: 187px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 188px;
-	font-size: 157px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
 	left: 120px;
 }
 
-#u912
-{
-	font-size: 157px;
-}
-
-#u913-8
+#u913-4
 {
 	z-index: 7;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 86px;
-	font-size: 72px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 32px;
 	position: relative;
-}
-
-#u913-6
-{
-	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
-}
-
-#u913-3
-{
-	line-height: 86px;
-}
-
-#u913,#u913-4
-{
-	font-size: 55px;
-	letter-spacing: -8px;
-	line-height: 66px;
-}
-
-#u913-2,#u913-5
-{
-	font-size: 55px;
-	line-height: 66px;
 }
 
 body

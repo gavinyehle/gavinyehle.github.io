@@ -1,7 +1,7 @@
 .version.acting /* version checker */
 {
-	color: #000001;
-	background-color: #9171FA;
+	color: #0000E6;
+	background-color: #0302EA;
 }
 
 .html
@@ -36,22 +36,22 @@
 	width: 0.01px;
 }
 
-#u196
+#u939-3
 {
-	z-index: 156;
-	height: 37px;
+	z-index: 140;
+	min-height: 37px;
 	top: 0px;
 }
 
-#u196-bw
+#u939-3-bw
 {
-	z-index: 156;
+	z-index: 140;
 }
 
 #menuu153
 {
-	z-index: 157;
-	width: 544px;
+	z-index: 143;
+	width: 452px;
 	top: 5px;
 	left: 50%;
 	margin-left: -460px;
@@ -135,6 +135,15 @@
 }
 
 #u169:hover #u170-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 54px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u169.MuseMenuActive #u170-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -239,54 +248,6 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u189
-{
-	width: 90px;
-	min-height: 34px;
-	margin-right: -10000px;
-	left: 454px;
-}
-
-#u190
-{
-	width: 90px;
-	padding-bottom: 10px;
-}
-
-#u190.MuseMenuActive
-{
-	width: 90px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u193-4
-{
-	width: 54px;
-	min-height: 24px;
-	margin-right: -10000px;
-	top: 5px;
-	left: 18px;
-}
-
-#u169.MuseMenuActive #u170-4,#u190:hover #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u190.MuseMenuActive #u193-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
 #pu776
 {
 	width: 0.01px;
@@ -311,35 +272,22 @@
 #u777-4
 {
 	z-index: 3;
-	width: 425px;
+	width: 628px;
 	min-height: 187px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 188px;
-	font-size: 157px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
 	left: 120px;
 }
 
-#u777
+#u780-4
 {
-	font-size: 157px;
-}
-
-#u780-8
-{
-	z-index: 28;
-	width: 291px;
-	min-height: 78px;
+	z-index: 24;
+	width: 356px;
+	min-height: 76px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 86px;
-	font-size: 72px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 32px;
 	position: relative;
@@ -347,7 +295,7 @@
 
 #pamphletu802
 {
-	z-index: 104;
+	z-index: 92;
 	width: 0.01px;
 	height: 200px;
 	margin-left: 20px;
@@ -358,7 +306,7 @@
 
 #u803
 {
-	z-index: 105;
+	z-index: 93;
 	width: 150px;
 	position: relative;
 	margin-right: -10000px;
@@ -385,7 +333,7 @@
 
 #u805
 {
-	z-index: 107;
+	z-index: 95;
 	width: 150px;
 	background-color: transparent;
 	position: relative;
@@ -424,12 +372,12 @@
 
 #u809popup
 {
-	z-index: 109;
+	z-index: 97;
 }
 
 #u810
 {
-	z-index: 110;
+	z-index: 98;
 	width: 621px;
 	height: 805px;
 	border-style: none;
@@ -443,7 +391,7 @@
 
 #u811
 {
-	z-index: 111;
+	z-index: 99;
 	width: 621px;
 	background-color: transparent;
 	position: relative;
@@ -457,43 +405,41 @@
 
 #u781-7
 {
-	z-index: 36;
+	z-index: 28;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	margin-left: 188px;
 	top: -200px;
 	margin-bottom: -133px;
 	position: relative;
 }
 
-#u781,#u781-3
+#u781
 {
 	font-size: 36px;
 	line-height: 43px;
+	color: #FFFFFF;
 	font-family: estilo-pro, sans-serif;
+	font-weight: 300;
 }
 
 #u781-5
 {
 	font-size: 18px;
 	line-height: 22px;
+	color: #FFFFFF;
 	font-family: lato, sans-serif;
+	font-weight: 300;
 }
 
-#u779-8
+#u779-4
 {
 	z-index: 20;
-	width: 291px;
+	width: 356px;
 	min-height: 78px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 86px;
-	font-size: 72px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 38px;
 	position: relative;
@@ -501,7 +447,7 @@
 
 #pamphletu787
 {
-	z-index: 95;
+	z-index: 83;
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -510,7 +456,7 @@
 
 #u793
 {
-	z-index: 96;
+	z-index: 84;
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -528,7 +474,7 @@
 
 #u797
 {
-	z-index: 98;
+	z-index: 86;
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -570,7 +516,7 @@
 
 #u795
 {
-	z-index: 99;
+	z-index: 87;
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -602,12 +548,12 @@
 
 #u789popup
 {
-	z-index: 101;
+	z-index: 89;
 }
 
 #u790
 {
-	z-index: 102;
+	z-index: 90;
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -621,7 +567,7 @@
 
 #u791
 {
-	z-index: 103;
+	z-index: 91;
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -637,25 +583,19 @@
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	margin-left: 188px;
 	top: -201px;
 	margin-bottom: -140px;
 	position: relative;
 }
 
-#u782-8
+#u782-4
 {
-	z-index: 43;
+	z-index: 35;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 86px;
-	font-size: 72px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 39px;
 	position: relative;
@@ -670,7 +610,7 @@
 
 #u817-7
 {
-	z-index: 113;
+	z-index: 101;
 	width: 150px;
 	min-height: 200px;
 	background-color: #999999;
@@ -695,20 +635,27 @@
 
 #u783-13
 {
-	z-index: 51;
+	z-index: 39;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
 	left: 168px;
 }
 
+#u783-2
+{
+	font-size: 36px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-weight: 300;
+}
+
 #pamphletu818
 {
-	z-index: 120;
+	z-index: 108;
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -718,7 +665,7 @@
 
 #u819
 {
-	z-index: 121;
+	z-index: 109;
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -745,7 +692,7 @@
 
 #u821
 {
-	z-index: 123;
+	z-index: 111;
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -788,7 +735,7 @@
 
 #u822
 {
-	z-index: 124;
+	z-index: 112;
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -827,12 +774,12 @@
 
 #u825popup
 {
-	z-index: 126;
+	z-index: 114;
 }
 
 #u826
 {
-	z-index: 127;
+	z-index: 115;
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -846,7 +793,7 @@
 
 #u827
 {
-	z-index: 128;
+	z-index: 116;
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -858,12 +805,10 @@
 
 #u785-13
 {
-	z-index: 65;
+	z-index: 53;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	margin-left: 188px;
 	top: -201px;
 	margin-bottom: -157px;
@@ -879,7 +824,7 @@
 
 #u833
 {
-	z-index: 129;
+	z-index: 117;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -895,12 +840,10 @@
 
 #u786-17
 {
-	z-index: 78;
+	z-index: 66;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
 	left: 168px;
@@ -908,7 +851,7 @@
 
 #u784
 {
-	z-index: 64;
+	z-index: 52;
 	width: 940px;
 	height: 40px;
 	top: -1px;
@@ -924,42 +867,15 @@
 	filter: alpha(opacity=1);
 }
 
-#u836-8
+#u836-4
 {
-	z-index: 148;
+	z-index: 136;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 86px;
-	font-size: 72px;
-	font-family: estilo-pro, sans-serif;
-	font-weight: 300;
 	margin-left: 20px;
 	position: relative;
-}
-
-#u780-6,#u779-6,#u782-6,#u836-6
-{
-	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
-}
-
-#u780-3,#u779-3,#u782-3,#u836-3
-{
-	line-height: 86px;
-}
-
-#u780,#u780-4,#u779,#u779-4,#u782,#u782-4,#u836,#u836-4
-{
-	font-size: 55px;
-	letter-spacing: -8px;
-	line-height: 66px;
-}
-
-#u780-2,#u780-5,#u779-2,#u779-5,#u782-2,#u782-5,#u836-2,#u836-5
-{
-	font-size: 55px;
-	line-height: 66px;
 }
 
 #pu835
@@ -970,7 +886,7 @@
 
 #u835
 {
-	z-index: 147;
+	z-index: 135;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -986,49 +902,39 @@
 
 #u834-17
 {
-	z-index: 130;
+	z-index: 118;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	color: #FFFFFF;
-	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
 	left: 168px;
 }
 
-#u778-2,#u783-2,#u785-2,#u786-2,#u834-2
-{
-	font-size: 36px;
-	line-height: 40px;
-	font-family: estilo-pro, sans-serif;
-}
-
 #u778-6,#u783-6,#u785-6,#u786-6,#u834-6
 {
-	font-size: 20px;
-	line-height: 22px;
-	font-family: lato, sans-serif;
 	font-style: italic;
 }
 
-#u778-4,#u778-8,#u783-4,#u783-8,#u785-4,#u785-8,#u786-4,#u786-8,#u834-4,#u834-8
+#u783-9,#u783-11,#u785-9,#u785-11,#u786-9,#u786-11,#u834-9,#u834-11
 {
-	font-size: 20px;
-	line-height: 22px;
-	font-family: lato, sans-serif;
+	line-height: 17px;
 }
 
-#u778-9,#u778-11,#u783-9,#u783-11,#u785-9,#u785-11,#u786-9,#u786-11,#u786-12,#u834-9,#u834-11,#u834-12
+#u778-9,#u778-11,#u786-12,#u834-12
 {
 	font-size: 14px;
+	color: #FFFFFF;
 	font-family: lato, sans-serif;
+	font-weight: 300;
 }
 
 #u786-15,#u834-15
 {
 	font-size: 16px;
+	color: #FFFFFF;
 	font-family: lato, sans-serif;
+	font-weight: 300;
 	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
 }
 

@@ -1,62 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://gavinyehle.com/images/resume%20thumb.jpg</loc>
+    <loc>http://gavin.yehle.io/images/resume%20thumb.jpg</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/images/resume.jpg</loc>
+    <loc>http://gavin.yehle.io/images/resume.jpg</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/images/resume_2x.jpg</loc>
+    <loc>http://gavin.yehle.io/images/resume_2x.jpg</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/images/acting%20final%202015%20thumb.jpg</loc>
+    <loc>http://gavin.yehle.io/images/acting%20final%202015%20thumb.jpg</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/images/alice%20thumb.jpg</loc>
+    <loc>http://gavin.yehle.io/images/alice%20thumb.jpg</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/index.html</loc>
-    <lastmod>2015-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://gavinyehle.com/acting.html</loc>
+    <loc>http://gavin.yehle.io/index.html</loc>
     <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/design.html</loc>
-    <lastmod>2015-07-05</lastmod>
+    <loc>http://gavin.yehle.io/acting.html</loc>
+    <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/stage-management.html</loc>
-    <lastmod>2015-07-05</lastmod>
+    <loc>http://gavin.yehle.io/design.html</loc>
+    <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/baking.html</loc>
-    <lastmod>2015-07-05</lastmod>
+    <loc>http://gavin.yehle.io/stage-management.html</loc>
+    <lastmod>2015-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
