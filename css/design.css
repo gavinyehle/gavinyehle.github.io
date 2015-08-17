@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #00000A;
-	background-color: #9CE08B;
+	color: #000012;
+	background-color: #C2E693;
 }
 
 .html
@@ -256,7 +256,7 @@
 #u911
 {
 	z-index: 2;
-	height: 403px;
+	height: 400px;
 	background: #000000 url("../images/img_1287.jpg") no-repeat center center;
 	background-size: cover;
 }
@@ -265,7 +265,7 @@
 {
 	z-index: 2;
 	margin-top: 105px;
-	height: 403px;
+	height: 400px;
 }
 
 #u912-4
@@ -288,7 +288,7 @@
 	background-color: transparent;
 	line-height: 86px;
 	margin-left: 20px;
-	margin-top: 32px;
+	margin-top: 35px;
 	position: relative;
 }
 

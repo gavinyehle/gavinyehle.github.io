@@ -2,31 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://gavin.yehle.io/images/resume%20thumb.jpg</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavin.yehle.io/images/resume.jpg</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavin.yehle.io/images/resume_2x.jpg</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavin.yehle.io/images/acting%20final%202015%20thumb.jpg</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavin.yehle.io/images/alice%20thumb.jpg</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavin.yehle.io/images/tall%20tales%20thumb.jpg</loc>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -50,7 +56,7 @@
   </url>
   <url>
     <loc>http://gavin.yehle.io/stage-management.html</loc>
-    <lastmod>2015-08-15</lastmod>
+    <lastmod>2015-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

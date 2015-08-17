@@ -1,7 +1,7 @@
 .version.acting /* version checker */
 {
-	color: #0000E6;
-	background-color: #0302EA;
+	color: #0000EE;
+	background-color: #860E8A;
 }
 
 .html
@@ -257,7 +257,7 @@
 #u776
 {
 	z-index: 2;
-	height: 403px;
+	height: 400px;
 	background: #000000 url("../images/screen%20shot%202013-12-24%20at%20103243%20pm.jpg") no-repeat center center;
 	background-size: cover;
 }
@@ -265,8 +265,8 @@
 #u776-bw
 {
 	z-index: 2;
-	margin-top: 106px;
-	height: 403px;
+	margin-top: 105px;
+	height: 400px;
 }
 
 #u777-4
@@ -289,7 +289,7 @@
 	background-color: transparent;
 	line-height: 86px;
 	margin-left: 20px;
-	margin-top: 32px;
+	margin-top: 35px;
 	position: relative;
 }
 
@@ -299,8 +299,6 @@
 	width: 0.01px;
 	height: 200px;
 	margin-left: 20px;
-	top: -1px;
-	margin-bottom: -1px;
 	position: relative;
 }
 
@@ -614,9 +612,9 @@
 	width: 150px;
 	min-height: 200px;
 	background-color: #999999;
-	color: #FFFFFF;
 	text-align: center;
 	font-size: 24px;
+	color: #FFFFFF;
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;

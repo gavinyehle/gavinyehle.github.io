@@ -1,6 +1,6 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="gavin.yehle.io" resolutions="1x,2x" timestamp="1439680792764">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="gavin.yehle.io" resolutions="1x,2x" timestamp="1439787106209">
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="index"/>
+    <file name="favicon.ico" crc="3818145440" ref="index:acting"/>
     <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="index:acting:design:stage-management"/>
     <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="332803982" ref="index:acting:design:stage-management"/>
     <file name="dsc_0500.jpg" crc="259556918" ref="index"/>
@@ -17,31 +17,38 @@
     <file name="cat-in-the-hat-u835-fr_2x.png" crc="3857644284" ref="acting"/>
     <file name="img_1287.jpg" crc="498266068" ref="design"/>
     <file name="img_4126.jpg" crc="3802999528" ref="stage-management"/>
+    <file name="invisibles.jpg" crc="479256930" ref="stage-management"/>
+    <file name="invisibles_2x.jpg" crc="17131264" ref="stage-management"/>
+    <file name="greenshow.jpg" crc="478001289" ref="stage-management"/>
+    <file name="greenshow_2x.jpg" crc="9489567" ref="stage-management"/>
+    <file name="screen shot 2015-08-16 at 101348 pm.jpg" crc="354650003" ref="stage-management"/>
+    <file name="screen shot 2015-08-16 at 101348 pm_2x.jpg" crc="151271800" ref="stage-management"/>
+    <file name="tall tales thumb.jpg" crc="393314761" seo="true" ref="stage-management"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3837279782"/>
     <file name="index.css" crc="4179648871" ref="index"/>
     <file name="master_a-master.css" crc="119473070" ref="acting:design:index:stage-management"/>
-    <file name="acting.css" crc="3858957034" ref="acting"/>
-    <file name="design.css" crc="178053259" ref="design"/>
-    <file name="stage-management.css" crc="3854471566" ref="stage-management"/>
+    <file name="acting.css" crc="4001762954" ref="acting"/>
+    <file name="design.css" crc="314762899" ref="design"/>
+    <file name="stage-management.css" crc="284980065" ref="stage-management"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:acting:design:stage-management"/>
     <file name="museutils.js" crc="275725342" ref="index:acting:design:stage-management"/>
     <file name="jquery.watch.js" crc="3999102769" ref="index:acting:design:stage-management"/>
     <file name="jquery.scrolleffects.js" crc="206645848" ref="index:acting:design:stage-management"/>
-    <file name="pie.js" crc="3827607177" ref="index:acting"/>
+    <file name="pie.js" crc="3827607177" ref="index:acting:stage-management"/>
     <file name="jquery.musemenu.js" crc="4042164668" ref="index:acting:design:stage-management"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index:acting:design:stage-management"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:acting:design:stage-management"/>
-    <file name="webpro.js" crc="3883484123" ref="acting"/>
-    <file name="musewpslideshow.js" crc="360574455" ref="acting"/>
-    <file name="jquery.museoverlay.js" crc="342093292" ref="acting"/>
-    <file name="touchswipe.js" crc="4218319045" ref="acting"/>
+    <file name="webpro.js" crc="3883484123" ref="acting:stage-management"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="acting:stage-management"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="acting:stage-management"/>
+    <file name="touchswipe.js" crc="4218319045" ref="acting:stage-management"/>
   </folder>
   <file name="index.html" crc="4061749004" seo="true" mt="1439680767404" redirect="true"/>
-  <file name="acting.html" crc="3845690866" seo="true" mt="1439679342746" redirect="true"/>
-  <file name="design.html" crc="3654727" seo="true" mt="1439679349290" redirect="true"/>
-  <file name="stage-management.html" crc="3766423812" seo="true" mt="1439677280722" redirect="true"/>
+  <file name="acting.html" crc="94736977" seo="true" mt="1439681334191" redirect="true"/>
+  <file name="design.html" crc="130743031" seo="true" mt="1439681322648" redirect="true"/>
+  <file name="stage-management.html" crc="240447918" seo="true" mt="1439787032818" redirect="true"/>
 </manifest>
