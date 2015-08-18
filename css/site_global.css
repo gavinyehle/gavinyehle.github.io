@@ -223,6 +223,37 @@ a.nontext /* used to override default properties of 'a' tag */
 	padding: 0px;
 }
 
+.Paragraph-Style-1,.Show-Info--phone
+{
+	color: #FFFFFF;
+	font-family: lato, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 15px;
+	padding: 0px;
+}
+
+.Home-Subheader--phone
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 21px;
+	text-align: center;
+	padding: 0px;
+}
+
+.Home-Heading--phone
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 90px;
+	font-weight: 300;
+	line-height: 72px;
+	padding: 0px;
+}
+
 .list0 li:before
 {
 	position: absolute;

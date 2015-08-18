@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F9;
-	background-color: #206167;
+	color: #0000EA;
+	background-color: #FD5AE9;
 }
 
 .html
@@ -31,19 +31,19 @@
 
 #u939-3
 {
-	z-index: 27;
+	z-index: 31;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 27;
+	z-index: 31;
 }
 
 #menuu153
 {
-	z-index: 30;
+	z-index: 34;
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -291,36 +291,32 @@
 	position: relative;
 }
 
-#u841-6
+#u1018-4
 {
-	z-index: 19;
-	width: 297px;
-	min-height: 64px;
+	z-index: 27;
+	width: 422px;
+	min-height: 19px;
 	background-color: transparent;
-	margin-left: 92px;
-	margin-top: 69px;
+	margin-left: 30px;
+	margin-top: 44px;
 	position: relative;
 }
 
-#u841-2
+#u841-6
 {
-	font-size: 30px;
-	text-align: center;
+	z-index: 19;
+	width: 359px;
+	min-height: 23px;
+	background-color: transparent;
+	line-height: 31px;
 	color: #FFFFFF;
+	text-align: center;
+	font-size: 26px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
-	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
-}
-
-#u841
-{
-	font-size: 26px;
-	line-height: 31px;
-}
-
-#u841-4
-{
-	line-height: 31px;
+	margin-left: 70px;
+	margin-top: 45px;
+	position: relative;
 }
 
 #u274-11
@@ -332,14 +328,6 @@
 	margin-left: 103px;
 	margin-top: 43px;
 	position: relative;
-}
-
-#u274-5
-{
-	font-size: 20px;
-	line-height: 22px;
-	font-family: lato, sans-serif;
-	font-weight: 300;
 }
 
 #u274-3,#u274-6

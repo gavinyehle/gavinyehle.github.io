@@ -1,7 +1,7 @@
 .version.acting /* version checker */
 {
-	color: #0000EE;
-	background-color: #860E8A;
+	color: #000013;
+	background-color: #1D3FA3;
 }
 
 .html
@@ -612,9 +612,9 @@
 	width: 150px;
 	min-height: 200px;
 	background-color: #999999;
+	color: #FFFFFF;
 	text-align: center;
 	font-size: 24px;
-	color: #FFFFFF;
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
