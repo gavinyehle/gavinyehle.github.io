@@ -1,3 +1,13 @@
+#u1084-3
+{
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: #3F3F3F;
+	background-color: rgba(0,0,0,0.75);
+	border-width: 0px 0px 1px;
+	-pie-background: rgba(0,0,0,0.75);
+}
+
 #menuu1085
 {
 	border-style: none;
@@ -17,9 +27,9 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	line-height: 22px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -43,9 +53,9 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	line-height: 22px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -69,9 +79,9 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	line-height: 22px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -95,9 +105,9 @@
 	border-color: transparent;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	line-height: 22px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -118,15 +128,5 @@
 .MenuItem /* unifiedNavBar */
 {
 	cursor: pointer;
-}
-
-#u1084-3
-{
-	border-style: solid;
-	border-color: #FFFFFF;
-	background-color: #3F3F3F;
-	background-color: rgba(0,0,0,0.75);
-	border-width: 0px 0px 1px;
-	-pie-background: rgba(0,0,0,0.75);
 }
 

@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000FD;
-	background-color: #0642B4;
+	color: #000009;
+	background-color: #D55D53;
 }
 
 @-ms-viewport
@@ -43,18 +43,33 @@
 #page
 {
 	z-index: 1;
-	width: 345px;
-	min-height: 779px;
+	width: 369px;
+	min-height: 836.6250000000001px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding: 64px 19px 71px 16px;
+	padding: 56px 5px 21.374999999999886px 6px;
+}
+
+#u1084-3
+{
+	z-index: 37;
+	min-height: 37px;
+}
+
+#u1084-3-bw
+{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	z-index: 37;
+	top: -3px;
 }
 
 #menuu1085
 {
-	z-index: 35;
+	z-index: 40;
 	min-height: 34px;
 }
 
@@ -254,60 +269,47 @@
 	position: fixed;
 	left: 0px;
 	right: 0px;
-	z-index: 35;
+	z-index: 40;
 	top: 0px;
-}
-
-#u1084-3
-{
-	z-index: 32;
-	min-height: 37px;
-}
-
-#u1084-3-bw
-{
-	position: fixed;
-	left: 0px;
-	right: 0px;
-	z-index: 32;
-	top: -3px;
 }
 
 #u1114-6
 {
 	z-index: 2;
-	width: 281px;
+	width: 326px;
 	min-height: 145px;
 	background-color: transparent;
-	margin-left: 32px;
+	line-height: 80px;
+	font-size: 100px;
+	margin-left: 21px;
 	position: relative;
 }
 
 #u1119-4
 {
 	z-index: 25;
-	width: 309px;
+	width: 369px;
 	min-height: 19px;
 	background-color: transparent;
-	line-height: 31px;
-	margin-left: 10px;
+	line-height: 36px;
+	font-size: 30px;
+	left: -1px;
 	position: relative;
 }
 
 #u1116-6
 {
 	z-index: 19;
-	width: 297px;
+	width: 369px;
 	min-height: 23px;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 18px;
 	text-align: center;
-	font-size: 13px;
-	line-height: 16px;
+	font-size: 15px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
-	margin-left: 24px;
-	margin-top: 5px;
+	left: -1px;
 	position: relative;
 }
 
@@ -318,7 +320,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-top: 20px;
+	margin-left: 12px;
+	margin-top: 12px;
 	position: relative;
 }
 
@@ -356,7 +359,7 @@
 	width: 342px;
 	min-height: 153px;
 	background-color: transparent;
-	margin-left: 1px;
+	margin-left: 13px;
 	margin-top: 37px;
 	position: relative;
 }
@@ -375,6 +378,18 @@
 	color: #FFFFFF;
 	font-family: lato, sans-serif;
 	font-weight: 300;
+}
+
+#u1242-5
+{
+	z-index: 32;
+	width: 163px;
+	min-height: 13px;
+	background-color: transparent;
+	text-align: center;
+	margin-left: 102px;
+	margin-top: 34px;
+	position: relative;
 }
 
 body

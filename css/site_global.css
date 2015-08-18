@@ -254,6 +254,34 @@ a.nontext /* used to override default properties of 'a' tag */
 	padding: 0px;
 }
 
+.Years--phone
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+	padding: 0px;
+}
+
+.Show-Titles--phone
+{
+	color: #FFFFFF;
+	font-family: estilo-pro, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 23px;
+	padding: 0px;
+}
+
+.Show-Description--phone
+{
+	color: #FFFFFF;
+	font-family: lato, sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	padding: 0px;
+}
+
 .list0 li:before
 {
 	position: absolute;
