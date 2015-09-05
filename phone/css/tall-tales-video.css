@@ -1,7 +1,7 @@
-.version.design /* version checker */
+.version.tall_tales_video /* version checker */
 {
-	color: #0000EF;
-	background-color: #31E001;
+	color: #0000F7;
+	background-color: #44A6F1;
 }
 
 @-ms-viewport
@@ -44,37 +44,41 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 549px;
+	min-height: 570px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 21px;
+}
+
+#page_position_content
+{
+	margin-top: -3px;
+	padding-bottom: 255px;
+	width: 0.01px;
 }
 
 #pu1084-3
 {
 	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: -3px;
 }
 
 #u1084-3
 {
-	z-index: 7;
+	z-index: 3;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 7;
+	z-index: 3;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 10;
+	z-index: 6;
 	min-height: 34px;
 }
 
@@ -271,22 +275,22 @@
 
 #menuu1085-bw
 {
-	z-index: 10;
+	z-index: 6;
 	min-height: 34px;
 	margin-top: 3px;
 }
 
-#u1245-5
+#u1297
 {
 	z-index: 2;
-	width: 163px;
-	min-height: 13px;
+	width: 240px;
+	min-height: 139px;
+	border-style: none;
+	border-color: transparent;
 	background-color: transparent;
-	text-align: center;
+	margin-left: 70px;
+	margin-top: 142px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 534px;
-	left: 108px;
 }
 
 body
@@ -298,6 +302,5 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -533px;
 }
 

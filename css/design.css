@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
 	color: #0000E1;
-	background-color: #0464A6;
+	background-color: #C0F697;
 }
 
 .html
@@ -37,19 +37,19 @@
 
 #u939-3
 {
-	z-index: 61;
+	z-index: 72;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 61;
+	z-index: 72;
 }
 
 #menuu153
 {
-	z-index: 64;
+	z-index: 75;
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -257,7 +257,7 @@
 {
 	z-index: 2;
 	height: 400px;
-	background: #000000 url("../images/img_1287.jpg") no-repeat center center;
+	background: #000000 url("../images/diaryofawormset%20designleft.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -292,9 +292,36 @@
 	position: relative;
 }
 
+#u1333
+{
+	z-index: 71;
+	width: 150px;
+	height: 200px;
+	position: relative;
+	margin-right: -10000px;
+	background: #FFFFFF url("../images/american%20idiot%20thumb.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.hidpi #u1333
+{
+	background-image: url("../images/american%20idiot%20thumb_2x.jpg");
+}
+
+#u1332-12
+{
+	z-index: 59;
+	width: 564px;
+	min-height: 133px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 168px;
+}
+
 #u1149
 {
-	z-index: 28;
+	z-index: 26;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -308,7 +335,7 @@
 	background-image: url("../images/forum%20thumb_2x.jpg");
 }
 
-#u1148-17
+#u1148-15
 {
 	z-index: 11;
 	width: 752px;
@@ -321,7 +348,7 @@
 
 #u1158-4
 {
-	z-index: 29;
+	z-index: 27;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -331,7 +358,7 @@
 	position: relative;
 }
 
-#pu1149,#pu1161
+#pu1333,#pu1161
 {
 	width: 0.01px;
 	margin-left: 20px;
@@ -339,7 +366,7 @@
 
 #u1161
 {
-	z-index: 46;
+	z-index: 44;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -355,7 +382,7 @@
 
 #u1160-13
 {
-	z-index: 33;
+	z-index: 31;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -364,7 +391,7 @@
 	left: 168px;
 }
 
-#pu1248
+#pu1149,#pu1248
 {
 	width: 0.01px;
 	margin-left: 20px;
@@ -373,7 +400,7 @@
 
 #u1248
 {
-	z-index: 60;
+	z-index: 58;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -389,7 +416,7 @@
 
 #u1247-13
 {
-	z-index: 47;
+	z-index: 45;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -398,17 +425,17 @@
 	left: 168px;
 }
 
-#u1148-6,#u1148-8,#u1160-6,#u1160-8,#u1247-6,#u1247-8
+#u1332-6,#u1332-8,#u1148-6,#u1148-8,#u1160-6,#u1160-8,#u1247-6,#u1247-8
 {
 	font-style: italic;
 }
 
-#u1148-7,#u1160-7,#u1247-7
+#u1332-7,#u1148-7,#u1160-7,#u1247-7
 {
 	font-style: normal;
 }
 
-#u1148-9,#u1148-11,#u1148-12,#u1148-15,#u1160-9,#u1160-11,#u1247-9,#u1247-11
+#u1332-9,#u1332-10,#u1148-9,#u1148-10,#u1148-13,#u1160-9,#u1160-11,#u1247-9,#u1247-11
 {
 	line-height: 17px;
 }

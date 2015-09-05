@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000009;
-	background-color: #D55D53;
+	color: #000002;
+	background-color: #7CB440;
 }
 
 @-ms-viewport
@@ -43,13 +43,24 @@
 #page
 {
 	z-index: 1;
-	width: 369px;
-	min-height: 836.6250000000001px;
+	width: 380px;
+	min-height: 914px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding: 56px 5px 21.374999999999886px 6px;
+}
+
+#page_position_content
+{
+	margin-top: -3px;
+	padding-bottom: 21px;
+	width: 0.01px;
+}
+
+#pu1084-3
+{
+	width: 0.01px;
 }
 
 #u1084-3
@@ -60,11 +71,9 @@
 
 #u1084-3-bw
 {
-	position: fixed;
-	left: 0px;
-	right: 0px;
 	z-index: 37;
-	top: -3px;
+	min-height: 37px;
+	margin-bottom: -1px;
 }
 
 #menuu1085
@@ -266,11 +275,9 @@
 
 #menuu1085-bw
 {
-	position: fixed;
-	left: 0px;
-	right: 0px;
 	z-index: 40;
-	top: 0px;
+	min-height: 34px;
+	margin-top: 3px;
 }
 
 #u1114-6
@@ -281,7 +288,8 @@
 	background-color: transparent;
 	line-height: 80px;
 	font-size: 100px;
-	margin-left: 21px;
+	margin-left: 27px;
+	margin-top: 22px;
 	position: relative;
 }
 
@@ -293,7 +301,7 @@
 	background-color: transparent;
 	line-height: 36px;
 	font-size: 30px;
-	left: -1px;
+	margin-left: 6px;
 	position: relative;
 }
 
@@ -304,12 +312,12 @@
 	min-height: 23px;
 	background-color: transparent;
 	color: #FFFFFF;
-	line-height: 18px;
 	text-align: center;
 	font-size: 15px;
+	line-height: 18px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
-	left: -1px;
+	margin-left: 6px;
 	position: relative;
 }
 
@@ -320,7 +328,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	margin-left: 12px;
+	margin-left: 18px;
 	margin-top: 12px;
 	position: relative;
 }
@@ -359,7 +367,7 @@
 	width: 342px;
 	min-height: 153px;
 	background-color: transparent;
-	margin-left: 13px;
+	margin-left: 19px;
 	margin-top: 37px;
 	position: relative;
 }
@@ -387,8 +395,8 @@
 	min-height: 13px;
 	background-color: transparent;
 	text-align: center;
-	margin-left: 102px;
-	margin-top: 34px;
+	margin-left: 108px;
+	margin-top: 35px;
 	position: relative;
 }
 
