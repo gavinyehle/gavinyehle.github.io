@@ -1,7 +1,12 @@
 .version.design /* version checker */
 {
-	color: #00001E;
-	background-color: #AF437B;
+<<<<<<< HEAD
+	color: #0000FA;
+	background-color: #0E2576;
+=======
+	color: #0000EF;
+	background-color: #31E001;
+>>>>>>> parent of 2c36f41... Complete phone site
 }
 
 @-ms-viewport
@@ -44,41 +49,37 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 570px;
+	min-height: 549px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-}
-
-#page_position_content
-{
-	margin-top: -3px;
 	padding-bottom: 21px;
-	width: 0.01px;
 }
 
 #pu1084-3
 {
 	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: -3px;
 }
 
 #u1084-3
 {
-	z-index: 84;
+	z-index: 7;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 84;
+	z-index: 7;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 87;
+	z-index: 10;
 	min-height: 34px;
 }
 
@@ -275,11 +276,12 @@
 
 #menuu1085-bw
 {
-	z-index: 87;
+	z-index: 10;
 	min-height: 34px;
 	margin-top: 3px;
 }
 
+<<<<<<< HEAD
 #pu1375
 {
 	width: 0.01px;
@@ -363,7 +365,7 @@
 	height: 134px;
 	position: relative;
 	margin-right: -10000px;
-	background: #FFFFFF url("../../images/forum%20thumb-u1381-fr.jpg") no-repeat center center;
+	background: transparent url("../../images/forum%20thumb-u1381-fr.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -408,7 +410,7 @@
 	height: 134px;
 	position: relative;
 	margin-right: -10000px;
-	background: #FFFFFF url("../../images/1264238_10151892856707518_1140904651_o.jpg") no-repeat center center;
+	background: transparent url("../../images/1264238_10151892856707518_1140904651_o.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -442,7 +444,7 @@
 	height: 134px;
 	position: relative;
 	margin-right: -10000px;
-	background: #FFFFFF url("../../images/549690_10201021783735693_1515854778_n.jpg") no-repeat center center;
+	background: transparent url("../../images/549690_10201021783735693_1515854778_n.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -472,6 +474,8 @@
 	line-height: 12px;
 }
 
+=======
+>>>>>>> parent of 2c36f41... Complete phone site
 #u1245-5
 {
 	z-index: 2;
@@ -479,9 +483,10 @@
 	min-height: 13px;
 	background-color: transparent;
 	text-align: center;
-	margin-left: 108px;
-	margin-top: 35px;
 	position: relative;
+	margin-right: -10000px;
+	margin-top: 534px;
+	left: 108px;
 }
 
 body
@@ -493,5 +498,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
+	margin-bottom: -533px;
 }
 

@@ -1,7 +1,12 @@
 .version.acting /* version checker */
 {
-	color: #00000F;
-	background-color: #BAA71C;
+<<<<<<< HEAD
+	color: #000007;
+	background-color: #934DAC;
+=======
+	color: #000013;
+	background-color: #1D3FA3;
+>>>>>>> parent of 2c36f41... Complete phone site
 }
 
 .html
@@ -38,19 +43,31 @@
 
 #u939-3
 {
-	z-index: 139;
+<<<<<<< HEAD
+	z-index: 131;
+=======
+	z-index: 140;
+>>>>>>> parent of 2c36f41... Complete phone site
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 139;
+<<<<<<< HEAD
+	z-index: 131;
+=======
+	z-index: 140;
+>>>>>>> parent of 2c36f41... Complete phone site
 }
 
 #menuu153
 {
-	z-index: 142;
+<<<<<<< HEAD
+	z-index: 134;
+=======
+	z-index: 143;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -293,9 +310,13 @@
 	position: relative;
 }
 
-#pamphletu802
+#pu1511
 {
-	z-index: 91;
+<<<<<<< HEAD
+	width: 0.01px;
+	margin-left: 21px;
+=======
+	z-index: 92;
 	width: 0.01px;
 	height: 200px;
 	margin-left: 20px;
@@ -304,7 +325,7 @@
 
 #u803
 {
-	z-index: 92;
+	z-index: 93;
 	width: 150px;
 	position: relative;
 	margin-right: -10000px;
@@ -327,11 +348,17 @@
 	width: 149px;
 	min-height: 0px;
 	margin: 0px;
+>>>>>>> parent of 2c36f41... Complete phone site
 }
 
-#u805
+#u1511
 {
-	z-index: 94;
+<<<<<<< HEAD
+	z-index: 130;
+	width: 150px;
+	height: 200px;
+=======
+	z-index: 95;
 	width: 150px;
 	background-color: transparent;
 	position: relative;
@@ -370,12 +397,12 @@
 
 #u809popup
 {
-	z-index: 96;
+	z-index: 97;
 }
 
 #u810
 {
-	z-index: 97;
+	z-index: 98;
 	width: 621px;
 	height: 805px;
 	border-style: none;
@@ -389,16 +416,19 @@
 
 #u811
 {
-	z-index: 98;
+	z-index: 99;
 	width: 621px;
 	background-color: transparent;
+>>>>>>> parent of 2c36f41... Complete phone site
 	position: relative;
 	margin-right: -10000px;
+	background: #FFFFFF url("../images/resume%20thumb.jpg") no-repeat center center;
+	background-size: cover;
 }
 
-.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton /* pamphlet2 */
+.hidpi #u1511
 {
-	cursor: pointer;
+	background-image: url("../images/resume%20thumb_2x.jpg");
 }
 
 #u781-7
@@ -407,10 +437,9 @@
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
-	margin-left: 188px;
-	top: -200px;
-	margin-bottom: -133px;
 	position: relative;
+	margin-right: -10000px;
+	left: 167px;
 }
 
 #u781
@@ -445,7 +474,7 @@
 
 #pamphletu787
 {
-	z-index: 82;
+	z-index: 83;
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -454,7 +483,7 @@
 
 #u793
 {
-	z-index: 83;
+	z-index: 84;
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -472,7 +501,7 @@
 
 #u797
 {
-	z-index: 85;
+	z-index: 86;
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -514,7 +543,7 @@
 
 #u795
 {
-	z-index: 86;
+	z-index: 87;
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -546,12 +575,12 @@
 
 #u789popup
 {
-	z-index: 88;
+	z-index: 89;
 }
 
 #u790
 {
-	z-index: 89;
+	z-index: 90;
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -565,7 +594,7 @@
 
 #u791
 {
-	z-index: 90;
+	z-index: 91;
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -573,6 +602,11 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
+}
+
+.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton /* pamphlet2 */
+{
+	cursor: pointer;
 }
 
 #u778-13
@@ -608,7 +642,11 @@
 
 #u817-7
 {
-	z-index: 100;
+<<<<<<< HEAD
+	z-index: 91;
+=======
+	z-index: 101;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 150px;
 	min-height: 200px;
 	background-color: #999999;
@@ -653,7 +691,11 @@
 
 #pamphletu818
 {
-	z-index: 107;
+<<<<<<< HEAD
+	z-index: 98;
+=======
+	z-index: 108;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -663,7 +705,11 @@
 
 #u819
 {
-	z-index: 108;
+<<<<<<< HEAD
+	z-index: 99;
+=======
+	z-index: 109;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -690,7 +736,11 @@
 
 #u821
 {
-	z-index: 110;
+<<<<<<< HEAD
+	z-index: 101;
+=======
+	z-index: 111;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -731,17 +781,13 @@
 	margin: -1px -10000px 0px 0px;
 }
 
-.ie #u820.PamphletThumbSelected #u821
-{
-	background-color: #FFFFFF;
-	opacity: 0.01;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
-	filter: alpha(opacity=1);
-}
-
 #u822
 {
-	z-index: 111;
+<<<<<<< HEAD
+	z-index: 102;
+=======
+	z-index: 112;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -780,12 +826,20 @@
 
 #u825popup
 {
-	z-index: 113;
+<<<<<<< HEAD
+	z-index: 104;
+=======
+	z-index: 114;
+>>>>>>> parent of 2c36f41... Complete phone site
 }
 
 #u826
 {
-	z-index: 114;
+<<<<<<< HEAD
+	z-index: 105;
+=======
+	z-index: 115;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -799,7 +853,11 @@
 
 #u827
 {
-	z-index: 115;
+<<<<<<< HEAD
+	z-index: 106;
+=======
+	z-index: 116;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -811,7 +869,7 @@
 
 #u785-13
 {
-	z-index: 52;
+	z-index: 53;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -830,7 +888,11 @@
 
 #u833
 {
-	z-index: 116;
+<<<<<<< HEAD
+	z-index: 107;
+=======
+	z-index: 117;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -846,7 +908,7 @@
 
 #u786-17
 {
-	z-index: 65;
+	z-index: 66;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -855,15 +917,36 @@
 	left: 168px;
 }
 
+#u784
+{
+	z-index: 52;
+	width: 940px;
+	height: 40px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+.ie #u820.PamphletThumbSelected #u821,.ie #u784
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
 #u836-4
 {
-	z-index: 135;
+<<<<<<< HEAD
+	z-index: 126;
+=======
+	z-index: 136;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
 	line-height: 86px;
 	margin-left: 20px;
-	margin-top: 39px;
 	position: relative;
 }
 
@@ -875,7 +958,11 @@
 
 #u835
 {
-	z-index: 134;
+<<<<<<< HEAD
+	z-index: 125;
+=======
+	z-index: 135;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -891,7 +978,11 @@
 
 #u834-17
 {
-	z-index: 117;
+<<<<<<< HEAD
+	z-index: 108;
+=======
+	z-index: 118;
+>>>>>>> parent of 2c36f41... Complete phone site
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
