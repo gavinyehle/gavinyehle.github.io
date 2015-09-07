@@ -1,12 +1,7 @@
 .version.design /* version checker */
 {
-<<<<<<< HEAD
-	color: #0000FA;
-	background-color: #0E2576;
-=======
-	color: #0000EF;
-	background-color: #31E001;
->>>>>>> parent of 2c36f41... Complete phone site
+	color: #0000ED;
+	background-color: #831331;
 }
 
 @-ms-viewport
@@ -49,37 +44,41 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 549px;
+	min-height: 570px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
+}
+
+#page_position_content
+{
+	margin-top: -3px;
 	padding-bottom: 21px;
+	width: 0.01px;
 }
 
 #pu1084-3
 {
 	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: -3px;
 }
 
 #u1084-3
 {
-	z-index: 7;
+	z-index: 84;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 7;
+	z-index: 84;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 10;
+	z-index: 87;
 	min-height: 34px;
 }
 
@@ -276,12 +275,11 @@
 
 #menuu1085-bw
 {
-	z-index: 10;
+	z-index: 87;
 	min-height: 34px;
 	margin-top: 3px;
 }
 
-<<<<<<< HEAD
 #pu1375
 {
 	width: 0.01px;
@@ -410,13 +408,13 @@
 	height: 134px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../../images/1264238_10151892856707518_1140904651_o.jpg") no-repeat center center;
+	background: transparent url("../../images/1264238_10151892856707518_1140904651_o-u1384-fr.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 .hidpi #u1384
 {
-	background-image: url("../../images/1264238_10151892856707518_1140904651_o_2x.jpg");
+	background-image: url("../../images/1264238_10151892856707518_1140904651_o-u1384-fr_2x.jpg");
 }
 
 #u1383-15
@@ -474,8 +472,6 @@
 	line-height: 12px;
 }
 
-=======
->>>>>>> parent of 2c36f41... Complete phone site
 #u1245-5
 {
 	z-index: 2;
@@ -483,10 +479,9 @@
 	min-height: 13px;
 	background-color: transparent;
 	text-align: center;
+	margin-left: 108px;
+	margin-top: 35px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 534px;
-	left: 108px;
 }
 
 body
@@ -498,6 +493,5 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -533px;
 }
 

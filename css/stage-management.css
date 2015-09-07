@@ -1,7 +1,7 @@
 .version.stage_management /* version checker */
 {
-	color: #0000FB;
-	background-color: #910B5B;
+	color: #0000F0;
+	background-color: #DB2049;
 }
 
 .html
@@ -273,8 +273,8 @@
 	min-height: 187px;
 	background-color: transparent;
 	color: #FFFFFF;
-	line-height: 156px;
 	font-size: 130px;
+	line-height: 156px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
 	position: relative;

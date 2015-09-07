@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #0000E1;
-	background-color: #C0F697;
+	color: #000012;
+	background-color: #BA56C0;
 }
 
 .html
@@ -405,13 +405,13 @@
 	height: 200px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/549690_10201021783735693_1515854778_n.jpg") no-repeat center center;
+	background: transparent url("../images/549690_10201021783735693_1515854778_n2.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 .hidpi #u1248
 {
-	background-image: url("../images/549690_10201021783735693_1515854778_n_2x.jpg");
+	background-image: url("../images/549690_10201021783735693_1515854778_n_2x2.jpg");
 }
 
 #u1247-13
