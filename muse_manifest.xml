@@ -1,21 +1,21 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1441485489184">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1441595408834">
   <folder name="css">
     <file name="site_global.css" crc="83912684"/>
     <file name="master_a-master.css" crc="119473070" ref="stage-management:index:design:acting"/>
     <file name="stage-management.css" crc="4220586843" ref="stage-management"/>
     <file name="index.css" crc="4251936752" ref="index"/>
     <file name="design.css" crc="3787519639" ref="design"/>
-    <file name="acting.css" crc="320683939" ref="acting"/>
+    <file name="acting.css" crc="263890716" ref="acting"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
-    <file name="museutils.js" crc="275725342" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
-    <file name="jquery.musemenu.js" crc="4042164668" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
+    <file name="museutils.js" crc="275725342" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="jquery.scrolleffects.js" crc="206645848" ref="index:acting:design:stage-management"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
-    <file name="pie.js" crc="3827607177" ref="phone>index:index:acting:stage-management:design"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:index:acting:design:stage-management:phone>stage-management"/>
-    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:index:acting:stage-management:design:phone>acting"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:index:acting:design:stage-management:phone>stage-management:phone>acting:phone>design"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="museredirect.js" crc="3899419633" ref="index:acting:design:stage-management"/>
     <file name="webpro.js" crc="3883484123" ref="acting:stage-management"/>
     <file name="musewpslideshow.js" crc="360574455" ref="acting:stage-management"/>
@@ -23,19 +23,19 @@
     <file name="touchswipe.js" crc="4218319045" ref="acting:stage-management"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="phone>index"/>
-    <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="332803982" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:phone>tall-tales-video"/>
+    <file name="favicon.ico" crc="3818145440" ref="phone>index:phone>acting"/>
+    <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="332803982" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="dsc_0500-u1118-fr.jpg" crc="4077348028" ref="phone>index"/>
     <file name="dsc_0500-u1118-fr_2x.jpg" crc="38422692" ref="phone>index"/>
     <file name="dsc_0500.jpg" crc="259556918" ref="index"/>
     <file name="dsc_0500_2x.jpg" crc="3965575298" ref="index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm.jpg" crc="530563844" ref="acting"/>
-    <file name="resume thumb.jpg" crc="3911369860" seo="true" ref="acting"/>
+    <file name="screen shot 2013-12-24 at 103243 pm.jpg" crc="530563844" ref="acting:phone>acting"/>
+    <file name="resume thumb.jpg" crc="3960771383" ref="acting:phone>acting"/>
     <file name="resume.jpg" crc="4001435144" seo="true" ref="acting"/>
     <file name="resume_2x.jpg" crc="3589505" seo="true" ref="acting"/>
-    <file name="acting final 2015 thumb.jpg" crc="3773670067" seo="true" ref="acting"/>
-    <file name="alice thumb.jpg" crc="3777499916" seo="true" ref="acting"/>
+    <file name="acting final 2015 thumb.jpg" crc="3939867360" seo="true" ref="acting"/>
+    <file name="alice thumb.jpg" crc="3834903385" seo="true" ref="acting"/>
     <file name="thumbelina thumb.jpg" crc="3889964031" ref="acting"/>
     <file name="thumbelina thumb_2x.jpg" crc="122418451" ref="acting"/>
     <file name="cat-in-the-hat-u835-fr.png" crc="288683327" ref="acting"/>
@@ -50,8 +50,8 @@
     <file name="tall tales thumb.jpg" crc="4209191061" ref="stage-management:phone>stage-management"/>
     <file name="big bad thumb.jpg" crc="4249320989" ref="stage-management"/>
     <file name="big bad thumb_2x.jpg" crc="167624850" ref="stage-management"/>
-    <file name="1264238_10151892856707518_1140904651_o.jpg" crc="326447916" ref="stage-management:design"/>
-    <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="stage-management:design"/>
+    <file name="1264238_10151892856707518_1140904651_o.jpg" crc="3960388216" ref="stage-management:design:phone>design"/>
+    <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="4066561099" ref="stage-management:design:phone>design"/>
     <file name="invisibles-u1166-fr.jpg" crc="4192431457" ref="phone>stage-management"/>
     <file name="invisibles-u1166-fr_2x.jpg" crc="514610491" ref="phone>stage-management"/>
     <file name="greenshow-u1168-fr.jpg" crc="448361261" ref="phone>stage-management"/>
@@ -65,29 +65,38 @@
     <file name="1264238_10151892856707518_1140904651_o-u1193-fr_2x.jpg" crc="4270035411" ref="phone>stage-management"/>
     <file name="forum thumb.jpg" crc="4175699058" ref="design"/>
     <file name="forum thumb_2x.jpg" crc="3898185981" ref="design"/>
-    <file name="549690_10201021783735693_1515854778_n.jpg" crc="284543926" ref="design"/>
-    <file name="549690_10201021783735693_1515854778_n_2x.jpg" crc="157147946" ref="design"/>
-    <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design"/>
+    <file name="549690_10201021783735693_1515854778_n.jpg" crc="193261582" ref="design:phone>design"/>
+    <file name="549690_10201021783735693_1515854778_n_2x.jpg" crc="3913271201" ref="design:phone>design"/>
+    <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design:phone>design"/>
     <file name="american idiot thumb.jpg" crc="137205394" ref="design"/>
     <file name="american idiot thumb_2x.jpg" crc="4171671606" ref="design"/>
+    <file name="resume thumb_2x.jpg" crc="4014010234" ref="phone>acting"/>
+    <file name="acting final 2015 thumb-u1473-fr.jpg" crc="499187889" ref="phone>acting"/>
+    <file name="alice thumb-u1483-fr.jpg" crc="3883309283" ref="phone>acting"/>
+    <file name="thumbelina thumb-u1488-fr.jpg" crc="4208454267" ref="phone>acting"/>
+    <file name="thumbelina thumb-u1488-fr_2x.jpg" crc="4202890738" ref="phone>acting"/>
+    <file name="cat-in-the-hat.png" crc="290541729" ref="phone>acting"/>
+    <file name="cat-in-the-hat_2x.png" crc="452703960" ref="phone>acting"/>
+    <file name="american idiot thumb-u1379-fr.jpg" crc="11733580" ref="phone>design"/>
+    <file name="american idiot thumb-u1379-fr_2x.jpg" crc="142049992" ref="phone>design"/>
+    <file name="forum thumb-u1381-fr.jpg" crc="366285886" ref="phone>design"/>
+    <file name="forum thumb-u1381-fr_2x.jpg" crc="4041493673" ref="phone>design"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="3772136192" ref="phone>acting:phone>stage-management:phone>index:phone>design:phone>tall-tales-video"/>
-      <file name="acting.css" crc="3976772656" ref="phone>acting"/>
+      <file name="master_a-master.css" crc="3772136192" ref="phone>acting:phone>stage-management:phone>index:phone>design"/>
+      <file name="acting.css" crc="138749035" ref="phone>acting"/>
       <file name="stage-management.css" crc="266369806" ref="phone>stage-management"/>
       <file name="index.css" crc="41727040" ref="phone>index"/>
-      <file name="design.css" crc="4013023233" ref="phone>design"/>
-      <file name="tall-tales-video.css" crc="4148471537" ref="phone>tall-tales-video"/>
+      <file name="design.css" crc="514802555" ref="phone>design"/>
     </folder>
     <file name="index.html" crc="4041222593" seo="true" mt="1440474224108" redirect="true"/>
-    <file name="acting.html" crc="98067313" seo="true" mt="1440474193152" redirect="true"/>
-    <file name="design.html" crc="3871352437" seo="true" mt="1440474247822" redirect="true"/>
-    <file name="stage-management.html" crc="3900846837" seo="true" mt="1440475656127" redirect="true"/>
-    <file name="tall-tales-video.html" crc="3911475444" seo="true" mt="1440475043197" redirect="true"/>
+    <file name="acting.html" crc="4242253885" seo="true" mt="1441595392797" redirect="true"/>
+    <file name="design.html" crc="4209930527" seo="true" mt="1441487635659" redirect="true"/>
+    <file name="stage-management.html" crc="3969573767" seo="true" mt="1441487180031" redirect="true"/>
   </folder>
   <file name="index.html" crc="413095839" seo="true" mt="1439847348000" redirect="true"/>
-  <file name="acting.html" crc="4291136198" seo="true" mt="1439923927256" redirect="true"/>
+  <file name="acting.html" crc="235481118" seo="true" mt="1441595303293" redirect="true"/>
   <file name="design.html" crc="4192533986" seo="true" mt="1441485469691" redirect="true"/>
   <file name="stage-management.html" crc="3782967405" seo="true" mt="1439923927256" redirect="true"/>
 </manifest>
