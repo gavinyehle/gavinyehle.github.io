@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #000012;
-	background-color: #BA56C0;
+	color: #0000E1;
+	background-color: #B9AFFE;
 }
 
 .html
@@ -37,19 +37,19 @@
 
 #u939-3
 {
-	z-index: 72;
+	z-index: 74;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 72;
+	z-index: 74;
 }
 
 #menuu153
 {
-	z-index: 75;
+	z-index: 77;
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -294,7 +294,7 @@
 
 #u1333
 {
-	z-index: 71;
+	z-index: 73;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -308,7 +308,7 @@
 	background-image: url("../images/american%20idiot%20thumb_2x.jpg");
 }
 
-#u1332-12
+#u1332-14
 {
 	z-index: 59;
 	width: 564px;
@@ -405,13 +405,13 @@
 	height: 200px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/549690_10201021783735693_1515854778_n2.jpg") no-repeat center center;
+	background: transparent url("../images/diary%20thumb.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 .hidpi #u1248
 {
-	background-image: url("../images/549690_10201021783735693_1515854778_n_2x2.jpg");
+	background-image: url("../images/diary%20thumb_2x.jpg");
 }
 
 #u1247-13
@@ -435,7 +435,7 @@
 	font-style: normal;
 }
 
-#u1332-9,#u1332-10,#u1148-9,#u1148-10,#u1148-13,#u1160-9,#u1160-11,#u1247-9,#u1247-11
+#u1332-9,#u1332-12,#u1148-9,#u1148-10,#u1148-13,#u1160-9,#u1160-11,#u1247-9,#u1247-11
 {
 	line-height: 17px;
 }

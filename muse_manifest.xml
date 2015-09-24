@@ -1,11 +1,11 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1441612320159">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1443123625084">
   <folder name="css">
     <file name="site_global.css" crc="83912684"/>
     <file name="master_a-master.css" crc="119473070" ref="stage-management:design:index:acting"/>
-    <file name="stage-management.css" crc="4040892489" ref="stage-management"/>
-    <file name="design.css" crc="314201792" ref="design"/>
+    <file name="stage-management.css" crc="4220586843" ref="stage-management"/>
+    <file name="design.css" crc="3787042814" ref="design"/>
     <file name="index.css" crc="4251936752" ref="index"/>
-    <file name="acting.css" crc="3801291149" ref="acting"/>
+    <file name="acting.css" crc="457677732" ref="acting"/>
   </folder>
   <folder name="assets">
     <file name="resume.pdf" crc="405757812" seo="true" mt="1435888159000"/>
@@ -50,8 +50,6 @@
     <file name="forum thumb-u1381-fr_2x.jpg" crc="4041493673" ref="phone>design"/>
     <file name="1264238_10151892856707518_1140904651_o-u1384-fr.jpg" crc="296723075" ref="phone>design:phone>stage-management"/>
     <file name="1264238_10151892856707518_1140904651_o-u1384-fr_2x.jpg" crc="4270035411" ref="phone>design:phone>stage-management"/>
-    <file name="549690_10201021783735693_1515854778_n.jpg" crc="193261582" ref="phone>design"/>
-    <file name="549690_10201021783735693_1515854778_n_2x.jpg" crc="3913271201" ref="phone>design"/>
     <file name="img_4126.jpg" crc="3802999528" ref="phone>stage-management:stage-management"/>
     <file name="invisibles-u1166-fr.jpg" crc="4192431457" ref="phone>stage-management"/>
     <file name="invisibles-u1166-fr_2x.jpg" crc="514610491" ref="phone>stage-management"/>
@@ -59,7 +57,7 @@
     <file name="greenshow-u1168-fr_2x.jpg" crc="4212830128" ref="phone>stage-management"/>
     <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr.jpg" crc="348124684" ref="phone>stage-management"/>
     <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr_2x.jpg" crc="4249830030" ref="phone>stage-management"/>
-    <file name="tall tales thumb.jpg" crc="4209191061" seo="true" ref="phone>stage-management:stage-management"/>
+    <file name="tall tales thumb.jpg" crc="410722647" seo="true" ref="phone>stage-management:stage-management"/>
     <file name="tall tales thumb_2x.jpg" crc="125478425" ref="phone>stage-management"/>
     <file name="big bad thumb-u1190-fr.jpg" crc="3883381063" ref="phone>stage-management"/>
     <file name="big bad thumb-u1190-fr_2x.jpg" crc="184955677" ref="phone>stage-management"/>
@@ -79,8 +77,6 @@
     <file name="forum thumb_2x.jpg" crc="3898185981" ref="design"/>
     <file name="1264238_10151892856707518_1140904651_o.jpg" crc="326447916" ref="design:stage-management"/>
     <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="design:stage-management"/>
-    <file name="549690_10201021783735693_1515854778_n2.jpg" crc="284543926" ref="design"/>
-    <file name="549690_10201021783735693_1515854778_n_2x2.jpg" crc="157147946" ref="design"/>
     <file name="invisibles.jpg" crc="479256930" ref="stage-management"/>
     <file name="invisibles_2x.jpg" crc="17131264" ref="stage-management"/>
     <file name="greenshow.jpg" crc="478001289" ref="stage-management"/>
@@ -89,22 +85,26 @@
     <file name="screen shot 2015-08-16 at 101348 pm_2x.jpg" crc="151271800" ref="stage-management"/>
     <file name="big bad thumb.jpg" crc="4249320989" ref="stage-management"/>
     <file name="big bad thumb_2x.jpg" crc="167624850" ref="stage-management"/>
+    <file name="diary thumb-u1392-fr.jpg" crc="3907058530" ref="phone>design"/>
+    <file name="diary thumb-u1392-fr_2x.jpg" crc="3814113088" ref="phone>design"/>
+    <file name="diary thumb.jpg" crc="139538395" ref="design"/>
+    <file name="diary thumb_2x.jpg" crc="100813622" ref="design"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3772136192" ref="phone>stage-management:phone>acting:phone>index:phone>design"/>
       <file name="stage-management.css" crc="3880998245" ref="phone>stage-management"/>
-      <file name="acting.css" crc="411716423" ref="phone>acting"/>
+      <file name="acting.css" crc="435834718" ref="phone>acting"/>
       <file name="index.css" crc="41727040" ref="phone>index"/>
-      <file name="design.css" crc="3984790321" ref="phone>design"/>
+      <file name="design.css" crc="4154581338" ref="phone>design"/>
     </folder>
     <file name="index.html" crc="4179250809" seo="true" mt="1440474224108" redirect="true"/>
-    <file name="acting.html" crc="121070003" seo="true" mt="1441612307055" redirect="true"/>
-    <file name="design.html" crc="4116385791" seo="true" mt="1441612024567" redirect="true"/>
+    <file name="acting.html" crc="37096651" seo="true" mt="1443123208151" redirect="true"/>
+    <file name="design.html" crc="114203342" seo="true" mt="1441693357027" redirect="true"/>
     <file name="stage-management.html" crc="432870216" seo="true" mt="1441612024564" redirect="true"/>
   </folder>
-  <file name="index.html" crc="422753778" seo="true" mt="1439847348000" redirect="true"/>
-  <file name="acting.html" crc="461239726" seo="true" mt="1441612024693" redirect="true"/>
-  <file name="design.html" crc="4076507949" seo="true" mt="1441612024568" redirect="true"/>
-  <file name="stage-management.html" crc="4019323637" seo="true" mt="1441612024566" redirect="true"/>
+  <file name="index.html" crc="455195342" seo="true" mt="1442948733562" redirect="true"/>
+  <file name="acting.html" crc="253576197" seo="true" mt="1443123178329" redirect="true"/>
+  <file name="design.html" crc="340460022" seo="true" mt="1442948763940" redirect="true"/>
+  <file name="stage-management.html" crc="4173467129" seo="true" mt="1442948733562" redirect="true"/>
 </manifest>
