@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000002;
-	background-color: #7CB440;
+	color: #00000D;
+	background-color: #D1290F;
 }
 
 @-ms-viewport
@@ -65,20 +65,20 @@
 
 #u1084-3
 {
-	z-index: 37;
+	z-index: 38;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 37;
+	z-index: 38;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 40;
+	z-index: 41;
 	min-height: 34px;
 }
 
@@ -275,7 +275,7 @@
 
 #menuu1085-bw
 {
-	z-index: 40;
+	z-index: 41;
 	min-height: 34px;
 	margin-top: 3px;
 }
@@ -388,7 +388,7 @@
 	font-weight: 300;
 }
 
-#u1242-5
+#u1242-6
 {
 	z-index: 32;
 	width: 163px;

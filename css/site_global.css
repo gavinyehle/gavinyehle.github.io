@@ -85,24 +85,18 @@ body
 	body { text-rendering:auto; }
 }
 
-a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 a:link
 {
 	color: #6464DC;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 a:visited
 {
 	color: #6464DC;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 a:hover
@@ -116,7 +110,7 @@ a:active
 {
 	color: #6464DC;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 a.nontext /* used to override default properties of 'a' tag */
@@ -125,6 +119,36 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
+}
+
+.Resume a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.Resume a:link
+{
+	color: #FFFFFF;
+	text-decoration: inherit;
+}
+
+.Resume a:visited
+{
+	color: #FFFFFF;
+	text-decoration: inherit;
+}
+
+.Resume a:hover
+{
+	color: #FFFFFF;
+	text-decoration: inherit;
+}
+
+.Resume a:active
+{
+	color: #FFFFFF;
+	text-decoration: inherit;
 }
 
 .normal_text

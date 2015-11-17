@@ -1,7 +1,7 @@
 .version.acting /* version checker */
 {
-	color: #00001B;
-	background-color: #479BA4;
+	color: #00000C;
+	background-color: #92D2A0;
 }
 
 .html
@@ -38,19 +38,19 @@
 
 #u939-3
 {
-	z-index: 132;
+	z-index: 135;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 132;
+	z-index: 135;
 }
 
 #menuu153
 {
-	z-index: 135;
+	z-index: 138;
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -301,7 +301,7 @@
 
 #u1511
 {
-	z-index: 131;
+	z-index: 134;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -315,7 +315,7 @@
 	background-image: url("../images/resume%20thumb_2x.jpg");
 }
 
-#u781-8
+#u781-9
 {
 	z-index: 28;
 	width: 564px;
@@ -335,7 +335,7 @@
 	font-weight: 300;
 }
 
-#u781-6
+#u781-7
 {
 	font-size: 18px;
 	line-height: 22px;
@@ -364,7 +364,7 @@
 
 #pamphletu787
 {
-	z-index: 83;
+	z-index: 85;
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -373,7 +373,7 @@
 
 #u793
 {
-	z-index: 84;
+	z-index: 86;
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -391,7 +391,7 @@
 
 #u797
 {
-	z-index: 86;
+	z-index: 88;
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -433,7 +433,7 @@
 
 #u795
 {
-	z-index: 87;
+	z-index: 89;
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -465,12 +465,12 @@
 
 #u789popup
 {
-	z-index: 89;
+	z-index: 91;
 }
 
 #u790
 {
-	z-index: 90;
+	z-index: 92;
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -484,7 +484,7 @@
 
 #u791
 {
-	z-index: 91;
+	z-index: 93;
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -513,7 +513,7 @@
 
 #u782-4
 {
-	z-index: 36;
+	z-index: 37;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -532,7 +532,7 @@
 
 #u817-7
 {
-	z-index: 92;
+	z-index: 94;
 	width: 150px;
 	min-height: 200px;
 	background-color: #999999;
@@ -557,7 +557,7 @@
 
 #u783-13
 {
-	z-index: 40;
+	z-index: 41;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -577,7 +577,7 @@
 
 #pamphletu818
 {
-	z-index: 99;
+	z-index: 101;
 	width: 0.01px;
 	height: 201px;
 	margin-left: 20px;
@@ -587,7 +587,7 @@
 
 #u819
 {
-	z-index: 100;
+	z-index: 102;
 	width: 151px;
 	position: relative;
 	margin-right: -10000px;
@@ -614,7 +614,7 @@
 
 #u821
 {
-	z-index: 102;
+	z-index: 104;
 	width: 149px;
 	height: 200px;
 	background-color: transparent;
@@ -665,7 +665,7 @@
 
 #u822
 {
-	z-index: 103;
+	z-index: 105;
 	width: 151px;
 	background-color: transparent;
 	position: relative;
@@ -704,12 +704,12 @@
 
 #u825popup
 {
-	z-index: 105;
+	z-index: 107;
 }
 
 #u826
 {
-	z-index: 106;
+	z-index: 108;
 	width: 733px;
 	height: 476px;
 	border-style: none;
@@ -723,7 +723,7 @@
 
 #u827
 {
-	z-index: 107;
+	z-index: 109;
 	width: 733px;
 	min-height: 476px;
 	border-style: none;
@@ -735,7 +735,7 @@
 
 #u785-13
 {
-	z-index: 53;
+	z-index: 54;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -754,7 +754,7 @@
 
 #u833
 {
-	z-index: 108;
+	z-index: 110;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -768,9 +768,9 @@
 	background-image: url("../images/thumbelina%20thumb_2x.jpg");
 }
 
-#u786-17
+#u786-18
 {
-	z-index: 66;
+	z-index: 67;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -781,7 +781,7 @@
 
 #u836-4
 {
-	z-index: 127;
+	z-index: 130;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -799,7 +799,7 @@
 
 #u835
 {
-	z-index: 126;
+	z-index: 129;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -813,9 +813,9 @@
 	background-image: url("../images/cat-in-the-hat_2x.png");
 }
 
-#u834-17
+#u834-18
 {
-	z-index: 109;
+	z-index: 111;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -842,7 +842,7 @@
 	font-weight: 300;
 }
 
-#u786-15,#u834-15
+#u786-16,#u834-16
 {
 	font-size: 16px;
 	color: #FFFFFF;

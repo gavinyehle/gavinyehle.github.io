@@ -1,11 +1,11 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1443123625084">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1447737204126">
   <folder name="css">
-    <file name="site_global.css" crc="83912684"/>
-    <file name="master_a-master.css" crc="119473070" ref="stage-management:design:index:acting"/>
-    <file name="stage-management.css" crc="4220586843" ref="stage-management"/>
-    <file name="design.css" crc="3787042814" ref="design"/>
+    <file name="site_global.css" crc="288214134"/>
+    <file name="master_a-master.css" crc="3903351193" ref="stage-management:design:index:acting"/>
+    <file name="stage-management.css" crc="3937451442" ref="stage-management"/>
+    <file name="design.css" crc="227938810" ref="design"/>
     <file name="index.css" crc="4251936752" ref="index"/>
-    <file name="acting.css" crc="457677732" ref="acting"/>
+    <file name="acting.css" crc="210948768" ref="acting"/>
   </folder>
   <folder name="assets">
     <file name="resume.pdf" crc="405757812" seo="true" mt="1435888159000"/>
@@ -16,7 +16,7 @@
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="museutils.js" crc="275725342" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
-    <file name="pie.js" crc="3827607177" ref="phone>index:index:acting:stage-management:phone>acting"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:index:acting:stage-management"/>
     <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="jquery.musemenu.js" crc="4042164668" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
@@ -29,7 +29,7 @@
     <file name="touchswipe.js" crc="4218319045" ref="acting:stage-management"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="phone>index:phone>acting"/>
+    <file name="favicon.ico" crc="3818145440" ref="phone>index:stage-management"/>
     <file name="webtreats_wood-pattern5-1024.jpg" crc="360395562" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="332803982" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management"/>
     <file name="dsc_0500-u1118-fr.jpg" crc="4077348028" ref="phone>index"/>
@@ -89,22 +89,24 @@
     <file name="diary thumb-u1392-fr_2x.jpg" crc="3814113088" ref="phone>design"/>
     <file name="diary thumb.jpg" crc="139538395" ref="design"/>
     <file name="diary thumb_2x.jpg" crc="100813622" ref="design"/>
+    <file name="miss-nelson.jpg" crc="307479055" ref="stage-management"/>
+    <file name="miss-nelson_2x.jpg" crc="3905324539" ref="stage-management"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="master_a-master.css" crc="3772136192" ref="phone>stage-management:phone>acting:phone>index:phone>design"/>
-      <file name="stage-management.css" crc="3880998245" ref="phone>stage-management"/>
-      <file name="acting.css" crc="435834718" ref="phone>acting"/>
-      <file name="index.css" crc="41727040" ref="phone>index"/>
-      <file name="design.css" crc="4154581338" ref="phone>design"/>
+      <file name="stage-management.css" crc="77983571" ref="phone>stage-management"/>
+      <file name="acting.css" crc="227909643" ref="phone>acting"/>
+      <file name="index.css" crc="231811343" ref="phone>index"/>
+      <file name="design.css" crc="263441952" ref="phone>design"/>
     </folder>
-    <file name="index.html" crc="4179250809" seo="true" mt="1440474224108" redirect="true"/>
-    <file name="acting.html" crc="37096651" seo="true" mt="1443123208151" redirect="true"/>
-    <file name="design.html" crc="114203342" seo="true" mt="1441693357027" redirect="true"/>
-    <file name="stage-management.html" crc="432870216" seo="true" mt="1441612024564" redirect="true"/>
+    <file name="index.html" crc="3830886492" seo="true" mt="1443124098689" redirect="true"/>
+    <file name="acting.html" crc="116239680" seo="true" mt="1443124184618" redirect="true"/>
+    <file name="design.html" crc="214131903" seo="true" mt="1443124154502" redirect="true"/>
+    <file name="stage-management.html" crc="4255463370" seo="true" mt="1443124098692" redirect="true"/>
   </folder>
-  <file name="index.html" crc="455195342" seo="true" mt="1442948733562" redirect="true"/>
-  <file name="acting.html" crc="253576197" seo="true" mt="1443123178329" redirect="true"/>
-  <file name="design.html" crc="340460022" seo="true" mt="1442948763940" redirect="true"/>
-  <file name="stage-management.html" crc="4173467129" seo="true" mt="1442948733562" redirect="true"/>
+  <file name="index.html" crc="11267872" seo="true" mt="1443124098670" redirect="true"/>
+  <file name="acting.html" crc="4104294962" seo="true" mt="1443124112790" redirect="true"/>
+  <file name="design.html" crc="3776544670" seo="true" mt="1443124098699" redirect="true"/>
+  <file name="stage-management.html" crc="3810356183" seo="true" mt="1447652084671" redirect="true"/>
 </manifest>

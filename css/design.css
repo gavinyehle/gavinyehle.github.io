@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #0000E1;
-	background-color: #B9AFFE;
+	color: #00000D;
+	background-color: #9611FA;
 }
 
 .html
@@ -37,19 +37,19 @@
 
 #u939-3
 {
-	z-index: 74;
+	z-index: 76;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-3-bw
 {
-	z-index: 74;
+	z-index: 76;
 }
 
 #menuu153
 {
-	z-index: 77;
+	z-index: 79;
 	width: 452px;
 	top: 5px;
 	left: 50%;
@@ -294,7 +294,7 @@
 
 #u1333
 {
-	z-index: 73;
+	z-index: 75;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -308,9 +308,9 @@
 	background-image: url("../images/american%20idiot%20thumb_2x.jpg");
 }
 
-#u1332-14
+#u1332-15
 {
-	z-index: 59;
+	z-index: 60;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -321,7 +321,7 @@
 
 #u1149
 {
-	z-index: 26;
+	z-index: 27;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -335,7 +335,7 @@
 	background-image: url("../images/forum%20thumb_2x.jpg");
 }
 
-#u1148-15
+#u1148-16
 {
 	z-index: 11;
 	width: 752px;
@@ -348,7 +348,7 @@
 
 #u1158-4
 {
-	z-index: 27;
+	z-index: 28;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -366,7 +366,7 @@
 
 #u1161
 {
-	z-index: 44;
+	z-index: 45;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -382,7 +382,7 @@
 
 #u1160-13
 {
-	z-index: 31;
+	z-index: 32;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -400,7 +400,7 @@
 
 #u1248
 {
-	z-index: 58;
+	z-index: 59;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -416,7 +416,7 @@
 
 #u1247-13
 {
-	z-index: 45;
+	z-index: 46;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -435,7 +435,7 @@
 	font-style: normal;
 }
 
-#u1332-9,#u1332-12,#u1148-9,#u1148-10,#u1148-13,#u1160-9,#u1160-11,#u1247-9,#u1247-11
+#u1332-9,#u1332-13,#u1148-9,#u1148-10,#u1148-14,#u1160-9,#u1160-11,#u1247-9,#u1247-11
 {
 	line-height: 17px;
 }

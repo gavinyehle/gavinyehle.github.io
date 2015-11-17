@@ -1,7 +1,7 @@
 .version.design /* version checker */
 {
-	color: #0000F7;
-	background-color: #A1E15A;
+	color: #00000F;
+	background-color: #B3CE20;
 }
 
 @-ms-viewport
@@ -65,20 +65,20 @@
 
 #u1084-3
 {
-	z-index: 84;
+	z-index: 90;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 84;
+	z-index: 90;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 87;
+	z-index: 93;
 	min-height: 34px;
 }
 
@@ -275,7 +275,7 @@
 
 #menuu1085-bw
 {
-	z-index: 87;
+	z-index: 93;
 	min-height: 34px;
 	margin-top: 3px;
 }
@@ -288,7 +288,7 @@
 
 #u1375
 {
-	z-index: 7;
+	z-index: 8;
 	height: 200px;
 	background: #000000 url("../../images/diaryofawormset%20designleft.jpg") no-repeat center center;
 	background-size: cover;
@@ -296,14 +296,14 @@
 
 #u1375-bw
 {
-	z-index: 7;
+	z-index: 8;
 	margin-top: 87px;
 	height: 200px;
 }
 
 #u1376-6
 {
-	z-index: 8;
+	z-index: 9;
 	width: 359px;
 	min-height: 159px;
 	background-color: transparent;
@@ -319,7 +319,7 @@
 
 #u1377-4
 {
-	z-index: 14;
+	z-index: 15;
 	width: 205px;
 	min-height: 37px;
 	background-color: transparent;
@@ -331,7 +331,7 @@
 
 #u1379
 {
-	z-index: 31;
+	z-index: 36;
 	width: 100px;
 	height: 134px;
 	position: relative;
@@ -345,9 +345,9 @@
 	background-image: url("../../images/american%20idiot%20thumb-u1379-fr_2x.jpg");
 }
 
-#u1378-13
+#u1378-17
 {
-	z-index: 18;
+	z-index: 19;
 	width: 250px;
 	min-height: 133px;
 	background-color: transparent;
@@ -356,9 +356,25 @@
 	left: 110px;
 }
 
+#u1378-11
+{
+	line-height: 17px;
+}
+
+#u1378-15
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u1378-12
+{
+	font-size: 10px;
+	line-height: 11px;
+}
+
 #u1381
 {
-	z-index: 47;
+	z-index: 53;
 	width: 100px;
 	height: 134px;
 	position: relative;
@@ -372,9 +388,9 @@
 	background-image: url("../../images/forum%20thumb-u1381-fr_2x.jpg");
 }
 
-#u1380-15
+#u1380-16
 {
-	z-index: 32;
+	z-index: 37;
 	width: 250px;
 	min-height: 133px;
 	background-color: transparent;
@@ -385,7 +401,7 @@
 
 #u1382-4
 {
-	z-index: 48;
+	z-index: 54;
 	width: 205px;
 	min-height: 37px;
 	background-color: transparent;
@@ -403,7 +419,7 @@
 
 #u1384
 {
-	z-index: 67;
+	z-index: 73;
 	width: 100px;
 	height: 134px;
 	position: relative;
@@ -419,7 +435,7 @@
 
 #u1383-15
 {
-	z-index: 52;
+	z-index: 58;
 	width: 250px;
 	min-height: 133px;
 	background-color: transparent;
@@ -437,7 +453,7 @@
 
 #u1392
 {
-	z-index: 83;
+	z-index: 89;
 	width: 100px;
 	height: 134px;
 	position: relative;
@@ -453,7 +469,7 @@
 
 #u1391-15
 {
-	z-index: 68;
+	z-index: 74;
 	width: 250px;
 	min-height: 133px;
 	background-color: transparent;
@@ -467,12 +483,12 @@
 	font-style: italic;
 }
 
-#u1378-11,#u1380-9,#u1380-10,#u1380-13,#u1383-11,#u1383-13,#u1391-11,#u1391-13
+#u1380-9,#u1380-10,#u1380-14,#u1383-11,#u1383-13,#u1391-11,#u1391-13
 {
 	line-height: 12px;
 }
 
-#u1245-5
+#u1245-6
 {
 	z-index: 2;
 	width: 163px;

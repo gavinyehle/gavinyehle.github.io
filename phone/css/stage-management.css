@@ -1,7 +1,7 @@
 .version.stage_management /* version checker */
 {
-	color: #0000E7;
-	background-color: #535565;
+	color: #000004;
+	background-color: #A5EF53;
 }
 
 @-ms-viewport
@@ -65,20 +65,20 @@
 
 #u1084-3
 {
-	z-index: 122;
+	z-index: 123;
 	min-height: 37px;
 }
 
 #u1084-3-bw
 {
-	z-index: 122;
+	z-index: 123;
 	min-height: 37px;
 	margin-bottom: -1px;
 }
 
 #menuu1085
 {
-	z-index: 125;
+	z-index: 126;
 	min-height: 34px;
 }
 
@@ -275,7 +275,7 @@
 
 #menuu1085-bw
 {
-	z-index: 125;
+	z-index: 126;
 	min-height: 34px;
 	margin-top: 3px;
 }
@@ -308,8 +308,8 @@
 	min-height: 159px;
 	background-color: transparent;
 	color: #FFFFFF;
-	font-size: 72px;
 	line-height: 54px;
+	font-size: 72px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
 	position: relative;
@@ -558,7 +558,7 @@
 	line-height: 12px;
 }
 
-#u1243-5
+#u1243-6
 {
 	z-index: 117;
 	width: 163px;
