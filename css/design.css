@@ -1,17 +1,17 @@
 .version.design /* version checker */
 {
-	color: #00000D;
-	background-color: #9611FA;
+	color: #0000F4;
+	background-color: #6F9C67;
 }
 
 .html
 {
-	background: #161616 url("../images/webtreats_wood-pattern5-1024.jpg") repeat left top;
+	background: #161616 url("../images/webtreats_wood-pattern5-1024_2x.jpg") repeat left top;
 }
 
 .hidpi.html
 {
-	background-image: url("../images/webtreats_wood-pattern5-1024_2x.jpg");
+	background-image: url("../images/webtreats_wood-pattern5-1024_2x_2x.jpg");
 	background-size: 512px 512px;
 }
 
@@ -31,61 +31,61 @@
 #page_position_content
 {
 	padding-top: 40px;
-	padding-bottom: 89px;
+	padding-bottom: 20px;
 	width: 0.01px;
 }
 
-#u939-3
+#u939-4
 {
-	z-index: 76;
+	z-index: 86;
 	min-height: 37px;
 	top: 0px;
 }
 
-#u939-3-bw
+#u939-4-bw
 {
-	z-index: 76;
+	z-index: 86;
 }
 
 #menuu153
 {
-	z-index: 79;
-	width: 452px;
+	z-index: 90;
+	width: 571px;
 	top: 5px;
 	left: 50%;
 	margin-left: -460px;
 }
 
-#u161
+#u1761
 {
-	width: 79px;
+	width: 85px;
 	min-height: 34px;
 	margin-right: -10000px;
 }
 
-#u162
+#u1762
 {
-	width: 79px;
+	width: 85px;
 	padding-bottom: 10px;
 }
 
-#u162.MuseMenuActive
+#u1762.MuseMenuActive
 {
-	width: 79px;
+	width: 85px;
 	min-height: 0px;
 	margin: 0px;
 }
 
-#u163-4
+#u1764-4
 {
 	width: 42px;
 	min-height: 24px;
 	margin-right: -10000px;
 	top: 5px;
-	left: 18px;
+	left: 21px;
 }
 
-#u162:hover #u163-4
+#u1762:hover #u1764-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -94,7 +94,7 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u162.MuseMenuActive #u163-4
+#u1762.MuseMenuActive #u1764-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -105,23 +105,16 @@
 
 #u168
 {
-	width: 91px;
+	width: 96px;
 	min-height: 34px;
 	margin-right: -10000px;
-	left: 81px;
+	left: 87px;
 }
 
 #u169
 {
-	width: 91px;
+	width: 96px;
 	padding-bottom: 10px;
-}
-
-#u169.MuseMenuActive
-{
-	width: 91px;
-	min-height: 0px;
-	margin: 0px;
 }
 
 #u170-4
@@ -130,7 +123,7 @@
 	min-height: 24px;
 	margin-right: -10000px;
 	top: 5px;
-	left: 18px;
+	left: 21px;
 }
 
 #u169:hover #u170-4
@@ -142,80 +135,23 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#u169.MuseMenuActive #u170-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 54px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u175
-{
-	width: 88px;
-	min-height: 34px;
-	margin-right: -10000px;
-	left: 174px;
-}
-
-#u176
-{
-	width: 88px;
-	padding-bottom: 10px;
-}
-
-#u176.MuseMenuActive
-{
-	width: 88px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u178-4
-{
-	width: 51px;
-	min-height: 24px;
-	margin-right: -10000px;
-	top: 5px;
-	left: 18px;
-}
-
-#u176:hover #u178-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 51px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u176.MuseMenuActive #u178-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 24px;
-	width: 51px;
-	margin: 0px -10000px 0px 0px;
-}
-
 #u182
 {
-	width: 188px;
+	width: 193px;
 	min-height: 34px;
 	margin-right: -10000px;
-	left: 264px;
+	left: 185px;
 }
 
 #u185
 {
-	width: 188px;
+	width: 193px;
 	padding-bottom: 10px;
 }
 
 #u185.MuseMenuActive
 {
-	width: 188px;
+	width: 193px;
 	min-height: 0px;
 	margin: 0px;
 }
@@ -226,7 +162,7 @@
 	min-height: 24px;
 	margin-right: -10000px;
 	top: 5px;
-	left: 18px;
+	left: 21px;
 }
 
 #u185:hover #u188-4
@@ -247,6 +183,102 @@
 	margin: 0px -10000px 0px 0px;
 }
 
+#u175
+{
+	width: 93px;
+	min-height: 34px;
+	margin-right: -10000px;
+	left: 380px;
+}
+
+#u176
+{
+	width: 93px;
+	padding-bottom: 10px;
+}
+
+#u176.MuseMenuActive
+{
+	width: 93px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#u178-4
+{
+	width: 51px;
+	min-height: 24px;
+	margin-right: -10000px;
+	top: 5px;
+	left: 21px;
+}
+
+#u176:hover #u178-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 51px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u176.MuseMenuActive #u178-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 51px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u1788
+{
+	width: 96px;
+	min-height: 34px;
+	margin-right: -10000px;
+	left: 475px;
+}
+
+#u1791
+{
+	width: 96px;
+	padding-bottom: 10px;
+}
+
+#u169.MuseMenuActive,#u1791.MuseMenuActive
+{
+	width: 96px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#u1794-4
+{
+	width: 54px;
+	min-height: 24px;
+	margin-right: -10000px;
+	top: 5px;
+	left: 21px;
+}
+
+#u169.MuseMenuActive #u170-4,#u1791:hover #u1794-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 54px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u1791.MuseMenuActive #u1794-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 24px;
+	width: 54px;
+	margin: 0px -10000px 0px 0px;
+}
+
 #pu911
 {
 	width: 0.01px;
@@ -255,7 +287,7 @@
 
 #u911
 {
-	z-index: 2;
+	z-index: 12;
 	height: 400px;
 	background: #000000 url("../images/diaryofawormset%20designleft.jpg") no-repeat center center;
 	background-size: cover;
@@ -263,14 +295,14 @@
 
 #u911-bw
 {
-	z-index: 2;
+	z-index: 12;
 	margin-top: 105px;
 	height: 400px;
 }
 
 #u912-4
 {
-	z-index: 3;
+	z-index: 13;
 	width: 920px;
 	min-height: 187px;
 	background-color: transparent;
@@ -282,7 +314,7 @@
 
 #u913-4
 {
-	z-index: 7;
+	z-index: 17;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -294,7 +326,7 @@
 
 #u1333
 {
-	z-index: 75;
+	z-index: 85;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -310,7 +342,7 @@
 
 #u1332-15
 {
-	z-index: 60;
+	z-index: 70;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -321,7 +353,7 @@
 
 #u1149
 {
-	z-index: 27;
+	z-index: 37;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -337,7 +369,7 @@
 
 #u1148-16
 {
-	z-index: 11;
+	z-index: 21;
 	width: 752px;
 	min-height: 133px;
 	background-color: transparent;
@@ -348,7 +380,7 @@
 
 #u1158-4
 {
-	z-index: 28;
+	z-index: 38;
 	width: 291px;
 	min-height: 78px;
 	background-color: transparent;
@@ -366,7 +398,7 @@
 
 #u1161
 {
-	z-index: 45;
+	z-index: 55;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -382,7 +414,7 @@
 
 #u1160-13
 {
-	z-index: 32;
+	z-index: 42;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -400,7 +432,7 @@
 
 #u1248
 {
-	z-index: 59;
+	z-index: 69;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -416,7 +448,7 @@
 
 #u1247-13
 {
-	z-index: 46;
+	z-index: 56;
 	width: 564px;
 	min-height: 133px;
 	background-color: transparent;
@@ -440,10 +472,64 @@
 	line-height: 17px;
 }
 
+#pu1890
+{
+	width: 0.01px;
+	margin-left: 626px;
+	margin-top: 31px;
+}
+
+#u1890
+{
+	z-index: 2;
+	width: 38px;
+	margin-right: -10000px;
+}
+
+#u1896
+{
+	z-index: 4;
+	width: 38px;
+	margin-right: -10000px;
+	left: 46px;
+}
+
+#u1902
+{
+	z-index: 6;
+	width: 38px;
+	margin-right: -10000px;
+	left: 92px;
+}
+
+#u1908
+{
+	z-index: 8;
+	width: 38px;
+	margin-right: -10000px;
+	left: 138px;
+}
+
+#u1914
+{
+	z-index: 10;
+	width: 38px;
+	margin-right: -10000px;
+	left: 184px;
+}
+
+#u1890:hover,#u1896:hover,#u1902:hover,#u1908:hover,#u1914:hover
+{
+	width: 38px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
 body
 {
 	position: relative;
 	min-width: 960px;
+	padding-bottom: 20px;
 }
 
 #page .verticalspacer

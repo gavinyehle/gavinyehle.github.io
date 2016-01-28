@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00000D;
-	background-color: #D1290F;
+	color: #0000EA;
+	background-color: #038EBC;
 }
 
 @-ms-viewport
@@ -31,12 +31,12 @@
 
 .html
 {
-	background: #161616 url("../../images/webtreats_wood-pattern5-1024.jpg") repeat left top scroll;
+	background: #161616 url("../../images/webtreats_wood-pattern5-1024_2x.jpg") repeat left top scroll;
 }
 
 .hidpi.html
 {
-	background-image: url("../../images/webtreats_wood-pattern5-1024_2x.jpg");
+	background-image: url("../../images/webtreats_wood-pattern5-1024_2x_2x.jpg");
 	background-size: 512px 512px;
 }
 
@@ -311,10 +311,10 @@
 	width: 369px;
 	min-height: 23px;
 	background-color: transparent;
+	line-height: 18px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 15px;
-	line-height: 18px;
 	font-family: estilo-pro, sans-serif;
 	font-weight: 300;
 	margin-left: 6px;

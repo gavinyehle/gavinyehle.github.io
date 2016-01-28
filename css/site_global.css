@@ -121,12 +121,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
-.Resume a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .Resume a:link
 {
 	color: #FFFFFF;
