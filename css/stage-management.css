@@ -1,7 +1,7 @@
 .version.stage_management /* version checker */
 {
-	color: #0000E7;
-	background-color: #36263D;
+	color: #00001D;
+	background-color: #FC0398;
 }
 
 .html
@@ -37,19 +37,19 @@
 
 #u939-4
 {
-	z-index: 159;
+	z-index: 158;
 	min-height: 37px;
 	top: 0px;
 }
 
 #u939-4-bw
 {
-	z-index: 159;
+	z-index: 158;
 }
 
 #menuu153
 {
-	z-index: 163;
+	z-index: 162;
 	width: 571px;
 	top: 5px;
 	left: 50%;
@@ -334,7 +334,7 @@
 
 #u1629
 {
-	z-index: 158;
+	z-index: 157;
 	width: 150px;
 	height: 200px;
 	position: relative;
@@ -343,7 +343,7 @@
 	background-size: cover;
 }
 
-#u1628-13
+#u1628-12
 {
 	z-index: 145;
 	width: 564px;
@@ -787,7 +787,7 @@
 	font-style: normal;
 }
 
-#u1628-9,#u1628-11,#u1550-9,#u1550-11,#u950-9,#u950-11,#u950-12,#u950-13,#u952-9,#u952-11,#u952-13,#u973-9,#u973-11,#u982-9,#u982-11,#u1130-9,#u1130-11,#u1138-9,#u1138-11
+#u1628-9,#u1628-10,#u1550-9,#u1550-11,#u950-9,#u950-11,#u950-12,#u950-13,#u952-9,#u952-11,#u952-13,#u973-9,#u973-11,#u982-9,#u982-11,#u1130-9,#u1130-11,#u1138-9,#u1138-11
 {
 	line-height: 17px;
 }

@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1454013481680">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1454013614306">
   <folder name="css">
     <file name="site_global.css" crc="266268445"/>
-    <file name="stage-management.css" crc="3879085629" ref="stage-management"/>
+    <file name="stage-management.css" crc="503055256" ref="stage-management"/>
     <file name="design.css" crc="4100955239" ref="design"/>
     <file name="index.css" crc="182042969" ref="index"/>
     <file name="acting.css" crc="146690679" ref="acting"/>
@@ -31,7 +31,7 @@
     <file name="touchswipe.js" crc="4218319045" ref="acting:stage-management"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="phone>index"/>
+    <file name="favicon.ico" crc="3818145440" ref="phone>index:stage-management"/>
     <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="360395562" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
     <file name="dsc_0500-u1118-fr.jpg" crc="4077348028" ref="phone>index"/>
     <file name="dsc_0500-u1118-fr_2x.jpg" crc="38422692" ref="phone>index"/>
@@ -58,7 +58,7 @@
     <file name="greenshow-u1168-fr_2x.jpg" crc="4212830128" ref="phone>stage-management"/>
     <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr.jpg" crc="348124684" ref="phone>stage-management"/>
     <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr_2x.jpg" crc="4249830030" ref="phone>stage-management"/>
-    <file name="tall tales thumb.jpg" crc="4209191061" seo="true" ref="phone>stage-management:stage-management"/>
+    <file name="tall tales thumb.jpg" crc="410722647" seo="true" ref="phone>stage-management:stage-management"/>
     <file name="tall tales thumb_2x.jpg" crc="125478425" ref="phone>stage-management"/>
     <file name="big bad thumb-u1190-fr.jpg" crc="3883381063" ref="phone>stage-management"/>
     <file name="big bad thumb-u1190-fr_2x.jpg" crc="184955677" ref="phone>stage-management"/>
@@ -146,7 +146,7 @@
   <file name="index.html" crc="456510755" seo="true" mt="1452761672604" redirect="true"/>
   <file name="acting.html" crc="3786146132" seo="true" mt="1453599573801" redirect="true"/>
   <file name="design.html" crc="31533882" seo="true" mt="1453599573801" redirect="true"/>
-  <file name="stage-management.html" crc="355098655" seo="true" mt="1453599573801" redirect="true"/>
+  <file name="stage-management.html" crc="393403316" seo="true" mt="1454013597534" redirect="true"/>
   <file name="home.html" crc="345066069" seo="true" mt="1453599573801" redirect="true"/>
   <file name="baking.html" crc="3800732026" seo="true" mt="1454013388875" redirect="true"/>
 </manifest>
