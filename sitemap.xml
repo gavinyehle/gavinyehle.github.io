@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.gavinyehle.com/assets/resume.pdf</loc>
-    <lastmod>2015-07-02</lastmod>
+    <loc>http://www.gavinyehle.com/index.html</loc>
+    <lastmod>2017-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/acting.html</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/acting%20final%202015%20thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/alice%20thumb.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/design.html</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/home.html</loc>
+    <lastmod>2017-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/current-projects.html</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/stage-management.html</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/contact.html</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/sm-resume.pdf</loc>
+    <lastmod>2017-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -19,138 +67,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.gavinyehle.com/assets/resume.pdf</loc>
+    <lastmod>2017-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.gavinyehle.com/assets/alice-vs.-wonderland-trailer.mp4</loc>
     <lastmod>2015-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/tall%20tales%20thumb.jpg</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/acting%20final%202015%20thumb.jpg</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/alice%20thumb.jpg</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/facebook.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/facebook_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/linkedin.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/linkedin_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/instagram.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/instagram_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/pinterest.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/pinterest_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/twitter.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/twitter_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/email.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/images/email_2x.png</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/index.html</loc>
-    <lastmod>2016-01-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.gavinyehle.com/phone/index.html"/>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/acting.html</loc>
-    <lastmod>2016-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.gavinyehle.com/phone/acting.html"/>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/design.html</loc>
-    <lastmod>2016-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.gavinyehle.com/phone/design.html"/>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/stage-management.html</loc>
-    <lastmod>2016-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://www.gavinyehle.com/phone/stage-management.html"/>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/home.html</loc>
-    <lastmod>2016-01-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/baking.html</loc>
-    <lastmod>2016-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

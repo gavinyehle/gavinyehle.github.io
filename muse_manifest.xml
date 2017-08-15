@@ -1,152 +1,252 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1454013614306">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1502821966967">
   <folder name="css">
-    <file name="site_global.css" crc="266268445"/>
-    <file name="stage-management.css" crc="503055256" ref="stage-management"/>
-    <file name="design.css" crc="4100955239" ref="design"/>
-    <file name="index.css" crc="182042969" ref="index"/>
-    <file name="acting.css" crc="146690679" ref="acting"/>
-    <file name="master_page-master.css" crc="424553614" ref="design:acting:stage-management:home:baking"/>
-    <file name="home.css" crc="4109835379" ref="home"/>
-    <file name="baking.css" crc="271700489" ref="baking"/>
+    <file name="site_global.css" crc="4187843509"/>
+    <file name="master_page-master.css" crc="3812626701" ref="acting:current-projects:contact:design:stage-management:home"/>
+    <file name="acting.css" crc="4184966432" ref="acting"/>
+    <file name="current-projects.css" crc="98143515" ref="current-projects"/>
+    <file name="contact.css" crc="4033999075" ref="contact"/>
+    <file name="index.css" crc="162731314" ref="index"/>
+    <file name="design.css" crc="4094639075" ref="design"/>
+    <file name="stage-management.css" crc="4256532508" ref="stage-management"/>
+    <file name="home.css" crc="4094522302" ref="home"/>
   </folder>
   <folder name="assets">
-    <file name="resume.pdf" crc="405757812" seo="true" mt="1435888159000"/>
     <file name="acting-final.mp4" crc="507501179" seo="true" mt="1435877564000"/>
     <file name="tall-tales-promo.mp4" crc="135133978" seo="true" mt="1439786027000"/>
     <file name="alice-vs.-wonderland-trailer.mp4" crc="130842097" seo="true" mt="1441612270000"/>
+    <file name="resume.pdf" crc="218978833" seo="true" mt="1502772657000"/>
+    <file name="sm-resume.pdf" crc="478262801" seo="true" mt="1502777922000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="museutils.js" crc="275725342" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="pie.js" crc="3827607177" ref="phone>index:index:acting:stage-management:home"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="jquery.musemenu.js" crc="4042164668" ref="phone>index:phone>acting:phone>design:phone>stage-management:acting:design:stage-management:home:baking"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="museredirect.js" crc="3899419633" ref="index:acting:design:stage-management"/>
-    <file name="jquery.scrolleffects.js" crc="206645848" ref="index:acting:design:stage-management:home:baking"/>
-    <file name="webpro.js" crc="3883484123" ref="acting:stage-management"/>
-    <file name="musewpslideshow.js" crc="360574455" ref="acting:stage-management"/>
-    <file name="jquery.museoverlay.js" crc="342093292" ref="acting:stage-management"/>
-    <file name="touchswipe.js" crc="4218319045" ref="acting:stage-management"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="museutils.js" crc="4216313831" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="museconfig.js" crc="4177022356" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="home:acting:design:stage-management:current-projects:contact"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="home:acting:design:stage-management:index:current-projects"/>
+    <file name="jquery.watch.js" crc="460461809" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="require.js" crc="3951022091" ref="home:acting:design:stage-management:index:current-projects:contact"/>
+    <file name="webpro.js" crc="4143865194" ref="acting:contact"/>
+    <file name="musewpslideshow.js" crc="3781122836" ref="acting"/>
+    <file name="jquery.museoverlay.js" crc="4030747646" ref="acting"/>
+    <file name="touchswipe.js" crc="4200445185" ref="acting"/>
+    <file name="form_check.php" crc="154010282" ref="contact"/>
+    <file name="form_throttle.php" crc="266437015" ref="contact"/>
+    <file name="form_process.php" crc="512629711" ref="contact"/>
+    <file name="form-u2578.php" crc="3787850300" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="phone>index:stage-management"/>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="360395562" ref="phone>index:phone>acting:phone>design:phone>stage-management:index:acting:design:stage-management:home:baking"/>
-    <file name="dsc_0500-u1118-fr.jpg" crc="4077348028" ref="phone>index"/>
-    <file name="dsc_0500-u1118-fr_2x.jpg" crc="38422692" ref="phone>index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm.jpg" crc="530563844" ref="phone>acting:acting"/>
-    <file name="resume thumb-u1467-fr.jpg" crc="4078726675" ref="phone>acting"/>
-    <file name="resume thumb-u1467-fr_2x.jpg" crc="4014010234" ref="phone>acting"/>
-    <file name="acting final 2015 thumb-u1473-fr.jpg" crc="499187889" ref="phone>acting"/>
-    <file name="alice thumb-u1483-fr.jpg" crc="3883309283" ref="phone>acting"/>
-    <file name="thumbelina thumb-u1488-fr.jpg" crc="4208454267" ref="phone>acting"/>
-    <file name="thumbelina thumb-u1488-fr_2x.jpg" crc="4202890738" ref="phone>acting"/>
-    <file name="cat-in-the-hat-u1492-fr.png" crc="4122857975" ref="phone>acting"/>
-    <file name="cat-in-the-hat-u1492-fr_2x.png" crc="149770854" ref="phone>acting"/>
-    <file name="diaryofawormset designleft.jpg" crc="225549255" ref="phone>design:design"/>
-    <file name="american idiot thumb-u1379-fr.jpg" crc="11733580" ref="phone>design"/>
-    <file name="american idiot thumb-u1379-fr_2x.jpg" crc="142049992" ref="phone>design"/>
-    <file name="forum thumb-u1381-fr.jpg" crc="366285886" ref="phone>design"/>
-    <file name="forum thumb-u1381-fr_2x.jpg" crc="4041493673" ref="phone>design"/>
-    <file name="1264238_10151892856707518_1140904651_o-u1384-fr.jpg" crc="296723075" ref="phone>design:phone>stage-management"/>
-    <file name="1264238_10151892856707518_1140904651_o-u1384-fr_2x.jpg" crc="4270035411" ref="phone>design:phone>stage-management"/>
-    <file name="img_4126.jpg" crc="3802999528" ref="phone>stage-management:stage-management"/>
-    <file name="invisibles-u1166-fr.jpg" crc="4192431457" ref="phone>stage-management"/>
-    <file name="invisibles-u1166-fr_2x.jpg" crc="514610491" ref="phone>stage-management"/>
-    <file name="greenshow-u1168-fr.jpg" crc="448361261" ref="phone>stage-management"/>
-    <file name="greenshow-u1168-fr_2x.jpg" crc="4212830128" ref="phone>stage-management"/>
-    <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr.jpg" crc="348124684" ref="phone>stage-management"/>
-    <file name="screen shot 2015-08-16 at 101348 pm-u1170-fr_2x.jpg" crc="4249830030" ref="phone>stage-management"/>
-    <file name="tall tales thumb.jpg" crc="410722647" seo="true" ref="phone>stage-management:stage-management"/>
-    <file name="tall tales thumb_2x.jpg" crc="125478425" ref="phone>stage-management"/>
-    <file name="big bad thumb-u1190-fr.jpg" crc="3883381063" ref="phone>stage-management"/>
-    <file name="big bad thumb-u1190-fr_2x.jpg" crc="184955677" ref="phone>stage-management"/>
-    <file name="dsc_0500.jpg" crc="259556918" ref="home"/>
-    <file name="dsc_0500_2x.jpg" crc="3965575298" ref="home"/>
-    <file name="resume thumb.jpg" crc="3911369860" ref="acting"/>
-    <file name="resume thumb_2x.jpg" crc="77701334" ref="acting"/>
-    <file name="acting final 2015 thumb.jpg" crc="3939867360" seo="true" ref="acting"/>
-    <file name="alice thumb.jpg" crc="3834903385" seo="true" ref="acting"/>
-    <file name="thumbelina thumb.jpg" crc="3889964031" ref="acting"/>
-    <file name="thumbelina thumb_2x.jpg" crc="122418451" ref="acting"/>
-    <file name="cat-in-the-hat.png" crc="212354895" ref="acting"/>
-    <file name="cat-in-the-hat_2x.png" crc="3857644284" ref="acting"/>
-    <file name="american idiot thumb.jpg" crc="137205394" ref="design"/>
-    <file name="american idiot thumb_2x.jpg" crc="4171671606" ref="design"/>
-    <file name="forum thumb.jpg" crc="4175699058" ref="design"/>
-    <file name="forum thumb_2x.jpg" crc="3898185981" ref="design"/>
-    <file name="1264238_10151892856707518_1140904651_o.jpg" crc="326447916" ref="design:stage-management"/>
-    <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="design:stage-management"/>
-    <file name="invisibles.jpg" crc="479256930" ref="stage-management"/>
-    <file name="invisibles_2x.jpg" crc="17131264" ref="stage-management"/>
-    <file name="greenshow.jpg" crc="478001289" ref="stage-management"/>
-    <file name="greenshow_2x.jpg" crc="9489567" ref="stage-management"/>
-    <file name="screen shot 2015-08-16 at 101348 pm.jpg" crc="354650003" ref="stage-management"/>
-    <file name="screen shot 2015-08-16 at 101348 pm_2x.jpg" crc="151271800" ref="stage-management"/>
-    <file name="big bad thumb.jpg" crc="4249320989" ref="stage-management"/>
-    <file name="big bad thumb_2x.jpg" crc="167624850" ref="stage-management"/>
-    <file name="diary thumb-u1392-fr.jpg" crc="3907058530" ref="phone>design"/>
-    <file name="diary thumb-u1392-fr_2x.jpg" crc="3814113088" ref="phone>design"/>
-    <file name="diary thumb.jpg" crc="139538395" ref="design"/>
-    <file name="diary thumb_2x.jpg" crc="100813622" ref="design"/>
-    <file name="miss-nelson.jpg" crc="307479055" ref="stage-management"/>
-    <file name="miss-nelson_2x.jpg" crc="3905324539" ref="stage-management"/>
-    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="phone>index:phone>acting:phone>design:phone>stage-management:home:acting:design:stage-management:index:baking"/>
-    <file name="facebook.png" crc="61203918" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="facebook_2x.png" crc="4240754731" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="linkedin.png" crc="3816767822" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="linkedin_2x.png" crc="4007641718" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="instagram.png" crc="390657074" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="instagram_2x.png" crc="3910642208" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="pinterest.png" crc="37355154" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="pinterest_2x.png" crc="3959014356" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="twitter.png" crc="4102847801" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="twitter_2x.png" crc="271013222" seo="true" ref="home:acting:design:stage-management:baking"/>
-    <file name="earnestsquare.gif" crc="379850348" ref="stage-management"/>
-    <file name="dsc_0500-u1687-fr.png" crc="412743592" ref="index"/>
-    <file name="dsc_0500-u1687-fr_2x.png" crc="110480783" ref="index"/>
+    <file name="favicon.ico" crc="3818145440" ref="home:contact"/>
+    <file name="dsc_0500.jpg" crc="16095595" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="dsc_0500_2x.jpg" crc="3965575298" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="home:acting:design:stage-management:index:current-projects:contact">
+      <caption webpage="current-projects" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="stage-management" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="acting" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="home:acting:design:stage-management:index:current-projects:contact">
+      <caption webpage="current-projects" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="stage-management" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="design" alt=""/>
+      <caption webpage="acting" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="screen shot 2013-12-24 at 103243 pm-u776-fr.jpg" crc="519944590" ref="acting"/>
+    <file name="kinsmen.jpg" crc="4244328342" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="kinsmen_2x.jpg" crc="4057633910" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="arcadiasquare-1.jpg" crc="4015213334" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="acting final 2015 thumb.jpg" crc="3870942773" seo="true" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="alice thumb.jpg" crc="117281722" seo="true" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="thumbelina thumb.jpg" crc="205516705" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="thumbelina thumb_2x.jpg" crc="122418451" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="cat-in-the-hat.png" crc="212354895" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="cat-in-the-hat_2x.png" crc="3857644284" ref="acting">
+      <caption webpage="acting" alt=""/>
+    </file>
+    <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="satvoyeur2017.jpg" crc="3945202457" ref="design:current-projects">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="satvoyeur2017_2x.jpg" crc="58545253" ref="design:current-projects">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="harbur-gate.jpg" crc="4203652417" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="harbur-gate_2x.jpg" crc="527192195" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="bringitonsquare-1.jpg" crc="3816661493" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="american idiot thumb.jpg" crc="410919583" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="american idiot thumb_2x.jpg" crc="4171671606" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="forum thumb.jpg" crc="4197774415" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="forum thumb_2x.jpg" crc="3898185981" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="1264238_10151892856707518_1140904651_o.jpg" crc="4207155587" ref="design:stage-management">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="design:stage-management">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="diary thumb.jpg" crc="65981937" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="diary thumb_2x.jpg" crc="100813622" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="img_4126.jpg" crc="3802999528" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="fringe16.jpg" crc="380628948" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="fringe16_2x.jpg" crc="228122127" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="13745189_162387724184972_482072940_a.jpg" crc="3908078449" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="importance-earnest.jpg" crc="120847490" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="importance-earnest_2x.jpg" crc="177686173" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="miss-nelson.jpg" crc="485093514" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="miss-nelson_2x.jpg" crc="3905324539" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="invisibles.jpg" crc="365435279" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="invisibles_2x.jpg" crc="17131264" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="greenshow.jpg" crc="464780673" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="greenshow_2x.jpg" crc="9489567" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="screen shot 2015-08-16 at 101348 pm.jpg" crc="138562534" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="screen shot 2015-08-16 at 101348 pm_2x.jpg" crc="151271800" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="big bad thumb.jpg" crc="3995333308" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="big bad thumb_2x.jpg" crc="167624850" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="tall tales.jpg" crc="29437414" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="tall tales_2x.jpg" crc="284055631" ref="stage-management">
+      <caption webpage="stage-management" alt=""/>
+    </file>
+    <file name="u1733.png" crc="50599997" ref="index"/>
+    <file name="u1733_2x.png" crc="4280953347" ref="index"/>
+    <file name="screen shot 2013-12-24 at 103243 pm copy-buttonu1702-fr.png" crc="4176552100" ref="index"/>
+    <file name="screen shot 2013-12-24 at 103243 pm copy.jpg" crc="177471843" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="screen shot 2013-12-24 at 103243 pm copy_2x.jpg" crc="4205789492" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4125-buttonu1705-fr.png" crc="4247065059" ref="index"/>
+    <file name="img_4125-buttonu1705-fr_2x.png" crc="4150274521" ref="index"/>
+    <file name="img_4125.jpg" crc="4101662941" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4125_2x.jpg" crc="166996845" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4679.jpg" crc="367949864" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4679_2x.jpg" crc="3871649420" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="u1688.png" crc="146554442" ref="index"/>
     <file name="u1688_2x.png" crc="4131391569" ref="index"/>
     <file name="u1689.png" crc="3925605295" ref="index"/>
     <file name="u1689_2x.png" crc="444166646" ref="index"/>
     <file name="u1692.png" crc="4113257618" ref="index"/>
     <file name="u1692_2x.png" crc="202738590" ref="index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm copy-buttonu1702-fr.png" crc="4086739762" ref="index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm copy.jpg" crc="28992244" ref="index"/>
-    <file name="img_4125-buttonu1705-fr.png" crc="4008313017" ref="index"/>
-    <file name="img_4125.jpg" crc="4019760948" ref="index"/>
     <file name="u1713.png" crc="3833680836" ref="index"/>
     <file name="u1713_2x.png" crc="39116327" ref="index"/>
     <file name="diary set-buttonu1714-fr.png" crc="346418238" ref="index"/>
     <file name="diary set-buttonu1714-r-fr.png" crc="25770433" ref="index"/>
     <file name="u1716.png" crc="216263165" ref="index"/>
     <file name="u1716_2x.png" crc="4210370473" ref="index"/>
-    <file name="img_0862-buttonu1725-fr.png" crc="4087588110" ref="index"/>
-    <file name="img_0862.jpg" crc="4284535891" ref="index"/>
-    <file name="u1733.png" crc="50599997" ref="index"/>
-    <file name="u1733_2x.png" crc="4280953347" ref="index"/>
-    <file name="email.png" crc="117160418" seo="true" ref="index"/>
-    <file name="email_2x.png" crc="458012930" seo="true" ref="index"/>
-    <file name="img_0871.jpg" crc="26657440" ref="baking"/>
+    <file name="img_6481-buttonu1725-fr.png" crc="4073497232" ref="index"/>
+    <file name="img_6481-buttonu1725-fr_2x.png" crc="3931866355" ref="index"/>
+    <file name="img_6481.jpg" crc="215071062" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_6481_2x.jpg" crc="8202613" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9824-mail-symbol-buttonu2645-fr.png" crc="3929452055" ref="index"/>
+    <file name="9824-mail-symbol-buttonu2645-fr_2x.png" crc="91576186" ref="index"/>
+    <file name="9824-mail-symbol-buttonu2645-r-fr.png" crc="204473867" ref="index"/>
+    <file name="9824-mail-symbol-buttonu2645-r-fr_2x.png" crc="518063777" ref="index"/>
+    <file name="img_6481-u1773-fr.png" crc="3789499642" ref="current-projects"/>
+    <file name="ynct.jpg" crc="195983718" ref="current-projects">
+      <caption webpage="current-projects" alt=""/>
+    </file>
+    <file name="ynct_2x.jpg" crc="4202971795" ref="current-projects">
+      <caption webpage="current-projects" alt=""/>
+    </file>
   </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="master_a-master.css" crc="354082273" ref="phone>stage-management:phone>acting:phone>index:phone>design"/>
-      <file name="stage-management.css" crc="179387947" ref="phone>stage-management"/>
-      <file name="acting.css" crc="3939947552" ref="phone>acting"/>
-      <file name="index.css" crc="3926101692" ref="phone>index"/>
-      <file name="design.css" crc="4181437955" ref="phone>design"/>
-    </folder>
-    <file name="index.html" crc="127546395" seo="true" mt="1452534211979" redirect="true"/>
-    <file name="acting.html" crc="10973522" seo="true" mt="1452473838601" redirect="true"/>
-    <file name="design.html" crc="160713028" seo="true" mt="1452473828549" redirect="true"/>
-    <file name="stage-management.html" crc="178855941" seo="true" mt="1452473828549" redirect="true"/>
-  </folder>
-  <file name="index.html" crc="456510755" seo="true" mt="1452761672604" redirect="true"/>
-  <file name="acting.html" crc="3786146132" seo="true" mt="1453599573801" redirect="true"/>
-  <file name="design.html" crc="31533882" seo="true" mt="1453599573801" redirect="true"/>
-  <file name="stage-management.html" crc="393403316" seo="true" mt="1454013597534" redirect="true"/>
-  <file name="home.html" crc="345066069" seo="true" mt="1453599573801" redirect="true"/>
-  <file name="baking.html" crc="3800732026" seo="true" mt="1454013388875" redirect="true"/>
+  <file name="home.html" crc="467765084" seo="true" mt="1502752547028" redirect="true"/>
+  <file name="acting.html" crc="43807223" seo="true" mt="1502821016633" redirect="true"/>
+  <file name="design.html" crc="189552993" seo="true" mt="1502821114779" redirect="true"/>
+  <file name="stage-management.html" crc="4170272385" seo="true" mt="1502821784028" redirect="true"/>
+  <file name="index.html" crc="100684885" seo="true" mt="1502772484013" redirect="true"/>
+  <file name="current-projects.html" crc="312530516" seo="true" mt="1502821054380" redirect="true"/>
+  <file name="contact.html" crc="3798202693" seo="true" mt="1502821948751" redirect="true"/>
 </manifest>
