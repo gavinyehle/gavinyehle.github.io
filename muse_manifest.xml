@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1502993366939">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1502993712821">
   <folder name="css">
     <file name="site_global.css" crc="4187843509"/>
-    <file name="master_page-master.css" crc="3812626701" ref="acting:current-projects:contact:design:stage-management:home:contact-test"/>
-    <file name="acting.css" crc="4184966432" ref="acting"/>
-    <file name="current-projects.css" crc="98143515" ref="current-projects"/>
-    <file name="contact.css" crc="4033999075" ref="contact"/>
-    <file name="index.css" crc="162731314" ref="index"/>
-    <file name="design.css" crc="4094639075" ref="design"/>
-    <file name="stage-management.css" crc="4256532508" ref="stage-management"/>
-    <file name="home.css" crc="4094522302" ref="home"/>
-    <file name="contact-test.css" crc="416765477" ref="contact-test"/>
+    <file name="master_page-master.css" crc="204180328" ref="acting:current-projects:contact:design:stage-management:home:contact-old"/>
+    <file name="acting.css" crc="3871640083" ref="acting"/>
+    <file name="current-projects.css" crc="4233190032" ref="current-projects"/>
+    <file name="contact.css" crc="4159423921" ref="contact"/>
+    <file name="index.css" crc="4151463680" ref="index"/>
+    <file name="design.css" crc="3770264208" ref="design"/>
+    <file name="stage-management.css" crc="7851783" ref="stage-management"/>
+    <file name="home.css" crc="192590733" ref="home"/>
+    <file name="contact-old.css" crc="516113822" ref="contact-old"/>
   </folder>
   <folder name="assets">
     <file name="acting-final.mp4" crc="507501179" seo="true" mt="1435877564000"/>
@@ -19,51 +19,53 @@
     <file name="sm-resume.pdf" crc="478262801" seo="true" mt="1502777922000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="museutils.js" crc="4216313831" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="whatinput.js" crc="86476730" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="museconfig.js" crc="4177022356" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="jquery.musemenu.js" crc="493622299" ref="home:acting:design:stage-management:current-projects:contact:contact-test"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="museutils.js" crc="4216313831" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="whatinput.js" crc="86476730" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="museconfig.js" crc="4177022356" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="home:acting:design:stage-management:current-projects:contact:contact-old"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="home:acting:design:stage-management:index:current-projects"/>
-    <file name="jquery.watch.js" crc="460461809" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="jquery.scrolleffects.js" crc="128250821" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="html5shiv.js" crc="4241844378" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="require.js" crc="3951022091" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test"/>
-    <file name="webpro.js" crc="4143865194" ref="acting:contact"/>
+    <file name="jquery.watch.js" crc="460461809" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="html5shiv.js" crc="4241844378" ref="home:acting:design:stage-management:current-projects:contact:contact-old"/>
+    <file name="require.js" crc="3951022091" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
+    <file name="webpro.js" crc="4143865194" ref="acting:contact-old"/>
     <file name="musewpslideshow.js" crc="3781122836" ref="acting"/>
     <file name="jquery.museoverlay.js" crc="4030747646" ref="acting"/>
     <file name="touchswipe.js" crc="4200445185" ref="acting"/>
-    <file name="form_check.php" crc="154010282" ref="contact"/>
-    <file name="form_throttle.php" crc="266437015" ref="contact"/>
-    <file name="form_process.php" crc="512629711" ref="contact"/>
-    <file name="form-u2578.php" crc="3787850300" ref="contact"/>
+    <file name="form_check.php" crc="154010282" ref="contact-old"/>
+    <file name="form_throttle.php" crc="266437015" ref="contact-old"/>
+    <file name="form_process.php" crc="512629711" ref="contact-old"/>
+    <file name="form-u2578.php" crc="3787850300" ref="contact-old"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="home:contact:contact-test"/>
+    <file name="favicon.ico" crc="3818145440" ref="home:index"/>
     <file name="dsc_0500.jpg" crc="16095595" ref="home">
       <caption webpage="home" alt=""/>
     </file>
     <file name="dsc_0500_2x.jpg" crc="3965575298" ref="home">
       <caption webpage="home" alt=""/>
     </file>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test">
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old">
       <caption webpage="current-projects" alt=""/>
       <caption webpage="contact-test" alt=""/>
-      <caption webpage="home" alt=""/>
+      <caption webpage="acting" alt=""/>
       <caption webpage="stage-management" alt=""/>
+      <caption webpage="home" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="acting" alt=""/>
+      <caption webpage="contact-old" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="home:acting:design:stage-management:index:current-projects:contact:contact-test">
+    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old">
       <caption webpage="current-projects" alt=""/>
       <caption webpage="contact-test" alt=""/>
-      <caption webpage="home" alt=""/>
+      <caption webpage="acting" alt=""/>
       <caption webpage="stage-management" alt=""/>
+      <caption webpage="home" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="acting" alt=""/>
+      <caption webpage="contact-old" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
     <file name="screen shot 2013-12-24 at 103243 pm-u776-fr.jpg" crc="519944590" ref="acting"/>
@@ -245,12 +247,12 @@
       <caption webpage="current-projects" alt=""/>
     </file>
   </folder>
-  <file name="home.html" crc="467765084" seo="true" mt="1502752547028" redirect="true"/>
-  <file name="acting.html" crc="43807223" seo="true" mt="1502821016633" redirect="true"/>
-  <file name="design.html" crc="189552993" seo="true" mt="1502821114779" redirect="true"/>
-  <file name="stage-management.html" crc="4170272385" seo="true" mt="1502821784028" redirect="true"/>
-  <file name="index.html" crc="100684885" seo="true" mt="1502772484013" redirect="true"/>
-  <file name="current-projects.html" crc="312530516" seo="true" mt="1502821054380" redirect="true"/>
-  <file name="contact.html" crc="3798202693" seo="true" mt="1502821948751" redirect="true"/>
-  <file name="contact-test.html" crc="3806746961" seo="true" mt="1502993351250" redirect="true"/>
+  <file name="home.html" crc="4280989443" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="acting.html" crc="3829596382" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="design.html" crc="418335061" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="stage-management.html" crc="352018325" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="index.html" crc="3799878988" seo="true" mt="1502993696943" redirect="true"/>
+  <file name="current-projects.html" crc="4115672029" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="contact.html" crc="4196798108" seo="true" mt="1502993643454" redirect="true"/>
+  <file name="contact-old.html" crc="4142235101" seo="true" mt="1502993643450" redirect="true"/>
 </manifest>
