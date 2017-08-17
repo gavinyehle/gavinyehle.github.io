@@ -25,18 +25,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/home.html</loc>
-    <lastmod>2017-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/current-projects.html</loc>
-    <lastmod>2017-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.gavinyehle.com/stage-management.html</loc>
     <lastmod>2017-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -49,7 +37,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/sm-resume.pdf</loc>
+    <loc>http://www.gavinyehle.com/home.html</loc>
+    <lastmod>2017-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/contact-test.html</loc>
+    <lastmod>2017-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/current-projects.html</loc>
     <lastmod>2017-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -67,14 +67,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/resume.pdf</loc>
-    <lastmod>2017-08-14</lastmod>
+    <loc>http://www.gavinyehle.com/assets/alice-vs.-wonderland-trailer.mp4</loc>
+    <lastmod>2015-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/alice-vs.-wonderland-trailer.mp4</loc>
-    <lastmod>2015-09-07</lastmod>
+    <loc>http://www.gavinyehle.com/assets/sm-resume.pdf</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/resume.pdf</loc>
+    <lastmod>2017-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
