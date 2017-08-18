@@ -1,15 +1,13 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1502993712821">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1503024920771">
   <folder name="css">
     <file name="site_global.css" crc="4187843509"/>
-    <file name="master_page-master.css" crc="204180328" ref="acting:current-projects:contact:design:stage-management:home:contact-old"/>
-    <file name="acting.css" crc="3871640083" ref="acting"/>
-    <file name="current-projects.css" crc="4233190032" ref="current-projects"/>
-    <file name="contact.css" crc="4159423921" ref="contact"/>
-    <file name="index.css" crc="4151463680" ref="index"/>
-    <file name="design.css" crc="3770264208" ref="design"/>
-    <file name="stage-management.css" crc="7851783" ref="stage-management"/>
-    <file name="home.css" crc="192590733" ref="home"/>
-    <file name="contact-old.css" crc="516113822" ref="contact-old"/>
+    <file name="master_page-master.css" crc="157677510" ref="acting:contact:design:stage-management"/>
+    <file name="acting.css" crc="4012414290" ref="acting"/>
+    <file name="contact.css" crc="3776195881" ref="contact"/>
+    <file name="index.css" crc="180688516" ref="index"/>
+    <file name="design.css" crc="324700057" ref="design"/>
+    <file name="stage-management.css" crc="4289091977" ref="stage-management"/>
+    <file name="old-home.css" crc="4277197102" ref="old-home"/>
   </folder>
   <folder name="assets">
     <file name="acting-final.mp4" crc="507501179" seo="true" mt="1435877564000"/>
@@ -19,54 +17,46 @@
     <file name="sm-resume.pdf" crc="478262801" seo="true" mt="1502777922000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="museutils.js" crc="4216313831" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="whatinput.js" crc="86476730" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="museconfig.js" crc="4177022356" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="jquery.musemenu.js" crc="493622299" ref="home:acting:design:stage-management:current-projects:contact:contact-old"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="home:acting:design:stage-management:index:current-projects"/>
-    <file name="jquery.watch.js" crc="460461809" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="jquery.scrolleffects.js" crc="128250821" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="html5shiv.js" crc="4241844378" ref="home:acting:design:stage-management:current-projects:contact:contact-old"/>
-    <file name="require.js" crc="3951022091" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old"/>
-    <file name="webpro.js" crc="4143865194" ref="acting:contact-old"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="museutils.js" crc="4216313831" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="whatinput.js" crc="86476730" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="museconfig.js" crc="4177022356" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="acting:design:stage-management:contact"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="acting:design:stage-management:index:old-home"/>
+    <file name="jquery.watch.js" crc="460461809" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="html5shiv.js" crc="4241844378" ref="acting:design:stage-management:contact:old-home:index"/>
+    <file name="require.js" crc="3951022091" ref="acting:design:stage-management:index:contact:old-home"/>
+    <file name="webpro.js" crc="4143865194" ref="acting"/>
     <file name="musewpslideshow.js" crc="3781122836" ref="acting"/>
     <file name="jquery.museoverlay.js" crc="4030747646" ref="acting"/>
     <file name="touchswipe.js" crc="4200445185" ref="acting"/>
-    <file name="form_check.php" crc="154010282" ref="contact-old"/>
-    <file name="form_throttle.php" crc="266437015" ref="contact-old"/>
-    <file name="form_process.php" crc="512629711" ref="contact-old"/>
-    <file name="form-u2578.php" crc="3787850300" ref="contact-old"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="home:index"/>
-    <file name="dsc_0500.jpg" crc="16095595" ref="home">
-      <caption webpage="home" alt=""/>
-    </file>
-    <file name="dsc_0500_2x.jpg" crc="3965575298" ref="home">
-      <caption webpage="home" alt=""/>
-    </file>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old">
+    <file name="favicon.ico" crc="3818145440" ref="acting"/>
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="acting:design:stage-management:index:contact:old-home">
       <caption webpage="current-projects" alt=""/>
-      <caption webpage="contact-test" alt=""/>
-      <caption webpage="acting" alt=""/>
-      <caption webpage="stage-management" alt=""/>
+      <caption webpage="contact-old" alt=""/>
+      <caption webpage="old-home" alt=""/>
       <caption webpage="home" alt=""/>
+      <caption webpage="contact" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="contact-old" alt=""/>
-      <caption webpage="contact" alt=""/>
-    </file>
-    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="home:acting:design:stage-management:index:current-projects:contact:contact-old">
-      <caption webpage="current-projects" alt=""/>
-      <caption webpage="contact-test" alt=""/>
       <caption webpage="acting" alt=""/>
       <caption webpage="stage-management" alt=""/>
+      <caption webpage="contact-test" alt=""/>
+    </file>
+    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="acting:design:stage-management:index:contact:old-home">
+      <caption webpage="current-projects" alt=""/>
+      <caption webpage="contact-old" alt=""/>
+      <caption webpage="old-home" alt=""/>
       <caption webpage="home" alt=""/>
+      <caption webpage="contact" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
-      <caption webpage="contact-old" alt=""/>
-      <caption webpage="contact" alt=""/>
+      <caption webpage="acting" alt=""/>
+      <caption webpage="stage-management" alt=""/>
+      <caption webpage="contact-test" alt=""/>
     </file>
     <file name="screen shot 2013-12-24 at 103243 pm-u776-fr.jpg" crc="519944590" ref="acting"/>
     <file name="kinsmen.jpg" crc="4244328342" ref="acting">
@@ -99,10 +89,10 @@
     <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="satvoyeur2017.jpg" crc="3945202457" ref="design:current-projects">
+    <file name="satvoyeur2017.jpg" crc="3945202457" ref="design:index">
       <caption webpage="design" alt=""/>
     </file>
-    <file name="satvoyeur2017_2x.jpg" crc="58545253" ref="design:current-projects">
+    <file name="satvoyeur2017_2x.jpg" crc="58545253" ref="design:index">
       <caption webpage="design" alt=""/>
     </file>
     <file name="harbur-gate.jpg" crc="4203652417" ref="design">
@@ -192,67 +182,106 @@
     <file name="tall tales_2x.jpg" crc="284055631" ref="stage-management">
       <caption webpage="stage-management" alt=""/>
     </file>
-    <file name="u1733.png" crc="50599997" ref="index"/>
-    <file name="u1733_2x.png" crc="4280953347" ref="index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm copy-buttonu1702-fr.png" crc="4176552100" ref="index"/>
-    <file name="screen shot 2013-12-24 at 103243 pm copy.jpg" crc="177471843" ref="index">
+    <file name="u1733.png" crc="50599997" ref="old-home"/>
+    <file name="u1733_2x.png" crc="4280953347" ref="old-home"/>
+    <file name="screen shot 2013-12-24 at 103243 pm copy-buttonu1702-fr.png" crc="4176552100" ref="old-home"/>
+    <file name="screen shot 2013-12-24 at 103243 pm copy.jpg" crc="177471843" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="screen shot 2013-12-24 at 103243 pm copy_2x.jpg" crc="4205789492" ref="index">
+    <file name="screen shot 2013-12-24 at 103243 pm copy_2x.jpg" crc="4205789492" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="img_4125-buttonu1705-fr.png" crc="4247065059" ref="index"/>
-    <file name="img_4125-buttonu1705-fr_2x.png" crc="4150274521" ref="index"/>
-    <file name="img_4125.jpg" crc="4101662941" ref="index">
+    <file name="img_4125-buttonu1705-fr.png" crc="4247065059" ref="old-home"/>
+    <file name="img_4125-buttonu1705-fr_2x.png" crc="4150274521" ref="old-home"/>
+    <file name="img_4125.jpg" crc="4101662941" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="img_4125_2x.jpg" crc="166996845" ref="index">
+    <file name="img_4125_2x.jpg" crc="166996845" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="img_4679.jpg" crc="367949864" ref="index">
+    <file name="img_4679.jpg" crc="367949864" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="img_4679_2x.jpg" crc="3871649420" ref="index">
+    <file name="img_4679_2x.jpg" crc="3871649420" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="u1688.png" crc="146554442" ref="index"/>
-    <file name="u1688_2x.png" crc="4131391569" ref="index"/>
-    <file name="u1689.png" crc="3925605295" ref="index"/>
-    <file name="u1689_2x.png" crc="444166646" ref="index"/>
-    <file name="u1692.png" crc="4113257618" ref="index"/>
-    <file name="u1692_2x.png" crc="202738590" ref="index"/>
-    <file name="u1713.png" crc="3833680836" ref="index"/>
-    <file name="u1713_2x.png" crc="39116327" ref="index"/>
-    <file name="diary set-buttonu1714-fr.png" crc="346418238" ref="index"/>
-    <file name="diary set-buttonu1714-r-fr.png" crc="25770433" ref="index"/>
-    <file name="u1716.png" crc="216263165" ref="index"/>
-    <file name="u1716_2x.png" crc="4210370473" ref="index"/>
-    <file name="img_6481-buttonu1725-fr.png" crc="4073497232" ref="index"/>
-    <file name="img_6481-buttonu1725-fr_2x.png" crc="3931866355" ref="index"/>
-    <file name="img_6481.jpg" crc="215071062" ref="index">
+    <file name="u1688.png" crc="146554442" ref="old-home"/>
+    <file name="u1688_2x.png" crc="4131391569" ref="old-home"/>
+    <file name="u1689.png" crc="3925605295" ref="old-home"/>
+    <file name="u1689_2x.png" crc="444166646" ref="old-home"/>
+    <file name="u1692.png" crc="4113257618" ref="old-home"/>
+    <file name="u1692_2x.png" crc="202738590" ref="old-home"/>
+    <file name="u1713.png" crc="3833680836" ref="old-home"/>
+    <file name="u1713_2x.png" crc="39116327" ref="old-home"/>
+    <file name="diary set-buttonu1714-fr.png" crc="346418238" ref="index:old-home"/>
+    <file name="diary set-buttonu1714-r-fr.png" crc="25770433" ref="index:old-home"/>
+    <file name="u1716.png" crc="216263165" ref="old-home"/>
+    <file name="u1716_2x.png" crc="4210370473" ref="old-home"/>
+    <file name="img_6481-buttonu1725-fr.png" crc="4148407074" ref="old-home"/>
+    <file name="img_6481-buttonu1725-fr_2x.png" crc="254456229" ref="old-home"/>
+    <file name="img_6481.jpg" crc="150532674" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="img_6481_2x.jpg" crc="8202613" ref="index">
+    <file name="img_6481_2x.jpg" crc="479764394" ref="old-home">
       <caption webpage="index" alt=""/>
+      <caption webpage="old-home" alt=""/>
     </file>
-    <file name="9824-mail-symbol-buttonu2645-fr.png" crc="3929452055" ref="index"/>
-    <file name="9824-mail-symbol-buttonu2645-fr_2x.png" crc="91576186" ref="index"/>
-    <file name="9824-mail-symbol-buttonu2645-r-fr.png" crc="204473867" ref="index"/>
-    <file name="9824-mail-symbol-buttonu2645-r-fr_2x.png" crc="518063777" ref="index"/>
-    <file name="img_6481-u1773-fr.png" crc="3789499642" ref="current-projects"/>
-    <file name="ynct.jpg" crc="195983718" ref="current-projects">
+    <file name="9824-mail-symbol-buttonu2645-fr.png" crc="3929452055" ref="index:old-home"/>
+    <file name="9824-mail-symbol-buttonu2645-fr_2x.png" crc="91576186" ref="index:old-home"/>
+    <file name="9824-mail-symbol-buttonu2645-r-fr.png" crc="204473867" ref="index:old-home"/>
+    <file name="9824-mail-symbol-buttonu2645-r-fr_2x.png" crc="518063777" ref="index:old-home"/>
+    <file name="ynct.jpg" crc="195983718" ref="index">
       <caption webpage="current-projects" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="ynct_2x.jpg" crc="4202971795" ref="current-projects">
+    <file name="ynct_2x.jpg" crc="4202971795" ref="index">
       <caption webpage="current-projects" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acting-button-bg-buttonu3141-fr.png" crc="3919329422" ref="index"/>
+    <file name="acting-button-bg.jpg" crc="474483285" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4125-buttonu3132-fr.png" crc="21860874" ref="index"/>
+    <file name="img_4125-buttonu3132-fr_2x.png" crc="3795205211" ref="index"/>
+    <file name="img_4125-buttonu3132-r-fr.jpg" crc="4052195125" ref="index"/>
+    <file name="img_4125-buttonu3132-r-fr_2x.jpg" crc="477264839" ref="index"/>
+    <file name="13987422_1187262177982245_2531262756341879139_o.jpg" crc="97603111" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="13987422_1187262177982245_2531262756341879139_o_2x.jpg" crc="333609020" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3149.png" crc="3786258027" ref="index"/>
+    <file name="u3149_2x.png" crc="177263449" ref="index"/>
+    <file name="u3143.png" crc="4190535926" ref="index"/>
+    <file name="u3143_2x.png" crc="283316167" ref="index"/>
+    <file name="u3180.png" crc="4190535926" ref="index"/>
+    <file name="u3180_2x.png" crc="283316167" ref="index"/>
+    <file name="u3183.png" crc="4190535926" ref="index"/>
+    <file name="u3183_2x.png" crc="283316167" ref="index"/>
+    <file name="u3186.png" crc="4190535926" ref="index"/>
+    <file name="u3186_2x.png" crc="283316167" ref="index"/>
+    <file name="u3211.png" crc="148444640" ref="index"/>
+    <file name="u3211_2x.png" crc="47874517" ref="index"/>
+    <file name="gavin-s pod-tisserie small.jpg" crc="40862575" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="gavin-s pod-tisserie small_2x.jpg" crc="4154264980" ref="index">
+      <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="home.html" crc="4280989443" seo="true" mt="1502993643450" redirect="true"/>
-  <file name="acting.html" crc="3829596382" seo="true" mt="1502993643450" redirect="true"/>
-  <file name="design.html" crc="418335061" seo="true" mt="1502993643450" redirect="true"/>
-  <file name="stage-management.html" crc="352018325" seo="true" mt="1502993643450" redirect="true"/>
-  <file name="index.html" crc="3799878988" seo="true" mt="1502993696943" redirect="true"/>
-  <file name="current-projects.html" crc="4115672029" seo="true" mt="1502993643450" redirect="true"/>
-  <file name="contact.html" crc="4196798108" seo="true" mt="1502993643454" redirect="true"/>
-  <file name="contact-old.html" crc="4142235101" seo="true" mt="1502993643450" redirect="true"/>
+  <file name="acting.html" crc="496051564" seo="true" mt="1503024881981" redirect="true"/>
+  <file name="design.html" crc="4064404924" seo="true" mt="1503024881981" redirect="true"/>
+  <file name="stage-management.html" crc="329487263" seo="true" mt="1503024881981" redirect="true"/>
+  <file name="index.html" crc="4251989712" seo="true" mt="1503024882005" redirect="true"/>
+  <file name="contact.html" crc="3861941083" seo="true" mt="1503024881981" redirect="true"/>
+  <file name="old-home.html" crc="4032599308" seo="true" mt="1503024904677" redirect="true"/>
 </manifest>
