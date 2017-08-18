@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1503024920771">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1503025290169">
   <folder name="css">
     <file name="site_global.css" crc="4187843509"/>
     <file name="master_page-master.css" crc="157677510" ref="acting:contact:design:stage-management"/>
@@ -33,30 +33,30 @@
     <file name="touchswipe.js" crc="4200445185" ref="acting"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="acting"/>
+    <file name="favicon.ico" crc="3818145440" ref="acting:contact"/>
     <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="acting:design:stage-management:index:contact:old-home">
       <caption webpage="current-projects" alt=""/>
       <caption webpage="contact-old" alt=""/>
-      <caption webpage="old-home" alt=""/>
-      <caption webpage="home" alt=""/>
+      <caption webpage="contact-test" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="old-home" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="acting" alt=""/>
       <caption webpage="stage-management" alt=""/>
-      <caption webpage="contact-test" alt=""/>
+      <caption webpage="home" alt=""/>
     </file>
     <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="acting:design:stage-management:index:contact:old-home">
       <caption webpage="current-projects" alt=""/>
       <caption webpage="contact-old" alt=""/>
-      <caption webpage="old-home" alt=""/>
-      <caption webpage="home" alt=""/>
+      <caption webpage="contact-test" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="old-home" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="acting" alt=""/>
       <caption webpage="stage-management" alt=""/>
-      <caption webpage="contact-test" alt=""/>
+      <caption webpage="home" alt=""/>
     </file>
     <file name="screen shot 2013-12-24 at 103243 pm-u776-fr.jpg" crc="519944590" ref="acting"/>
     <file name="kinsmen.jpg" crc="4244328342" ref="acting">
@@ -282,6 +282,6 @@
   <file name="design.html" crc="4064404924" seo="true" mt="1503024881981" redirect="true"/>
   <file name="stage-management.html" crc="329487263" seo="true" mt="1503024881981" redirect="true"/>
   <file name="index.html" crc="4251989712" seo="true" mt="1503024882005" redirect="true"/>
-  <file name="contact.html" crc="3861941083" seo="true" mt="1503024881981" redirect="true"/>
+  <file name="contact.html" crc="182040805" seo="true" mt="1503025161997" redirect="true"/>
   <file name="old-home.html" crc="4032599308" seo="true" mt="1503024904677" redirect="true"/>
 </manifest>
