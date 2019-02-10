@@ -1,13 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1549305178117">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1549826124378">
   <folder name="css">
     <file name="site_global.css" crc="4238529044"/>
-    <file name="master_page-master.css" crc="4232869481" ref="design:acting:contact:stage-management:media"/>
-    <file name="design.css" crc="4107335953" ref="design"/>
-    <file name="acting.css" crc="483810088" ref="acting"/>
-    <file name="index.css" crc="4240068754" ref="index"/>
-    <file name="contact.css" crc="132595372" ref="contact"/>
-    <file name="stage-management.css" crc="4061165862" ref="stage-management"/>
-    <file name="media.css" crc="3929130900" ref="media"/>
+    <file name="master_page-master.css" crc="52927637" ref="design:acting:contact:stage-management"/>
+    <file name="design.css" crc="3838561803" ref="design"/>
+    <file name="acting.css" crc="45635758" ref="acting"/>
+    <file name="index.css" crc="492066482" ref="index"/>
+    <file name="contact.css" crc="521284213" ref="contact"/>
+    <file name="stage-management.css" crc="3911529492" ref="stage-management"/>
   </folder>
   <folder name="assets">
     <file name="acting-final.mp4" crc="507501179" seo="true" mt="1435877564000"/>
@@ -17,23 +16,23 @@
     <file name="sm-resume.pdf" crc="478262801" seo="true" mt="1502777922000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="museutils.js" crc="340535759" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="whatinput.js" crc="86476730" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="museconfig.js" crc="4286661555" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="acting:design:stage-management:contact:media"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="acting:design:stage-management:index:contact"/>
+    <file name="museutils.js" crc="340535759" ref="acting:design:stage-management:index:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="acting:design:stage-management:index:contact"/>
+    <file name="museconfig.js" crc="4286661555" ref="acting:design:stage-management:index:contact"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="acting:design:stage-management:contact"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="acting:design:stage-management:index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="acting:design:stage-management:index:contact:media"/>
+    <file name="jquery.watch.js" crc="51536988" ref="acting:design:stage-management:index:contact"/>
     <file name="webpro.js" crc="4059564322" ref="acting"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="acting"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="acting"/>
     <file name="touchswipe.js" crc="4075097462" ref="acting"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="html5shiv.js" crc="4241844378" ref="acting:design:stage-management:index:contact:media"/>
-    <file name="require.js" crc="7928878" ref="acting:design:stage-management:index:contact:media"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="acting:design:stage-management:index:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="acting:design:stage-management:index:contact"/>
+    <file name="require.js" crc="7928878" ref="acting:design:stage-management:index:contact"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="acting"/>
+    <file name="favicon.ico" crc="3818145440" ref="acting:stage-management"/>
     <file name="acting banner.jpg" crc="4168972178" ref="acting">
       <caption webpage="acting" alt="Photo by Todd Collins Costumed by Kersten Davis Set by Kyle Becker Lighting by Martin Alcocer"/>
     </file>
@@ -85,21 +84,21 @@
     <file name="cat-in-the-hat_2x.png" crc="3857644284" ref="acting">
       <caption webpage="acting" alt=""/>
     </file>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="acting:design:stage-management:index:contact:media">
+    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="acting:design:stage-management:index:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="media" alt=""/>
-      <caption webpage="acting" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="stage-management" alt=""/>
+      <caption webpage="acting" alt=""/>
+      <caption webpage="media" alt=""/>
     </file>
-    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="acting:design:stage-management:index:contact:media">
+    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="acting:design:stage-management:index:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="media" alt=""/>
-      <caption webpage="acting" alt=""/>
       <caption webpage="design" alt=""/>
       <caption webpage="stage-management" alt=""/>
+      <caption webpage="acting" alt=""/>
+      <caption webpage="media" alt=""/>
     </file>
     <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design">
       <caption webpage="design" alt=""/>
@@ -132,9 +131,11 @@
       <caption webpage="design" alt=""/>
     </file>
     <file name="1264238_10151892856707518_1140904651_o.jpg" crc="4207155587" ref="design:stage-management">
+      <caption webpage="stage-management" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
     <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="design:stage-management">
+      <caption webpage="stage-management" alt=""/>
       <caption webpage="design" alt=""/>
     </file>
     <file name="diary thumb.jpg" crc="65981937" ref="design">
@@ -251,12 +252,6 @@
     <file name="u3186_2x.png" crc="283316167" ref="index"/>
     <file name="u3211.png" crc="148444640" ref="index"/>
     <file name="u3211_2x.png" crc="47874517" ref="index"/>
-    <file name="gavin-s pod-tisserie small.jpg" crc="40862575" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gavin-s pod-tisserie small_2x.jpg" crc="4154264980" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="acting button-buttonu3141-fr.png" crc="417884920" ref="index"/>
     <file name="acting button-buttonu3141-fr_2x.png" crc="390313512" ref="index"/>
     <file name="acting button.jpg" crc="4146204532" ref="index">
@@ -273,11 +268,16 @@
     </file>
     <file name="screen shot 2018-12-20 at 91908 am-u3593-fr.jpg" crc="437572814" ref="index"/>
     <file name="screen shot 2018-12-20 at 91908 am-u3593-fr_2x.jpg" crc="4128803130" ref="index"/>
+    <file name="lacage.jpg" crc="3774062371" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lacage_2x.jpg" crc="3924502603" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="acting.html" crc="4075887586" seo="true" mt="1549304939754" redirect="true"/>
-  <file name="design.html" crc="174179090" seo="true" mt="1545321534201" redirect="true"/>
-  <file name="stage-management.html" crc="4212714510" seo="true" mt="1549305142491" redirect="true"/>
-  <file name="index.html" crc="381722267" seo="true" mt="1549305167621" redirect="true"/>
-  <file name="contact.html" crc="141949769" seo="true" mt="1545321135436" redirect="true"/>
-  <file name="media.html" crc="3773289532" seo="true" mt="1545321135436" redirect="true"/>
+  <file name="acting.html" crc="527683722" seo="true" mt="1549825305732" redirect="true"/>
+  <file name="design.html" crc="406951340" seo="true" mt="1549825305732" redirect="true"/>
+  <file name="stage-management.html" crc="4113393643" seo="true" mt="1549826089495" redirect="true"/>
+  <file name="index.html" crc="4169436845" seo="true" mt="1549825846671" redirect="true"/>
+  <file name="contact.html" crc="452424573" seo="true" mt="1549825305732" redirect="true"/>
 </manifest>

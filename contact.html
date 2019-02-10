@@ -17,8 +17,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Contact</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4238529044"/>
-  <link rel="stylesheet" type="text/css" href="css/master_page-master.css?crc=4232869481"/>
-  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=132595372" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_page-master.css?crc=52927637"/>
+  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=521284213" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
@@ -94,9 +94,6 @@ button {
     <div class="MenuItemContainer clearfix grpelem" id="u175"><!-- vertical box -->
      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u176" href="design.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u178-4"><!-- content --><p>Design</p></div></a>
     </div>
-    <div class="MenuItemContainer clearfix grpelem" id="u3544"><!-- vertical box -->
-     <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u3547" href="media.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3548-4"><!-- content --><p>Media</p></div></a>
-    </div>
     <div class="MenuItemContainer clearfix grpelem" id="u3330"><!-- vertical box -->
      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u3333" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3334-4"><!-- content --><p>Contact</p></div></a>
     </div>
@@ -122,7 +119,7 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('.html').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.8]},{"in":[0,Infinity],"speed":[0,0.8]}]);/* scroll effect */
+$('.html').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
