@@ -1,283 +1,362 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1549826124378">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="www.gavinyehle.com" resolutions="1x,2x" timestamp="1567557139495">
   <folder name="css">
     <file name="site_global.css" crc="4238529044"/>
-    <file name="master_page-master.css" crc="52927637" ref="design:acting:contact:stage-management"/>
-    <file name="design.css" crc="3838561803" ref="design"/>
-    <file name="acting.css" crc="45635758" ref="acting"/>
-    <file name="index.css" crc="492066482" ref="index"/>
-    <file name="contact.css" crc="521284213" ref="contact"/>
-    <file name="stage-management.css" crc="3911529492" ref="stage-management"/>
+    <file name="index.css" crc="4267741484" ref="index"/>
+    <file name="master_sm-master.css" crc="303450358" ref="sm---photos:acting---resume:sm---contact:design---media:design---resume:sm---resume:acting---photos:index"/>
+    <file name="nomq_preview_master_sm-master.css" crc="3776317844" ref="sm---photos:acting---resume:sm---contact:design---media:design---resume:sm---resume:acting---photos:index"/>
+    <file name="sm---photos.css" crc="488462297" ref="sm---photos"/>
+    <file name="nomq_sm---photos.css" crc="4191774891" ref="sm---photos"/>
+    <file name="acting---resume.css" crc="153467474" ref="acting---resume"/>
+    <file name="nomq_acting---resume.css" crc="240236129" ref="acting---resume"/>
+    <file name="sm---contact.css" crc="350458501" ref="sm---contact"/>
+    <file name="nomq_sm---contact.css" crc="4237664135" ref="sm---contact"/>
+    <file name="design---media.css" crc="3772323893" ref="design---media"/>
+    <file name="nomq_design---media.css" crc="126595454" ref="design---media"/>
+    <file name="design---resume.css" crc="319456193" ref="design---resume"/>
+    <file name="nomq_design---resume.css" crc="3970014109" ref="design---resume"/>
+    <file name="sm---resume.css" crc="310006919" ref="sm---resume"/>
+    <file name="nomq_sm---resume.css" crc="326274401" ref="sm---resume"/>
+    <file name="acting---photos.css" crc="100759179" ref="acting---photos"/>
+    <file name="nomq_acting---photos.css" crc="4119078635" ref="acting---photos"/>
+    <file name="nomq_index.css" crc="4147989088" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="acting-final.mp4" crc="507501179" seo="true" mt="1435877564000"/>
-    <file name="tall-tales-promo.mp4" crc="135133978" seo="true" mt="1439786027000"/>
-    <file name="alice-vs.-wonderland-trailer.mp4" crc="130842097" seo="true" mt="1441612270000"/>
     <file name="resume.pdf" crc="218978833" seo="true" mt="1502772657000"/>
     <file name="sm-resume.pdf" crc="478262801" seo="true" mt="1502777922000"/>
+    <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
+    <file name="ynct1.mp3" crc="4274239094" seo="true" mt="1565921546000"/>
+    <file name="funfair_3_short.mp3" crc="4151589335" seo="true" mt="1508817516000"/>
+    <file name="3sisters.mp3" crc="4124754246" seo="true" mt="1565914408000"/>
+    <file name="opening---station.mp3" crc="4292007188" seo="true" mt="1565932961000"/>
+    <file name="design-resume.pdf" crc="487707116" seo="true" mt="1567556421000"/>
+    <file name="sm-resume2.pdf" crc="396667172" seo="true" mt="1567556639000"/>
+    <file name="resume2.pdf" crc="218978833" seo="true" mt="1502772657000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="acting:design:stage-management:index:contact"/>
-    <file name="museutils.js" crc="340535759" ref="acting:design:stage-management:index:contact"/>
-    <file name="whatinput.js" crc="86476730" ref="acting:design:stage-management:index:contact"/>
-    <file name="museconfig.js" crc="4286661555" ref="acting:design:stage-management:index:contact"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="acting:design:stage-management:contact"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="acting:design:stage-management:index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="acting:design:stage-management:index:contact"/>
-    <file name="webpro.js" crc="4059564322" ref="acting"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="acting"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="acting"/>
-    <file name="touchswipe.js" crc="4075097462" ref="acting"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="acting:design:stage-management:index:contact"/>
-    <file name="html5shiv.js" crc="4241844378" ref="acting:design:stage-management:index:contact"/>
-    <file name="require.js" crc="7928878" ref="acting:design:stage-management:index:contact"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="museutils.js" crc="340535759" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="whatinput.js" crc="86476730" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="sm---photos:acting---photos:design---media"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="require.js" crc="7928878" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="acting:stage-management"/>
-    <file name="acting banner.jpg" crc="4168972178" ref="acting">
-      <caption webpage="acting" alt="Photo by Todd Collins Costumed by Kersten Davis Set by Kyle Becker Lighting by Martin Alcocer"/>
-    </file>
-    <file name="acting banner_2x.jpg" crc="259230942" ref="acting">
-      <caption webpage="acting" alt="Photo by Todd Collins Costumed by Kersten Davis Set by Kyle Becker Lighting by Martin Alcocer"/>
-    </file>
-    <file name="thing undone.jpg" crc="3572736" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="thing undone_2x.jpg" crc="3995286809" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="ourcountrysgood.jpg" crc="4103299476" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="ourcountrysgood_2x.jpg" crc="304800319" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="ynct.png" crc="40377164" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="ynct_2x.png" crc="4151390266" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="kinsmen.jpg" crc="4244328342" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="kinsmen_2x.jpg" crc="4057633910" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="arcadiasquare-1.jpg" crc="4015213334" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="acting final 2015 thumb.jpg" crc="3870942773" seo="true" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="alice thumb.jpg" crc="117281722" seo="true" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="thumbelina thumb.jpg" crc="205516705" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="thumbelina thumb_2x.jpg" crc="122418451" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="cat-in-the-hat.png" crc="212354895" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="cat-in-the-hat_2x.png" crc="3857644284" ref="acting">
-      <caption webpage="acting" alt=""/>
-    </file>
-    <file name="webtreats_wood-pattern5-1024_2x.jpg" crc="114796107" ref="acting:design:stage-management:index:contact">
-      <caption webpage="index" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="stage-management" alt=""/>
-      <caption webpage="acting" alt=""/>
-      <caption webpage="media" alt=""/>
-    </file>
-    <file name="webtreats_wood-pattern5-1024_2x_2x.jpg" crc="332803982" ref="acting:design:stage-management:index:contact">
-      <caption webpage="index" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="design" alt=""/>
-      <caption webpage="stage-management" alt=""/>
-      <caption webpage="acting" alt=""/>
-      <caption webpage="media" alt=""/>
-    </file>
-    <file name="diaryofawormset designleft.jpg" crc="225549255" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="satvoyeur2017.jpg" crc="3945202457" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="satvoyeur2017_2x.jpg" crc="58545253" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="harbur-gate.jpg" crc="4203652417" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="harbur-gate_2x.jpg" crc="527192195" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="bringitonsquare-1.jpg" crc="3816661493" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="american idiot thumb.jpg" crc="410919583" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="american idiot thumb_2x.jpg" crc="4171671606" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="forum thumb.jpg" crc="4197774415" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="forum thumb_2x.jpg" crc="3898185981" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="1264238_10151892856707518_1140904651_o.jpg" crc="4207155587" ref="design:stage-management">
-      <caption webpage="stage-management" alt=""/>
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="1264238_10151892856707518_1140904651_o_2x.jpg" crc="3954081208" ref="design:stage-management">
-      <caption webpage="stage-management" alt=""/>
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="diary thumb.jpg" crc="65981937" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="diary thumb_2x.jpg" crc="100813622" ref="design">
-      <caption webpage="design" alt=""/>
-    </file>
-    <file name="img_4126.jpg" crc="3802999528" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="caesar banner.png" crc="88814488" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="caesar banner_2x.png" crc="3904819065" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="wonderettes.jpg" crc="250368582" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="wonderettes_2x.jpg" crc="3987992806" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="thebeautifulgame.jpg" crc="234892216" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="thebeautifulgame_2x.jpg" crc="407361851" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="amahl.jpg" crc="218094626" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="amahl_2x.jpg" crc="4724502" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="fringe16.jpg" crc="380628948" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="fringe16_2x.jpg" crc="228122127" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="13745189_162387724184972_482072940_a.jpg" crc="3908078449" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="importance-earnest.jpg" crc="120847490" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="importance-earnest_2x.jpg" crc="177686173" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="miss-nelson.jpg" crc="485093514" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="miss-nelson_2x.jpg" crc="3905324539" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="invisibles.jpg" crc="365435279" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="invisibles_2x.jpg" crc="17131264" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="greenshow.jpg" crc="464780673" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="greenshow_2x.jpg" crc="9489567" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="screen shot 2015-08-16 at 101348 pm.jpg" crc="138562534" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="screen shot 2015-08-16 at 101348 pm_2x.jpg" crc="151271800" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="tall tales.jpg" crc="29437414" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="tall tales_2x.jpg" crc="284055631" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="big bad thumb.jpg" crc="3995333308" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="big bad thumb_2x.jpg" crc="167624850" ref="stage-management">
-      <caption webpage="stage-management" alt=""/>
-    </file>
-    <file name="img_4125-buttonu3132-fr.png" crc="3957759058" ref="index"/>
-    <file name="img_4125-buttonu3132-fr_2x.png" crc="4081365891" ref="index"/>
-    <file name="img_4125-buttonu3132-r-fr.jpg" crc="4122139866" ref="index"/>
-    <file name="img_4125-buttonu3132-r-fr_2x.jpg" crc="4075004482" ref="index"/>
-    <file name="13987422_1187262177982245_2531262756341879139_o.jpg" crc="97603111" ref="index">
+    <file name="favicon.ico" crc="3818145440" ref="index"/>
+    <file name="img_9188-crop-u4490.jpg" crc="288504598" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="13987422_1187262177982245_2531262756341879139_o_2x.jpg" crc="333609020" ref="index">
+    <file name="img_9188-crop-u4490_2x.jpg" crc="229415945" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u3149.png" crc="3786258027" ref="index"/>
-    <file name="u3149_2x.png" crc="177263449" ref="index"/>
-    <file name="u3143.png" crc="4190535926" ref="index"/>
-    <file name="u3143_2x.png" crc="283316167" ref="index"/>
-    <file name="diary set-buttonu3135-fr.png" crc="346418238" ref="index"/>
-    <file name="diary set-buttonu3135-fr_2x.png" crc="23837767" ref="index"/>
-    <file name="diary set-buttonu3135-r-fr.png" crc="25770433" ref="index"/>
-    <file name="diary set-buttonu3135-r-fr_2x.png" crc="154406587" ref="index"/>
-    <file name="9824-mail-symbol-buttonu3139-fr.png" crc="3929452055" ref="index"/>
-    <file name="9824-mail-symbol-buttonu3139-fr_2x.png" crc="91576186" ref="index"/>
-    <file name="9824-mail-symbol-buttonu3139-r-fr.png" crc="204473867" ref="index"/>
-    <file name="9824-mail-symbol-buttonu3139-r-fr_2x.png" crc="518063777" ref="index"/>
-    <file name="u3180.png" crc="4190535926" ref="index"/>
-    <file name="u3180_2x.png" crc="283316167" ref="index"/>
-    <file name="u3183.png" crc="4190535926" ref="index"/>
-    <file name="u3183_2x.png" crc="283316167" ref="index"/>
-    <file name="u3186.png" crc="4190535926" ref="index"/>
-    <file name="u3186_2x.png" crc="283316167" ref="index"/>
-    <file name="u3211.png" crc="148444640" ref="index"/>
-    <file name="u3211_2x.png" crc="47874517" ref="index"/>
-    <file name="acting button-buttonu3141-fr.png" crc="417884920" ref="index"/>
-    <file name="acting button-buttonu3141-fr_2x.png" crc="390313512" ref="index"/>
-    <file name="acting button.jpg" crc="4146204532" ref="index">
+    <file name="img_9188-crop-u44902.jpg" crc="266301399" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="acting button_2x.jpg" crc="285165656" ref="index">
+    <file name="img_9188-crop-u4490_2x2.jpg" crc="366121139" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="download-1.jpg" crc="262796316" ref="index">
+    <file name="img_9188-crop-u4526.jpg" crc="4282149951" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="download-1_2x.jpg" crc="4074052275" ref="index">
+    <file name="img_9188-crop-u4526_2x.jpg" crc="4122699567" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="screen shot 2018-12-20 at 91908 am-u3593-fr.jpg" crc="437572814" ref="index"/>
-    <file name="screen shot 2018-12-20 at 91908 am-u3593-fr_2x.jpg" crc="4128803130" ref="index"/>
-    <file name="lacage.jpg" crc="3774062371" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="blank.gif" crc="4208392903" ref="index:sm---resume:sm---photos:sm---contact:acting---photos:design---media:acting---resume:design---resume"/>
+    <file name="sm resume.jpg" crc="49341365" seo="true" ref="sm---resume">
+      <caption webpage="sm---resume" alt=""/>
     </file>
-    <file name="lacage_2x.jpg" crc="3924502603" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="sm resume459x554.jpg" crc="266971636" seo="true" ref="sm---resume">
+      <caption webpage="sm---resume" alt=""/>
+    </file>
+    <file name="sm resume291x352.jpg" crc="168505461" seo="true" ref="sm---resume">
+      <caption webpage="sm---resume" alt=""/>
+    </file>
+    <file name="lacage-u5542-10-fr.jpg" crc="3780817110" ref="sm---photos"/>
+    <file name="lacage-u5542-10-r-fr.png" crc="11263932" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-fr.jpg" crc="432530951" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-fr_2x.jpg" crc="394948813" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-r-fr.png" crc="4016951324" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-r-fr_2x.png" crc="396358802" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-fr.jpg" crc="3922609745" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-fr_2x.jpg" crc="4244390609" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-r-fr.png" crc="396413151" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-r-fr_2x.png" crc="387586108" ref="sm---photos"/>
+    <file name="carol3-u5543-10-fr.jpg" crc="10864515" ref="sm---photos"/>
+    <file name="carol3-u5543-10-r-fr.png" crc="257238314" ref="sm---photos"/>
+    <file name="caesar-u5539-10-fr.jpg" crc="156994917" ref="sm---photos"/>
+    <file name="caesar-u5539-10-fr_2x.jpg" crc="133648231" ref="sm---photos"/>
+    <file name="caesar-u5539-10-r-fr.png" crc="4269054295" ref="sm---photos"/>
+    <file name="caesar-u5539-10-r-fr_2x.png" crc="332105412" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-fr.jpg" crc="256942948" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-fr_2x.jpg" crc="4235466218" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-r-fr.png" crc="459453157" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-r-fr_2x.png" crc="293444703" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-fr.jpg" crc="468954543" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-fr_2x.jpg" crc="3834288699" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-r-fr.png" crc="264775676" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-r-fr_2x.png" crc="395287175" ref="sm---photos"/>
+    <file name="gatt-u5541-10-fr.jpg" crc="4185453714" ref="sm---photos"/>
+    <file name="gatt-u5541-10-r-fr.png" crc="4138876870" ref="sm---photos"/>
+    <file name="lacage-u5542-10-fr2.jpg" crc="4242265863" ref="sm---photos"/>
+    <file name="lacage-u5542-10-r-fr2.png" crc="3955047824" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-fr2.jpg" crc="4287826784" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-fr_2x2.jpg" crc="4204040515" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-r-fr2.png" crc="120589758" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5537-10-r-fr_2x2.png" crc="3990551134" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-fr2.jpg" crc="4033970614" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-fr_2x2.jpg" crc="347481448" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-r-fr2.png" crc="3799663886" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5538-10-r-fr_2x2.png" crc="471849754" ref="sm---photos"/>
+    <file name="carol3-u5543-10-fr2.jpg" crc="320142429" ref="sm---photos"/>
+    <file name="carol3-u5543-10-r-fr2.png" crc="3993635135" ref="sm---photos"/>
+    <file name="caesar-u5539-10-fr2.jpg" crc="240230969" ref="sm---photos"/>
+    <file name="caesar-u5539-10-fr_2x2.jpg" crc="4201075817" ref="sm---photos"/>
+    <file name="caesar-u5539-10-r-fr2.png" crc="3894084678" ref="sm---photos"/>
+    <file name="caesar-u5539-10-r-fr_2x2.png" crc="4087436370" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-fr2.jpg" crc="226118462" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-fr_2x2.jpg" crc="4130532828" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-r-fr2.png" crc="343715132" ref="sm---photos"/>
+    <file name="tbg071-u5544-10-r-fr_2x2.png" crc="3833216672" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-fr2.jpg" crc="3788969892" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-fr_2x2.jpg" crc="3810932994" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-r-fr2.png" crc="4229012525" ref="sm---photos"/>
+    <file name="ibe367-u5540-10-r-fr_2x2.png" crc="119384242" ref="sm---photos"/>
+    <file name="gatt-u5541-10-fr2.jpg" crc="191432018" ref="sm---photos"/>
+    <file name="gatt-u5541-10-r-fr2.png" crc="167262960" ref="sm---photos"/>
+    <file name="lacage-u5697-9-fr.jpg" crc="242945908" ref="sm---photos"/>
+    <file name="lacage-u5697-9-r-fr.png" crc="123179550" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5691-9-fr.jpg" crc="4195984323" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5691-9-fr_2x.jpg" crc="3809717999" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5691-9-r-fr.png" crc="422082762" ref="sm---photos"/>
+    <file name="company archive by todd collins 1942 edit-u5691-9-r-fr_2x.png" crc="3815836583" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5692-9-fr.jpg" crc="44957135" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5692-9-fr_2x.jpg" crc="4022048304" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5692-9-r-fr.png" crc="3993868215" ref="sm---photos"/>
+    <file name="company archive by todd collins 216 edit-u5692-9-r-fr_2x.png" crc="3805083874" ref="sm---photos"/>
+    <file name="carol3-u5698-9-fr.jpg" crc="4118423762" ref="sm---photos"/>
+    <file name="carol3-u5698-9-r-fr.png" crc="3902532958" ref="sm---photos"/>
+    <file name="caesar-u5693-9-fr.jpg" crc="4261750116" ref="sm---photos"/>
+    <file name="caesar-u5693-9-fr_2x.jpg" crc="3819712472" ref="sm---photos"/>
+    <file name="caesar-u5693-9-r-fr.png" crc="157674530" ref="sm---photos"/>
+    <file name="caesar-u5693-9-r-fr_2x.png" crc="4275170579" ref="sm---photos"/>
+    <file name="tbg071-u5694-9-fr.jpg" crc="87763865" ref="sm---photos"/>
+    <file name="tbg071-u5694-9-fr_2x.jpg" crc="4265848749" ref="sm---photos"/>
+    <file name="tbg071-u5694-9-r-fr.png" crc="341181865" ref="sm---photos"/>
+    <file name="tbg071-u5694-9-r-fr_2x.png" crc="4283980945" ref="sm---photos"/>
+    <file name="ibe367-u5695-9-fr.jpg" crc="496005628" ref="sm---photos"/>
+    <file name="ibe367-u5695-9-fr_2x.jpg" crc="105888010" ref="sm---photos"/>
+    <file name="ibe367-u5695-9-r-fr.png" crc="151942266" ref="sm---photos"/>
+    <file name="ibe367-u5695-9-r-fr_2x.png" crc="62090177" ref="sm---photos"/>
+    <file name="gatt-u5696-9-fr.jpg" crc="4024218272" ref="sm---photos"/>
+    <file name="gatt-u5696-9-r-fr.png" crc="3838419395" ref="sm---photos"/>
+    <file name="our country-s good preview 943 edit-u6120-10-fr.jpg" crc="499466701" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6120-10-fr_2x.jpg" crc="170608505" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6120-10-r-fr.png" crc="4022414009" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6120-10-r-fr_2x.png" crc="402483012" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6127-10-fr.jpg" crc="287473091" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6127-10-fr_2x.jpg" crc="80140603" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6127-10-r-fr.png" crc="248577146" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6127-10-r-fr_2x.png" crc="49179872" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6130-10-fr.jpg" crc="4264109778" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6130-10-fr_2x.jpg" crc="3802820743" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6130-10-r-fr.png" crc="67143527" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6130-10-r-fr_2x.png" crc="4133126942" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6121-10-fr.jpg" crc="3877477989" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6121-10-fr_2x.jpg" crc="4168277337" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6121-10-r-fr.png" crc="188881208" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6121-10-r-fr_2x.png" crc="438027491" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6132-10-fr.jpg" crc="353535632" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6132-10-fr_2x.jpg" crc="4219199953" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6132-10-r-fr.png" crc="3816642681" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6132-10-r-fr_2x.png" crc="4079439832" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6131-10-fr.jpg" crc="17527273" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6131-10-fr_2x.jpg" crc="4089862193" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6131-10-r-fr.png" crc="499238032" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6131-10-r-fr_2x.png" crc="20947603" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit.jpg" crc="3925568021" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Our Country's Good University of Utah Babcock Theatre, 2018"/>
+    </file>
+    <file name="our country-s good preview 943 edit_2x.jpg" crc="238331774" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Our Country's Good University of Utah Babcock Theatre, 2018"/>
+    </file>
+    <file name="our country-s good preview 943 edit-u6120-10-r-fr2.png" crc="4260599292" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit.jpg" crc="4002135980" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Company University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="our country-s good preview 512 edit_2x.jpg" crc="3934851245" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Company University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="our country-s good preview 512 edit-u6127-10-r-fr2.png" crc="333297802" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit.jpg" crc="3890297239" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" You Never Can Tell University of Utah Babcock Theatre, 2017"/>
+    </file>
+    <file name="you never can tell preview night 557 edit_2x.jpg" crc="3796059675" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" You Never Can Tell University of Utah Babcock Theatre, 2017"/>
+    </file>
+    <file name="you never can tell preview night 557 edit-u6130-10-r-fr2.png" crc="220436529" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit.jpg" crc="4105437815" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" The Two Noble Kinsmen University of Utah Babcock Theatre, 2017"/>
+    </file>
+    <file name="the two noble kinsman preview night (313) edit_2x.jpg" crc="395209578" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" The Two Noble Kinsmen University of Utah Babcock Theatre, 2017"/>
+    </file>
+    <file name="the two noble kinsman preview night (313) edit-u6121-10-r-fr2.png" crc="235980465" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit.jpg" crc="248660510" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Arcadia University of Utah Babcock Theatre, 2016"/>
+    </file>
+    <file name="arcadia preview 428 edit_2x.jpg" crc="88821823" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Arcadia University of Utah Babcock Theatre, 2016"/>
+    </file>
+    <file name="arcadia preview 428 edit-u6132-10-r-fr2.png" crc="455822093" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit.jpg" crc="430342756" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Arcadia University of Utah Babcock Theatre, 2016"/>
+    </file>
+    <file name="arcadia preview 744 edit_2x.jpg" crc="458445291" ref="acting---photos">
+      <caption webpage="acting---photos" alt=" Arcadia University of Utah Babcock Theatre, 2016"/>
+    </file>
+    <file name="arcadia preview 744 edit-u6131-10-r-fr2.png" crc="3963017095" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6125-9-fr.jpg" crc="3764951890" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6125-9-fr_2x.jpg" crc="267268280" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6125-9-r-fr.png" crc="148815677" ref="acting---photos"/>
+    <file name="our country-s good preview 943 edit-u6125-9-r-fr_2x.png" crc="24712343" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6123-9-fr.jpg" crc="3838754608" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6123-9-fr_2x.jpg" crc="3993839533" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6123-9-r-fr.png" crc="3980918799" ref="acting---photos"/>
+    <file name="our country-s good preview 512 edit-u6123-9-r-fr_2x.png" crc="506192531" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6126-9-fr.jpg" crc="9590296" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6126-9-fr_2x.jpg" crc="393949872" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6126-9-r-fr.png" crc="4045519029" ref="acting---photos"/>
+    <file name="you never can tell preview night 557 edit-u6126-9-r-fr_2x.png" crc="4189226887" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6118-9-fr.jpg" crc="4125248038" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6118-9-fr_2x.jpg" crc="3921281284" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6118-9-r-fr.png" crc="3842278990" ref="acting---photos"/>
+    <file name="the two noble kinsman preview night (313) edit-u6118-9-r-fr_2x.png" crc="18867711" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6124-9-fr.jpg" crc="216563665" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6124-9-fr_2x.jpg" crc="4043687431" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6124-9-r-fr.png" crc="436454012" ref="acting---photos"/>
+    <file name="arcadia preview 428 edit-u6124-9-r-fr_2x.png" crc="184811835" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6128-9-fr.jpg" crc="4286926525" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6128-9-fr_2x.jpg" crc="482933448" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6128-9-r-fr.png" crc="4031485260" ref="acting---photos"/>
+    <file name="arcadia preview 744 edit-u6128-9-r-fr_2x.png" crc="204401398" ref="acting---photos"/>
+    <file name="the rivals archive 2004 edit-u6188-10-fr.jpg" crc="4007648302" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6188-10-fr_2x.jpg" crc="3996687940" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6188-10-r-fr.png" crc="4151423159" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6188-10-r-fr_2x.png" crc="4034966484" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6198-10-fr.jpg" crc="4046605940" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6198-10-fr_2x.jpg" crc="4093663870" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6198-10-r-fr.png" crc="188078820" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6198-10-r-fr_2x.png" crc="447521564" ref="design---media"/>
+    <file name="img_8556-u6191-10-fr.jpg" crc="505968841" ref="design---media"/>
+    <file name="img_8556-u6191-10-fr_2x.jpg" crc="323664172" ref="design---media"/>
+    <file name="img_8556-u6191-10-r-fr.png" crc="343505288" ref="design---media"/>
+    <file name="img_8556-u6191-10-r-fr_2x.png" crc="3952507358" ref="design---media"/>
+    <file name="img_8698-u6200-10-fr.jpg" crc="293382418" ref="design---media"/>
+    <file name="img_8698-u6200-10-fr_2x.jpg" crc="3837424864" ref="design---media"/>
+    <file name="img_8698-u6200-10-r-fr.png" crc="270474614" ref="design---media"/>
+    <file name="img_8698-u6200-10-r-fr_2x.png" crc="240698286" ref="design---media"/>
+    <file name="img_8972-u6189-10-fr.jpg" crc="3797757376" ref="design---media"/>
+    <file name="img_8972-u6189-10-fr_2x.jpg" crc="3790755807" ref="design---media"/>
+    <file name="img_8972-u6189-10-r-fr.png" crc="4109671952" ref="design---media"/>
+    <file name="img_8972-u6189-10-r-fr_2x.png" crc="349745381" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6202-10-fr.jpg" crc="121459815" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6202-10-fr_2x.jpg" crc="3825703761" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6202-10-r-fr.png" crc="4128035121" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6202-10-r-fr_2x.png" crc="7449239" ref="design---media"/>
+    <file name="the rivals archive 2004 edit.jpg" crc="4198170005" ref="design---media">
+      <caption webpage="design---media" alt=" The Rivals University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="the rivals archive 2004 edit_2x.jpg" crc="25801832" ref="design---media">
+      <caption webpage="design---media" alt=" The Rivals University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="the rivals archive 2004 edit-u6188-10-r-fr2.png" crc="4170698999" ref="design---media"/>
+    <file name="the rivals archive 2265 edit.jpg" crc="4245833233" ref="design---media">
+      <caption webpage="design---media" alt=" The Rivals University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="the rivals archive 2265 edit_2x.jpg" crc="4262591116" ref="design---media">
+      <caption webpage="design---media" alt=" The Rivals University of Utah Babcock Theatre, 2019"/>
+    </file>
+    <file name="the rivals archive 2265 edit-u6198-10-r-fr2.png" crc="3858596453" ref="design---media"/>
+    <file name="img_8556.jpg" crc="242291982" ref="design---media">
+      <caption webpage="design---media" alt=" Lord of the Flies University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8556_2x.jpg" crc="55192073" ref="design---media">
+      <caption webpage="design---media" alt=" Lord of the Flies University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8556-u6191-10-r-fr2.png" crc="4220197787" ref="design---media"/>
+    <file name="img_8698.jpg" crc="196348580" ref="design---media">
+      <caption webpage="design---media" alt=" Lord of the Flies University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8698_2x.jpg" crc="4001718195" ref="design---media">
+      <caption webpage="design---media" alt=" Lord of the Flies University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8698-u6200-10-r-fr2.png" crc="253390075" ref="design---media"/>
+    <file name="img_8972.jpg" crc="3504446" ref="design---media">
+      <caption webpage="design---media" alt=" SLUT University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8972_2x.jpg" crc="436538298" ref="design---media">
+      <caption webpage="design---media" alt=" SLUT University of Utah Youth Theatre, 2018"/>
+    </file>
+    <file name="img_8972-u6189-10-r-fr2.png" crc="4234674580" ref="design---media"/>
+    <file name="red red shoes ytu-180.jpg" crc="4014184383" ref="design---media">
+      <caption webpage="design---media" alt=" Red Red Shoes University of Utah Youth Theatre, 2017"/>
+    </file>
+    <file name="red red shoes ytu-180_2x.jpg" crc="499157680" ref="design---media">
+      <caption webpage="design---media" alt=" Red Red Shoes University of Utah Youth Theatre, 2017"/>
+    </file>
+    <file name="red red shoes ytu-180-u6202-10-r-fr2.png" crc="424889732" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6190-9-fr.jpg" crc="4018457292" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6190-9-fr_2x.jpg" crc="4215154635" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6190-9-r-fr.png" crc="3891580672" ref="design---media"/>
+    <file name="the rivals archive 2004 edit-u6190-9-r-fr_2x.png" crc="330553807" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6194-9-fr.jpg" crc="3999378334" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6194-9-fr_2x.jpg" crc="145518001" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6194-9-r-fr.png" crc="474890866" ref="design---media"/>
+    <file name="the rivals archive 2265 edit-u6194-9-r-fr_2x.png" crc="4227477632" ref="design---media"/>
+    <file name="img_8556-u6192-9-fr.jpg" crc="3961814260" ref="design---media"/>
+    <file name="img_8556-u6192-9-fr_2x.jpg" crc="337581714" ref="design---media"/>
+    <file name="img_8556-u6192-9-r-fr.png" crc="4126566324" ref="design---media"/>
+    <file name="img_8556-u6192-9-r-fr_2x.png" crc="473240587" ref="design---media"/>
+    <file name="img_8698-u6196-9-fr.jpg" crc="4108730992" ref="design---media"/>
+    <file name="img_8698-u6196-9-fr_2x.jpg" crc="4009230368" ref="design---media"/>
+    <file name="img_8698-u6196-9-r-fr.png" crc="354888449" ref="design---media"/>
+    <file name="img_8698-u6196-9-r-fr_2x.png" crc="85213513" ref="design---media"/>
+    <file name="img_8972-u6187-9-fr.jpg" crc="112097871" ref="design---media"/>
+    <file name="img_8972-u6187-9-fr_2x.jpg" crc="3866766996" ref="design---media"/>
+    <file name="img_8972-u6187-9-r-fr.png" crc="277951000" ref="design---media"/>
+    <file name="img_8972-u6187-9-r-fr_2x.png" crc="231627989" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6195-9-fr.jpg" crc="3913420622" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6195-9-fr_2x.jpg" crc="4015548220" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6195-9-r-fr.png" crc="4131988964" ref="design---media"/>
+    <file name="red red shoes ytu-180-u6195-9-r-fr_2x.png" crc="3795194798" ref="design---media"/>
+    <file name="acting resume-crop-u7094.jpg" crc="428944061" seo="true" ref="acting---resume">
+      <caption webpage="acting---resume" alt=""/>
+    </file>
+    <file name="acting resume460x578.jpg" crc="4218215583" seo="true" ref="acting---resume">
+      <caption webpage="acting---resume" alt=""/>
+    </file>
+    <file name="acting resume292x367.jpg" crc="245047297" seo="true" ref="acting---resume">
+      <caption webpage="acting---resume" alt=""/>
+    </file>
+    <file name="design resume-crop-u6311.jpg" crc="165412880" seo="true" ref="design---resume">
+      <caption webpage="design---resume" alt=""/>
+    </file>
+    <file name="design resume436x554.jpg" crc="4266265377" seo="true" ref="design---resume">
+      <caption webpage="design---resume" alt=""/>
+    </file>
+    <file name="design resume277x352.jpg" crc="255390046" seo="true" ref="design---resume">
+      <caption webpage="design---resume" alt=""/>
     </file>
   </folder>
-  <file name="acting.html" crc="527683722" seo="true" mt="1549825305732" redirect="true"/>
-  <file name="design.html" crc="406951340" seo="true" mt="1549825305732" redirect="true"/>
-  <file name="stage-management.html" crc="4113393643" seo="true" mt="1549826089495" redirect="true"/>
-  <file name="index.html" crc="4169436845" seo="true" mt="1549825846671" redirect="true"/>
-  <file name="contact.html" crc="452424573" seo="true" mt="1549825305732" redirect="true"/>
+  <file name="index.html" crc="149622359" seo="true" mt="1567546941902" redirect="true"/>
+  <file name="sm---resume.html" crc="3960134478" seo="true" mt="1567556695798" redirect="true"/>
+  <file name="sm---photos.html" crc="4163753939" seo="true" mt="1567546941902" redirect="true"/>
+  <file name="sm---contact.html" crc="4135284155" seo="true" mt="1567546941902" redirect="true"/>
+  <file name="acting---photos.html" crc="212618439" seo="true" mt="1567556733716" redirect="true"/>
+  <file name="design---media.html" crc="82837263" seo="true" mt="1567546941902" redirect="true"/>
+  <file name="acting---resume.html" crc="3948104121" seo="true" mt="1567556719575" redirect="true"/>
+  <file name="design---resume.html" crc="150594236" seo="true" mt="1567556565490" redirect="true"/>
 </manifest>

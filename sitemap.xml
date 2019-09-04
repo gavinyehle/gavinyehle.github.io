@@ -2,49 +2,136 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.gavinyehle.com/index.html</loc>
-    <lastmod>2019-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gavinyehle.com/acting.html</loc>
-    <lastmod>2019-02-10</lastmod>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://www.gavinyehle.com/images/acting%20final%202015%20thumb.jpg</image:loc>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u4490.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://www.gavinyehle.com/images/alice%20thumb.jpg</image:loc>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u4490_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u44902.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u4490_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u4526.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/img_9188-crop-u4526_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/design.html</loc>
-    <lastmod>2019-02-10</lastmod>
+    <loc>http://www.gavinyehle.com/design---resume.html</loc>
+    <lastmod>2019-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/design%20resume-crop-u6311.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/design%20resume436x554.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/design%20resume277x352.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/acting---resume.html</loc>
+    <lastmod>2019-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/acting%20resume-crop-u7094.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/acting%20resume460x578.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/acting%20resume292x367.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/design---media.html</loc>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/contact.html</loc>
-    <lastmod>2019-02-10</lastmod>
+    <loc>http://www.gavinyehle.com/acting---photos.html</loc>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/stage-management.html</loc>
-    <lastmod>2019-02-10</lastmod>
+    <loc>http://www.gavinyehle.com/sm---contact.html</loc>
+    <lastmod>2019-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/sm---photos.html</loc>
+    <lastmod>2019-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/sm---resume.html</loc>
+    <lastmod>2019-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/sm%20resume.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/sm%20resume459x554.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.gavinyehle.com/images/sm%20resume291x352.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/opening---station.mp3</loc>
+    <lastmod>2019-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/design-resume.pdf</loc>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.gavinyehle.com/assets/sm-resume.pdf</loc>
-    <lastmod>2017-08-15</lastmod>
+    <lastmod>2017-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/acting-final.mp4</loc>
-    <lastmod>2015-07-02</lastmod>
+    <loc>http://www.gavinyehle.com/assets/3sisters.mp3</loc>
+    <lastmod>2019-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/funfair_3_short.mp3</loc>
+    <lastmod>2017-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/ynct1.mp3</loc>
+    <lastmod>2019-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.gavinyehle.com/assets/pod-tisserie-1.aif</loc>
+    <lastmod>2017-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -55,14 +142,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/tall-tales-promo.mp4</loc>
-    <lastmod>2015-08-16</lastmod>
+    <loc>http://www.gavinyehle.com/assets/sm-resume2.pdf</loc>
+    <lastmod>2019-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.gavinyehle.com/assets/alice-vs.-wonderland-trailer.mp4</loc>
-    <lastmod>2015-09-07</lastmod>
+    <loc>http://www.gavinyehle.com/assets/resume2.pdf</loc>
+    <lastmod>2017-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

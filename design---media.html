@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.1.0.386"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "jquery.musepolyfill.bgsize.js", "design---media.css"], "outOfDate":[]};
+</script>
+  
+  <link rel="shortcut icon" href="images/favicon.ico?crc=3818145440"/>
+  <title>Design - Media</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4238529044"/>
+  <link rel="stylesheet" type="text/css" href="css/master_sm-master.css?crc=303450358"/>
+  <link rel="stylesheet" type="text/css" href="css/design---media.css?crc=3772323893" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_sm-master.css?crc=3776317844"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_design---media.css?crc=126595454" id="nomq_pagesheet"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+  <script src="https://webfonts.creativecloud.com/voltaire:n4:default.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/VKsrCOXRFBPJqHDj0Hc4JtsCdT2iWjmJ4SshtfEAnPMfeGIgfwKOGMbPH26owQbDFDZL5emKwRg8FAJaFhZ8weIDFQm8Zc93jhmKFcJojRZRZ2j-wKG0ZhBh-AooZAyCZPoRdhXCZhBh-AooZAyCZPoRdhXCiaiaOciyic80pAmGde90jhNlJ6sCjWszH6qJaWGbMg62JM4HgIuuShAbMjrwz5CB.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+    <!--HTML Widget code-->
+    
+<style>
+
+.audioplayer
+{
+	height: 2.5em; /* 40 */
+	position: relative;
+	z-index: 1;
+}
+	.audioplayer-mini
+	{
+		width: 2.5em; /* 40 */
+		margin: 0 auto;
+	}
+	.audioplayer > div
+	{
+		position: absolute;
+	}
+.audioplayer {
+    color: #000000;
+	background: #FFFFFF;
+}
+    
+.audioplayer-playpause
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+	.audioplayer-mini .audioplayer-playpause
+	{
+		width: 100%;
+	}
+    
+    /* Color */
+	.audioplayer-playpause:hover,
+	.audioplayer-playpause:focus
+	{
+		background-color: 999999;
+	}
+	.audioplayer-playpause a
+	{
+		display: block;
+	}
+
+	.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
+	{
+		width: 0;
+		height: 0;
+		border: 0.5em solid transparent; /* 8 */
+		border-right: none;
+		border-left-color: #000000;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.5em 0 0 -0.25em; /* 8 4 */
+	}
+
+	.audioplayer-playing .audioplayer-playpause a
+	{
+		width: 0.75em; /* 12 */
+		height: 0.75em; /* 12 */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -0.375em 0 0 -0.375em; /* 6 */
+	}
+    
+		.audioplayer-playing .audioplayer-playpause a:before,
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			width: 40%;
+			height: 100%;
+			background-color: #000000;
+			content: '';
+			position: absolute;
+			top: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:before
+		{
+			left: 0;
+		}
+		.audioplayer-playing .audioplayer-playpause a:after
+		{
+			right: 0;
+		}
+        
+        
+.audioplayer-time
+{
+	width: 4.375em; /* 70 */
+	height: 100%;
+	line-height: 2.5em; /* 40 */
+	text-align: center;
+	z-index: 2;
+	top: 0;
+}
+	.audioplayer-time-current
+	{
+		border-left: 1px solid #000000;
+		left: 2.5em; /* 40 */
+	}
+	.audioplayer-time-duration
+	{
+		right: 2.5em; /* 40 */
+	}
+		.audioplayer-novolume .audioplayer-time-duration
+		{
+			border-right: 0;
+			right: 0;
+		}
+        
+       
+.audioplayer-bar
+{
+	height: 0.875em; /* 14 */
+	background-color: #999999;
+	cursor: pointer;
+	z-index: 1;
+	top: 50%;
+	right: 6.875em; /* 110 */
+	left: 6.875em; /* 110 */
+	margin-top: -0.438em; /* 7 */
+}
+	.audioplayer-novolume .audioplayer-bar
+	{
+		right: 4.375em; /* 70 */
+	}
+	.audioplayer-bar div
+	{
+		width: 0;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+    
+	.audioplayer-bar-loaded
+	{
+		background-color: #999999;
+		z-index: 1;
+	}
+
+	.audioplayer-bar-played
+	{
+        /* Accent Color */
+		background: #007FD1;
+		z-index: 2;
+	}
+
+.audioplayer-volume
+{
+	width: 2.5em; /* 40 */
+	height: 100%;
+	border-left: 1px solid #000000;
+	text-align: left;
+	text-indent: -9999px;
+	cursor: pointer;
+	z-index: 2;
+	top: 0;
+	right: 0;
+}
+
+
+	.audioplayer-volume:hover,
+	.audioplayer-volume:focus
+	{
+		background-color: #999999;
+        
+
+	}
+	.audioplayer-volume-button
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+
+		.audioplayer-volume-button a
+		{
+			width: 0.313em; /* 5 */
+			height: 0.375em; /* 6 */
+			background-color: #000000;
+			display: block;
+			position: relative;
+			z-index: 1;
+			top: 40%;
+			left: 35%;
+		}
+			.audioplayer-volume-button a:before,
+			.audioplayer-volume-button a:after
+			{
+				content: '';
+				position: absolute;
+			}
+            
+			.audioplayer-volume-button a:before
+			{
+				width: 0;
+				height: 0;
+				border: 0.5em solid transparent; /* 8 */
+				border-left: none;
+				border-right-color: #000000;
+				z-index: 2;
+				top: 50%;
+				right: -0.25em;
+				margin-top: -0.5em; /* 8 */
+			}
+            
+            /* Color */
+			.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
+			{
+				/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
+				width: 0.313em; /* 5 */
+				height: 0.313em; /* 5 */
+				border: 0.25em double #000000; /* 4 */
+				border-width: 0.25em 0.25em 0 0; /* 4 */
+				left: 0.563em; /* 9 */
+				top: -0.063em; /* 1 */
+				-webkit-border-radius: 0 0.938em 0 0; /* 15 */
+				-moz-border-radius: 0 0.938em 0 0; /* 15 */
+				border-radius: 0 0.938em 0 0; /* 15 */
+				-webkit-transform: rotate( 45deg );
+				-moz-transform: rotate( 45deg );
+				-ms-transform: rotate( 45deg );
+				-o-transform: rotate( 45deg );
+				transform: rotate( 45deg );
+			}
+
+	.audioplayer-volume-adjust
+	{
+		width: 100%;
+		height: 6.25em; /* 100 */
+		cursor: default;
+		position: absolute;
+		left: 0;
+		top: -9999px;
+		background: #999999;
+        
+
+        
+	}
+		.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
+		{
+			opacity: 0;
+		}
+		.audioplayer-volume:hover .audioplayer-volume-adjust
+		{
+			top: auto;
+			bottom: 100%;
+		}
+		.audioplayer-volume-adjust > div
+		{
+			width: 40%;
+			height: 80%;
+			background-color: #999999;
+			cursor: pointer;
+			position: relative;
+			z-index: 1;
+			margin: 30% auto 0;
+		}
+        
+
+			.audioplayer-volume-adjust div div
+			{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+                /* Accent Color */
+				background: #007FD1;
+			}
+	.audioplayer-novolume .audioplayer-volume
+	{
+		display: none;
+	} 
+</style>
+
+ </head>
+ <body>
+
+  <div class="breakpoint active" id="bp_infinity" data-min-width="631"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu4158-3"><!-- group -->
+     <div class="clearfix grpelem" id="u4158-3"><!-- content -->
+      <p>&nbsp;</p>
+     </div>
+     <div class="clearfix grpelem" id="u4159-4"><!-- content -->
+      <p>Gavin Yehle</p>
+     </div>
+     <div class="clearfix grpelem" id="u6853-4"><!-- content -->
+      <p>Design</p>
+     </div>
+    </div>
+    <nav class="MenuBar clearfix colelem" id="menuu3654"><!-- horizontal box -->
+     <div class="MenuItemContainer clearfix grpelem" id="u3655"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u3656" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3659-4"><!-- content --><p class="shared_content" data-content-guid="u3659-4_0_content">Home</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u3942"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u3945"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem" id="u3948-4"><!-- content -->
+        <p class="shared_content" data-content-guid="u3948-4_0_content">Resumes</p>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix" id="u3943"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem" id="u3944"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem" id="u6324"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u6326" href="sm---resume.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6330-4"><!-- content --><div id="u6330-3" class="shared_content" data-content-guid="u6330-3_content"><p>Stage Management</p></div></div></a></li>
+        <li class="MenuItemContainer clearfix colelem" id="u6410"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u6411" href="acting---resume.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6412-4"><!-- content --><div id="u6412-3" class="shared_content" data-content-guid="u6412-3_content"><p>Acting</p></div></div></a></li>
+        <li class="MenuItemContainer clearfix colelem" id="u6359"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u6360" href="design---resume.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6361-4"><!-- content --><div id="u6361-3" class="shared_content" data-content-guid="u6361-3_content"><p>Design</p></div></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u3914"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u3917"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem" id="u3920-4"><!-- content -->
+        <p class="shared_content" data-content-guid="u3920-4_0_content">Photos/Media</p>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix" id="u3915"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem" id="u3916"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem" id="u6508"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u6512" href="sm---photos.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6520-4"><!-- content --><div id="u6520-3" class="shared_content" data-content-guid="u6520-3_content"><p>Stage Management</p></div></div></a></li>
+        <li class="MenuItemContainer clearfix colelem" id="u6606"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u6607" href="acting---photos.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6610-4"><!-- content --><div id="u6610-3" class="shared_content" data-content-guid="u6610-3_content"><p>Acting</p></div></div></a></li>
+        <li class="MenuItemContainer clearfix colelem" id="u6557"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u6558" href="design---media.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u6561-4"><!-- content --><div id="u6561-3" class="shared_content" data-content-guid="u6561-3_content"><p>Design</p></div></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u3885"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u3888" href="sm---contact.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3891-4"><!-- content --><p class="shared_content" data-content-guid="u3891-4_0_content">Contact</p></div></a>
+     </div>
+    </nav>
+    <div class="clearfix colelem shared_content" id="u7108-4" data-content-guid="u7108-4_content"><!-- content -->
+     <p>Sound Design</p>
+    </div>
+    <div class="clearfix colelem" id="pu8053"><!-- group -->
+     <div class="clearfix grpelem shared_content" id="u8053" data-content-guid="u8053_content"><!-- column -->
+      <div class="clearfix colelem" id="u7166-6"><!-- content -->
+       <p id="u7166-2">You Never Can Tell</p>
+       <p id="u7166-4">University of Utah Babcock Theatre, 2018</p>
+      </div>
+      <div class="size_fixed colelem" id="u7175" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+             <source src="assets/ynct1.mp3"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			</audio>
+
+			</div>
+
+      </div>
+      <div class="clearfix colelem" id="u8029-4"><!-- content -->
+       <p><span id="u8029">Originally designed with 5 effects speakers in addition to the mains, this is a stereo mix version of the transition between act one and act two, following narrative of a dental operation, Finch riding a train, and the Waiter setting up lunch. The song was chosen to compliment the mood of the piece as well as remaining true to the period and location of the play.</span></p>
+      </div>
+     </div>
+     <div class="clearfix grpelem shared_content" id="u8058" data-content-guid="u8058_content"><!-- column -->
+      <div class="clearfix colelem" id="u7196-6"><!-- content -->
+       <p id="u7196-2">You Never Can Tell</p>
+       <p id="u7196-4">University of Utah Babcock Theatre, 2018</p>
+      </div>
+      <div class="size_fixed colelem" id="u7199" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+             <source src="assets/funfair_3_short.mp3"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			</audio>
+
+			</div>
+
+      </div>
+      <div class="clearfix colelem" id="u8043-4"><!-- content -->
+       <p>Also from You Never Can Tell, this is an edit of Holiday Diary by Benjamin Britten which opened the play as well as the top of intermission. This piece was also chosen with time period and composer in mind (most of the show came from British composers). This piece also speaks to the jovial nature of the show, with the unexpected low accents and fast paced running lines.</p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu8073"><!-- group -->
+     <div class="clearfix grpelem shared_content" id="u8073" data-content-guid="u8073_content"><!-- column -->
+      <div class="clearfix colelem" id="u7961-6"><!-- content -->
+       <p id="u7961-2">Three Sisters</p>
+       <p id="u7961-4">University of Utah Studio 110, 2016</p>
+      </div>
+      <div class="size_fixed colelem" id="u7962" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+             <source src="assets/3sisters.mp3"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			</audio>
+
+			</div>
+
+      </div>
+      <div class="clearfix colelem" id="u8068-4"><!-- content -->
+       <p>All music from this show was selected from traditional Russian music, with this specific song being referenced to in the play as an accordion player playing offstage, which then fades into the main speakers to become the transition music for the scene change.</p>
+      </div>
+     </div>
+     <div class="clearfix grpelem shared_content" id="u8083" data-content-guid="u8083_content"><!-- column -->
+      <div class="clearfix colelem" id="u7983-6"><!-- content -->
+       <p id="u7983-2">Numb and Awake</p>
+       <p id="u7983-4">Dark Days 24-hour play festival, 2016</p>
+      </div>
+      <div class="size_fixed colelem" id="u7984" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+       
+		<div id="wrapper">
+			<audio preload="auto" controls>
+             <source src="assets/opening---station.mp3"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			<!--<source src="Add File"><!-- Hide -->
+			</audio>
+
+			</div>
+
+      </div>
+      <div class="clearfix colelem" id="u8078-4"><!-- content -->
+       <p>Created for a 24-hour play festival, this project had the theme of isolation. All the music in this piece corresponded to various different movement sections and had a dark and sad underlying tone to them. The piece was also very much set in the now, so I chose music that was contemporary with vocal effects or synths pulling it out of an acoustic realm.</p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem shared_content" id="u7157-4" data-content-guid="u7157-4_content"><!-- content -->
+     <p>Lighting Design</p>
+    </div>
+    <div class="clearfix colelem" id="pu6188-10"><!-- group -->
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6188-10" data-content-guid="u6188-10_content"><!-- content -->
+      <p id="u6188">&nbsp;</p>
+      <p id="u6188-2">&nbsp;</p>
+      <p id="u6188-3">&nbsp;</p>
+      <p id="u6188-5">The Rivals</p>
+      <p id="u6188-6">&nbsp;</p>
+      <p id="u6188-8">University of Utah Babcock Theatre, 2019</p>
+     </div>
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6198-10" data-content-guid="u6198-10_content"><!-- content -->
+      <p id="u6198">&nbsp;</p>
+      <p id="u6198-2">&nbsp;</p>
+      <p id="u6198-3">&nbsp;</p>
+      <p id="u6198-5">The Rivals</p>
+      <p id="u6198-6">&nbsp;</p>
+      <p id="u6198-8">University of Utah Babcock Theatre, 2019</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu6191-10"><!-- group -->
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6191-10" data-content-guid="u6191-10_content"><!-- content -->
+      <p id="u6191">&nbsp;</p>
+      <p id="u6191-2">&nbsp;</p>
+      <p id="u6191-3">&nbsp;</p>
+      <p id="u6191-5">Lord of the Flies</p>
+      <p id="u6191-6">&nbsp;</p>
+      <p id="u6191-8">University of Utah Youth Theatre, 2018</p>
+     </div>
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6200-10" data-content-guid="u6200-10_content"><!-- content -->
+      <p id="u6200">&nbsp;</p>
+      <p id="u6200-2">&nbsp;</p>
+      <p id="u6200-3">&nbsp;</p>
+      <p id="u6200-5">Lord of the Flies</p>
+      <p id="u6200-6">&nbsp;</p>
+      <p id="u6200-8">University of Utah Youth Theatre, 2018</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu6189-10"><!-- group -->
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6189-10" data-content-guid="u6189-10_content"><!-- content -->
+      <p id="u6189">&nbsp;</p>
+      <p id="u6189-2">&nbsp;</p>
+      <p id="u6189-3">&nbsp;</p>
+      <p id="u6189-5">SLUT</p>
+      <p id="u6189-6">&nbsp;</p>
+      <p id="u6189-8">University of Utah Youth Theatre, 2018</p>
+     </div>
+     <div class="transition museBGSize rgba-background clearfix grpelem shared_content" id="u6202-10" data-content-guid="u6202-10_content"><!-- content -->
+      <p id="u6202">&nbsp;</p>
+      <p id="u6202-2">&nbsp;</p>
+      <p id="u6202-3">&nbsp;</p>
+      <p id="u6202-5">Red Red Shoes</p>
+      <p id="u6202-6">&nbsp;</p>
+      <p id="u6202-8">University of Utah Youth Theatre, 2017</p>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="1469" data-content-above-spacer="1469" data-content-below-spacer="67" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202004%20edit-u6188-10-r-fr.png?crc=4151423159" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202004%20edit-u6188-10-r-fr_2x.png?crc=4034966484" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202265%20edit-u6198-10-r-fr.png?crc=188078820" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202265%20edit-u6198-10-r-fr_2x.png?crc=447521564" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8556-u6191-10-r-fr.png?crc=343505288" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8556-u6191-10-r-fr_2x.png?crc=3952507358" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8698-u6200-10-r-fr.png?crc=270474614" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8698-u6200-10-r-fr_2x.png?crc=240698286" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8972-u6189-10-r-fr.png?crc=4109671952" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8972-u6189-10-r-fr_2x.png?crc=349745381" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/red%20red%20shoes%20ytu-180-u6202-10-r-fr.png?crc=4128035121" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/red%20red%20shoes%20ytu-180-u6202-10-r-fr_2x.png?crc=7449239" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_630" data-min-width="401" data-max-width="630"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu4174-3"><!-- group -->
+     <div class="clearfix grpelem" id="u4174-3"><!-- content -->
+      <p>&nbsp;</p>
+     </div>
+     <div class="clearfix grpelem" id="u4175-4"><!-- content -->
+      <p>Gavin Yehle</p>
+     </div>
+     <div class="clearfix grpelem" id="u7113-4"><!-- content -->
+      <p>Design</p>
+     </div>
+    </div>
+    <nav class="MenuBar clearfix colelem temp_no_id" data-orig-id="menuu3654"><!-- horizontal box -->
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3655"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" href="index.html" data-orig-id="u3656"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3659-4"><!-- content --><span class="placeholder" data-placeholder-for="u3659-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3942"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" data-orig-id="u3945"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3948-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3948-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u3943"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u3944"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6324"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="sm---resume.html" data-orig-id="u6326"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6330-4"><!-- content --><span class="placeholder" data-placeholder-for="u6330-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6410"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="acting---resume.html" data-orig-id="u6411"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6412-4"><!-- content --><span class="placeholder" data-placeholder-for="u6412-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6359"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="design---resume.html" data-orig-id="u6360"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6361-4"><!-- content --><span class="placeholder" data-placeholder-for="u6361-3_content"><!-- placeholder node --></span></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3914"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" data-orig-id="u3917"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3920-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3920-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u3915"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u3916"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6508"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="sm---photos.html" data-orig-id="u6512"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6520-4"><!-- content --><span class="placeholder" data-placeholder-for="u6520-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6606"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="acting---photos.html" data-orig-id="u6607"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6610-4"><!-- content --><span class="placeholder" data-placeholder-for="u6610-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6557"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="design---media.html" data-orig-id="u6558"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6561-4"><!-- content --><span class="placeholder" data-placeholder-for="u6561-3_content"><!-- placeholder node --></span></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3885"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" href="sm---contact.html" data-orig-id="u3888"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3891-4"><!-- content --><span class="placeholder" data-placeholder-for="u3891-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+    </nav>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u7108-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8053_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8058_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8073_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8083_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u7157-4_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6188-10_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6198-10_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6191-10_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6200-10_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6189-10_content"><!-- placeholder node --></span>
+    <span class="transition museBGSize rgba-background clearfix colelem placeholder" data-placeholder-for="u6202-10_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="2657" data-content-above-spacer="2657" data-content-below-spacer="63" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202004%20edit-u6188-10-r-fr2.png?crc=4170698999" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202265%20edit-u6198-10-r-fr2.png?crc=3858596453" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8556-u6191-10-r-fr2.png?crc=4220197787" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8698-u6200-10-r-fr2.png?crc=253390075" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8972-u6189-10-r-fr2.png?crc=4234674580" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/red%20red%20shoes%20ytu-180-u6202-10-r-fr2.png?crc=424889732" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_400" data-max-width="400"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu4190-3"><!-- group -->
+     <div class="clearfix grpelem" id="u4190-3"><!-- content -->
+      <p>&nbsp;</p>
+     </div>
+     <div class="clearfix grpelem" id="u4191-4"><!-- content -->
+      <p>Gavin Yehle</p>
+     </div>
+     <div class="clearfix grpelem" id="u7122-4"><!-- content -->
+      <p>Design</p>
+     </div>
+    </div>
+    <nav class="MenuBar clearfix colelem temp_no_id" data-orig-id="menuu3654"><!-- horizontal box -->
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3655"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" href="index.html" data-orig-id="u3656"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3659-4"><!-- content --><span class="placeholder" data-placeholder-for="u3659-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3942"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" data-orig-id="u3945"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3948-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3948-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u3943"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u3944"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6324"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="sm---resume.html" data-orig-id="u6326"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6330-4"><!-- content --><span class="placeholder" data-placeholder-for="u6330-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6410"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="acting---resume.html" data-orig-id="u6411"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6412-4"><!-- content --><span class="placeholder" data-placeholder-for="u6412-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6359"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="design---resume.html" data-orig-id="u6360"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6361-4"><!-- content --><span class="placeholder" data-placeholder-for="u6361-3_content"><!-- placeholder node --></span></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3914"><!-- vertical box -->
+      <div class="MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" data-orig-id="u3917"><!-- horizontal box -->
+       <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3920-4"><!-- content -->
+        <span class="placeholder" data-placeholder-for="u3920-4_0_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+      <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u3915"><!-- vertical box -->
+       <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u3916"><!-- vertical box -->
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6508"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="sm---photos.html" data-orig-id="u6512"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6520-4"><!-- content --><span class="placeholder" data-placeholder-for="u6520-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6606"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="acting---photos.html" data-orig-id="u6607"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6610-4"><!-- content --><span class="placeholder" data-placeholder-for="u6610-3_content"><!-- placeholder node --></span></div></a></li>
+        <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u6557"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="design---media.html" data-orig-id="u6558"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u6561-4"><!-- content --><span class="placeholder" data-placeholder-for="u6561-3_content"><!-- placeholder node --></span></div></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u3885"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem temp_no_id" href="sm---contact.html" data-orig-id="u3888"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u3891-4"><!-- content --><span class="placeholder" data-placeholder-for="u3891-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+    </nav>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u7108-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8053_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8058_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8073_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u8083_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u7157-4_content"><!-- placeholder node --></span>
+    <div class="transition museBGSize rgba-background clearfix colelem" id="u6190-9"><!-- content -->
+     <p id="u6190">&nbsp;</p>
+     <p id="u6190-2">&nbsp;</p>
+     <p id="u6190-4">The Rivals</p>
+     <p id="u6190-5">&nbsp;</p>
+     <p id="u6190-7">University of Utah Babcock Theatre, 2019</p>
+    </div>
+    <div class="museBGSize rgba-background clearfix colelem" id="u6194-9"><!-- content -->
+     <p id="u6194">&nbsp;</p>
+     <p id="u6194-2">&nbsp;</p>
+     <p id="u6194-4">The Rivals</p>
+     <p id="u6194-5">&nbsp;</p>
+     <p id="u6194-7">University of Utah Babcock Theatre, 2019</p>
+    </div>
+    <div class="museBGSize rgba-background clearfix colelem" id="u6192-9"><!-- content -->
+     <p id="u6192">&nbsp;</p>
+     <p id="u6192-2">&nbsp;</p>
+     <p id="u6192-4">Lord of the Flies</p>
+     <p id="u6192-5">&nbsp;</p>
+     <p id="u6192-7">University of Utah Youth Theatre, 2018</p>
+    </div>
+    <div class="transition museBGSize rgba-background clearfix colelem" id="u6196-9"><!-- content -->
+     <p id="u6196">&nbsp;</p>
+     <p id="u6196-2">&nbsp;</p>
+     <p id="u6196-4">Lord of the Flies</p>
+     <p id="u6196-5">&nbsp;</p>
+     <p id="u6196-7">University of Utah Youth Theatre, 2018</p>
+    </div>
+    <div class="transition museBGSize rgba-background clearfix colelem" id="u6187-9"><!-- content -->
+     <p id="u6187">&nbsp;</p>
+     <p id="u6187-2">&nbsp;</p>
+     <p id="u6187-4">SLUT</p>
+     <p id="u6187-5">&nbsp;</p>
+     <p id="u6187-7">University of Utah Youth Theatre, 2018</p>
+    </div>
+    <div class="transition museBGSize rgba-background clearfix colelem" id="u6195-9"><!-- content -->
+     <p id="u6195">&nbsp;</p>
+     <p id="u6195-2">&nbsp;</p>
+     <p id="u6195-4">Red Red Shoes</p>
+     <p id="u6195-5">&nbsp;</p>
+     <p id="u6195-7">University of Utah Youth Theatre, 2017</p>
+    </div>
+    <div class="verticalspacer" data-offset-top="2389" data-content-above-spacer="2389" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202004%20edit-u6190-9-r-fr.png?crc=3891580672" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202004%20edit-u6190-9-r-fr_2x.png?crc=330553807" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202265%20edit-u6194-9-r-fr.png?crc=474890866" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/the%20rivals%20archive%202265%20edit-u6194-9-r-fr_2x.png?crc=4227477632" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8556-u6192-9-r-fr.png?crc=4126566324" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8556-u6192-9-r-fr_2x.png?crc=473240587" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8698-u6196-9-r-fr.png?crc=354888449" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8698-u6196-9-r-fr_2x.png?crc=85213513" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8972-u6187-9-r-fr.png?crc=277951000" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/img_8972-u6187-9-r-fr_2x.png?crc=231627989" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/red%20red%20shoes%20ytu-180-u6195-9-r-fr.png?crc=4131988964" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/red%20red%20shoes%20ytu-180-u6195-9-r-fr_2x.png?crc=3795194798" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide whether to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){f(!0)},5E3):f()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_630', '#bp_400'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+!function(e,t,a){var i="ontouchstart"in t,n=i?"touchstart":"mousedown",o=i?"touchmove":"mousemove",d=i?"touchcancel":"mouseup",u=function(e){var t=e/3600,a=Math.floor(t),i=e%3600/60,n=Math.floor(i),o=Math.ceil(e%3600%60);return o>59&&(o=0,n=Math.ceil(i)),n>59&&(n=0,a=Math.ceil(t)),(0==a?"":a>0&&a.toString().length<2?"0"+a+":":a+":")+(n.toString().length<2?"0"+n:n)+":"+(o.toString().length<2?"0"+o:o)},l=function(e){var t=a.createElement("audio");return!(!t.canPlayType||!t.canPlayType("audio/"+e.split(".").pop().toLowerCase()+";").replace(/no/,""))};e.fn.audioPlayer=function(t){var t=e.extend({classPrefix:"audioplayer",strPlay:"Play",strPause:"Pause",strVolume:"Volume"},t),a={},r={playPause:"playpause",playing:"playing",stopped:"stopped",time:"time",timeCurrent:"time-current",timeDuration:"time-duration",bar:"bar",barLoaded:"bar-loaded",barPlayed:"bar-played",volume:"volume",volumeButton:"volume-button",volumeAdjust:"volume-adjust",noVolume:"novolume",muted:"muted",mini:"mini"};for(var s in r)a[s]=t.classPrefix+"-"+r[s];return this.each(function(){if("audio"!=e(this).prop("tagName").toLowerCase())return!1;var r=e(this),s=r.attr("src"),v=r.get(0).getAttribute("autoplay"),v=""===v||"autoplay"===v?!0:!1,m=r.get(0).getAttribute("loop"),m=""===m||"loop"===m?!0:!1,c=!1;"undefined"==typeof s?r.find("source").each(function(){return s=e(this).attr("src"),"undefined"!=typeof s&&l(s)?(c=!0,!1):void 0}):l(s)&&(c=!0);var h=e('<div class="'+t.classPrefix+'">'+(c?e("<div>").append(r.eq(0).clone()).html():'<embed src="'+s+'" width="0" height="0" volume="100" autostart="'+v.toString()+'" loop="'+m.toString()+'" />')+'<div class="'+a.playPause+'" title="'+t.strPlay+'"><a href="#">'+t.strPlay+"</a></div></div>"),f=h.find(c?"audio":"embed"),f=f.get(0);if(c){h.find("audio").css({width:0,height:0,visibility:"hidden"}),h.append('<div class="'+a.time+" "+a.timeCurrent+'"></div><div class="'+a.bar+'"><div class="'+a.barLoaded+'"></div><div class="'+a.barPlayed+'"></div></div><div class="'+a.time+" "+a.timeDuration+'"></div><div class="'+a.volume+'"><div class="'+a.volumeButton+'" title="'+t.strVolume+'"><a href="#">'+t.strVolume+'</a></div><div class="'+a.volumeAdjust+'"><div><div></div></div></div></div>');var p=h.find("."+a.bar),y=h.find("."+a.barPlayed),g=h.find("."+a.barLoaded),b=h.find("."+a.timeCurrent),P=h.find("."+a.timeDuration),C=h.find("."+a.volumeButton),E=h.find("."+a.volumeAdjust+" > div"),w=0,M=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.currentTime=Math.round(f.duration*(theRealEvent.pageX-p.offset().left)/p.width())},L=function(e){theRealEvent=i?e.originalEvent.touches[0]:e,f.volume=Math.abs((theRealEvent.pageY-(E.offset().top+E.height()))/E.height())},S=function(){var e=setInterval(function(){return f.buffered.length<1?!0:(g.width(f.buffered.end(0)/f.duration*100+"%"),void(Math.floor(f.buffered.end(0))>=Math.floor(f.duration)&&clearInterval(e)))},100)},V=f.volume,j=f.volume=.111;Math.round(1e3*f.volume)/1e3==j?f.volume=V:h.addClass(a.noVolume),P.html("…"),b.html(u(0)),f.addEventListener("loadeddata",function(){S(),P.html(e.isNumeric(f.duration)?u(f.duration):"…"),E.find("div").height(100*f.volume+"%"),w=f.volume}),f.addEventListener("timeupdate",function(){b.html(u(f.currentTime)),y.width(f.currentTime/f.duration*100+"%")}),f.addEventListener("volumechange",function(){E.find("div").height(100*f.volume+"%"),f.volume>0&&h.hasClass(a.muted)&&h.removeClass(a.muted),f.volume<=0&&!h.hasClass(a.muted)&&h.addClass(a.muted)}),f.addEventListener("ended",function(){h.removeClass(a.playing).addClass(a.stopped)}),p.on(n,function(e){M(e),p.on(o,function(e){M(e)})}).on(d,function(){p.unbind(o)}),C.on("click",function(){return h.hasClass(a.muted)?(h.removeClass(a.muted),f.volume=w):(h.addClass(a.muted),w=f.volume,f.volume=0),!1}),E.on(n,function(e){L(e),E.on(o,function(e){L(e)})}).on(d,function(){E.unbind(o)})}else h.addClass(a.mini);h.addClass(v?a.playing:a.stopped),h.find("."+a.playPause).on("click",function(){return h.hasClass(a.playing)?(e(this).attr("title",t.strPlay).find("a").html(t.strPlay),h.removeClass(a.playing).addClass(a.stopped),c?f.pause():f.Stop()):(e(this).attr("title",t.strPause).find("a").html(t.strPause),h.addClass(a.playing).removeClass(a.stopped),c?f.play():f.Play()),!1}),r.replaceWith(h)}),this}}(jQuery,window,document);
+</script>
+<script>
+$( 'audio' ).audioPlayer(
+{
+	strPlay: 'Play', // default value: 'Play'
+	strPause: 'Pause', // default value: 'Pause'
+	strVolume: 'Volume', // default value: 'Volume'
+});
+</script>
+
+
+   </body>
+</html>
