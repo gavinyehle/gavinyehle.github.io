@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1587872400987">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1587872559286">
   <folder name="assets">
     <file name="resume.pdf" crc="85553228" seo="true" mt="1579909050000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
@@ -47,7 +47,7 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="sm-photos:acting-photos:design-media"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="index"/>
+    <file name="favicon.ico" crc="3818145440" ref="index:qlx"/>
     <file name="img_9188-crop-u4490.jpg" crc="288504598" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -352,22 +352,22 @@
     <file name="design resume277x352.jpg" crc="255390046" seo="true" ref="design-resume">
       <caption webpage="design-resume" alt=""/>
     </file>
-    <file name="qlx-crop-u8886.png" crc="263080184" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886.png" crc="392525540" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x.png" crc="3925114932" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x.png" crc="498089894" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u88862.png" crc="4246203261" seo="true" ref="qlx">
+    <file name="qlx-crop-u88862.png" crc="31212098" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x2.png" crc="430999141" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x2.png" crc="426732940" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u88863.png" crc="3810781389" seo="true" ref="qlx">
+    <file name="qlx-crop-u88863.png" crc="3842638682" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x3.png" crc="214102441" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x3.png" crc="4062337980" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
   </folder>
@@ -378,7 +378,7 @@
   <file name="design-media.html" crc="4971556" seo="true" mt="1587871851986" redirect="true"/>
   <file name="acting-resume.html" crc="4200628269" seo="true" mt="1587871851986" redirect="true"/>
   <file name="design-resume.html" crc="394671972" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="qlx.html" crc="205224517" seo="true" mt="1587871854174" redirect="true"/>
+  <file name="qlx.html" crc="156451857" seo="true" mt="1587872546500" redirect="true"/>
   <file name="qlx-app.html" crc="3243066" seo="true" mt="1587871851986" redirect="true"/>
   <file name="contact.html" crc="4164352312" seo="true" mt="1587871851986" redirect="true"/>
 </manifest>
