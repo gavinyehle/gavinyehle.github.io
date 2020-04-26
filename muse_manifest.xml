@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1587872033456">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1587872400987">
   <folder name="assets">
     <file name="resume.pdf" crc="85553228" seo="true" mt="1579909050000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
