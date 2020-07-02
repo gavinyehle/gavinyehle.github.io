@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1587872559286">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1593713257835">
   <folder name="assets">
     <file name="resume.pdf" crc="85553228" seo="true" mt="1579909050000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
@@ -6,33 +6,33 @@
     <file name="funfair_3_short.mp3" crc="4151589335" seo="true" mt="1587596606000"/>
     <file name="3sisters.mp3" crc="4124754246" seo="true" mt="1587596606000"/>
     <file name="design-resume.pdf" crc="487707116" seo="true" mt="1587596606000"/>
-    <file name="sm-resume.pdf" crc="4110807733" seo="true" mt="1578776374000"/>
+    <file name="sm-resume.pdf" crc="23072900" seo="true" mt="1589396063000"/>
     <file name="opening-station.mp3" crc="4292007188" seo="true" mt="1587596606000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4238529044"/>
-    <file name="master_sm-master.css" crc="352227418" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
+    <file name="master_sm-master.css" crc="157914627" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
     <file name="nomq_preview_master_sm-master.css" crc="355037190" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
-    <file name="index.css" crc="505097029" ref="index"/>
-    <file name="nomq_index.css" crc="198426224" ref="index"/>
-    <file name="design-media.css" crc="4223486706" ref="design-media"/>
-    <file name="nomq_design-media.css" crc="126595454" ref="design-media"/>
-    <file name="qlx.css" crc="13851346" ref="qlx"/>
+    <file name="index.css" crc="289572204" ref="index"/>
+    <file name="nomq_index.css" crc="3833988091" ref="index"/>
+    <file name="design-media.css" crc="4156003203" ref="design-media"/>
+    <file name="nomq_design-media.css" crc="3806700526" ref="design-media"/>
+    <file name="qlx.css" crc="4123553451" ref="qlx"/>
     <file name="nomq_qlx.css" crc="4226814053" ref="qlx"/>
-    <file name="sm-resume.css" crc="467448294" ref="sm-resume"/>
+    <file name="sm-resume.css" crc="84470893" ref="sm-resume"/>
     <file name="nomq_sm-resume.css" crc="326274401" ref="sm-resume"/>
-    <file name="acting-resume.css" crc="4144730462" ref="acting-resume"/>
+    <file name="acting-resume.css" crc="3916495701" ref="acting-resume"/>
     <file name="nomq_acting-resume.css" crc="240236129" ref="acting-resume"/>
-    <file name="qlx-app.css" crc="45216058" ref="qlx-app"/>
+    <file name="qlx-app.css" crc="433741935" ref="qlx-app"/>
     <file name="nomq_qlx-app.css" crc="4075615288" ref="qlx-app"/>
-    <file name="sm-photos.css" crc="486787249" ref="sm-photos"/>
+    <file name="sm-photos.css" crc="3872304478" ref="sm-photos"/>
     <file name="nomq_sm-photos.css" crc="4191774891" ref="sm-photos"/>
-    <file name="design-resume.css" crc="3999873364" ref="design-resume"/>
+    <file name="design-resume.css" crc="3939464508" ref="design-resume"/>
     <file name="nomq_design-resume.css" crc="3970014109" ref="design-resume"/>
-    <file name="acting-photos.css" crc="4094366351" ref="acting-photos"/>
-    <file name="nomq_acting-photos.css" crc="4119078635" ref="acting-photos"/>
-    <file name="contact.css" crc="363778107" ref="contact"/>
-    <file name="nomq_contact.css" crc="4237664135" ref="contact"/>
+    <file name="acting-photos.css" crc="4117031688" ref="acting-photos"/>
+    <file name="nomq_acting-photos.css" crc="94631297" ref="acting-photos"/>
+    <file name="contact.css" crc="383724752" ref="contact"/>
+    <file name="nomq_contact.css" crc="3849661956" ref="contact"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:sm-resume:sm-photos:acting-photos:design-media:acting-resume:design-resume:qlx:qlx-app:contact"/>
@@ -47,7 +47,7 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="sm-photos:acting-photos:design-media"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="index:qlx"/>
+    <file name="favicon.ico" crc="3818145440" ref="index"/>
     <file name="img_9188-crop-u4490.jpg" crc="288504598" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -186,10 +186,10 @@
     </file>
     <file name="our country-s good preview 943 edit-u6120-10-r-fr2.png" crc="4260599292" ref="acting-photos"/>
     <file name="our country-s good preview 512 edit.jpg" crc="4002135980" ref="acting-photos">
-      <caption webpage="acting-photos" alt=" Company University of Utah Babcock Theatre, 2019"/>
+      <caption webpage="acting-photos" alt=" Our Country's Good University of Utah Babcock Theatre, 2018"/>
     </file>
     <file name="our country-s good preview 512 edit_2x.jpg" crc="3934851245" ref="acting-photos">
-      <caption webpage="acting-photos" alt=" Company University of Utah Babcock Theatre, 2019"/>
+      <caption webpage="acting-photos" alt=" Our Country's Good University of Utah Babcock Theatre, 2018"/>
     </file>
     <file name="our country-s good preview 512 edit-u6127-10-r-fr2.png" crc="333297802" ref="acting-photos"/>
     <file name="you never can tell preview night 557 edit.jpg" crc="3890297239" ref="acting-photos">
@@ -352,33 +352,33 @@
     <file name="design resume277x352.jpg" crc="255390046" seo="true" ref="design-resume">
       <caption webpage="design-resume" alt=""/>
     </file>
-    <file name="qlx-crop-u8886.png" crc="392525540" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886.png" crc="263080184" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x.png" crc="498089894" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x.png" crc="3925114932" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u88862.png" crc="31212098" seo="true" ref="qlx">
+    <file name="qlx-crop-u88862.png" crc="4246203261" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x2.png" crc="426732940" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x2.png" crc="430999141" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u88863.png" crc="3842638682" seo="true" ref="qlx">
+    <file name="qlx-crop-u88863.png" crc="3810781389" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="qlx-crop-u8886_2x3.png" crc="4062337980" seo="true" ref="qlx">
+    <file name="qlx-crop-u8886_2x3.png" crc="214102441" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4245062872" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="sm-resume.html" crc="377909709" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="sm-photos.html" crc="3953346550" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="acting-photos.html" crc="3867313787" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="design-media.html" crc="4971556" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="acting-resume.html" crc="4200628269" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="design-resume.html" crc="394671972" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="qlx.html" crc="156451857" seo="true" mt="1587872546500" redirect="true"/>
-  <file name="qlx-app.html" crc="3243066" seo="true" mt="1587871851986" redirect="true"/>
-  <file name="contact.html" crc="4164352312" seo="true" mt="1587871851986" redirect="true"/>
+  <file name="index.html" crc="162206052" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="sm-resume.html" crc="4246049256" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="sm-photos.html" crc="412233167" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="acting-photos.html" crc="4193204910" seo="true" mt="1593713158671" redirect="true"/>
+  <file name="design-media.html" crc="4143696977" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="acting-resume.html" crc="4095773663" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="design-resume.html" crc="438932804" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="qlx.html" crc="178925423" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="qlx-app.html" crc="31209218" seo="true" mt="1593713131567" redirect="true"/>
+  <file name="contact.html" crc="521444862" seo="true" mt="1593713131567" redirect="true"/>
 </manifest>
