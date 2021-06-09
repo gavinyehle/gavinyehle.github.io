@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://gavinyehle.com/index.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -25,35 +25,14 @@
     </image:image>
   </url>
   <url>
-    <loc>http://gavinyehle.com/sm-resume.html</loc>
-    <lastmod>2020-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://gavinyehle.com/images/sm%20resume.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://gavinyehle.com/images/sm%20resume459x554.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://gavinyehle.com/images/sm%20resume291x352.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://gavinyehle.com/sm-photos.html</loc>
-    <lastmod>2020-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://gavinyehle.com/qlx-app.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavinyehle.com/qlx.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2021-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -63,27 +42,27 @@
       <image:loc>http://gavinyehle.com/images/qlx-crop-u8886_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://gavinyehle.com/images/qlx-crop-u88862.png</image:loc>
+      <image:loc>http://gavinyehle.com/images/qlx182x107.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://gavinyehle.com/images/qlx-crop-u8886_2x2.png</image:loc>
+      <image:loc>http://gavinyehle.com/images/qlx182x107_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://gavinyehle.com/images/qlx-crop-u88863.png</image:loc>
+      <image:loc>http://gavinyehle.com/images/qlx144x85.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://gavinyehle.com/images/qlx-crop-u8886_2x3.png</image:loc>
+      <image:loc>http://gavinyehle.com/images/qlx144x85_2x.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://gavinyehle.com/contact.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavinyehle.com/acting-resume.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -98,13 +77,13 @@
   </url>
   <url>
     <loc>http://gavinyehle.com/design-media.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2021-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://gavinyehle.com/design-resume.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -118,32 +97,35 @@
     </image:image>
   </url>
   <url>
+    <loc>http://gavinyehle.com/sm-photos.html</loc>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/sm-resume.html</loc>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://gavinyehle.com/images/sm%20resume.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://gavinyehle.com/images/sm%20resume427x554.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://gavinyehle.com/images/sm%20resume271x352.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://gavinyehle.com/acting-photos.html</loc>
-    <lastmod>2020-07-02</lastmod>
+    <lastmod>2020-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/assets/opening-station.mp3</loc>
-    <lastmod>2020-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://gavinyehle.com/assets/pod-tisserie-1.aif</loc>
-    <lastmod>2017-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://gavinyehle.com/assets/3sisters.mp3</loc>
-    <lastmod>2020-04-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://gavinyehle.com/assets/sm-resume.pdf</loc>
-    <lastmod>2020-05-13</lastmod>
+    <loc>http://gavinyehle.com/assets/farewell-sweet-earth-v2.mp3</loc>
+    <lastmod>2021-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -154,8 +136,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/assets/resume.pdf</loc>
-    <lastmod>2020-01-24</lastmod>
+    <loc>http://gavinyehle.com/assets/opening-station.mp3</loc>
+    <lastmod>2020-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/assets/sm-resume.pdf</loc>
+    <lastmod>2021-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/assets/ynct1.mp3</loc>
+    <lastmod>2020-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/assets/3sisters.mp3</loc>
+    <lastmod>2020-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -166,8 +166,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://gavinyehle.com/assets/ynct1.mp3</loc>
-    <lastmod>2020-04-22</lastmod>
+    <loc>http://gavinyehle.com/assets/opening-choral-to-morgoth-no-text.mp3</loc>
+    <lastmod>2021-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/assets/pod-tisserie-1.aif</loc>
+    <lastmod>2017-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://gavinyehle.com/assets/resume.pdf</loc>
+    <lastmod>2017-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
