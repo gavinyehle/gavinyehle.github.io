@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623271706643">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623272791240">
   <folder name="assets">
     <file name="resume.pdf" crc="218978833" seo="true" mt="1502772657000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
@@ -19,8 +19,8 @@
     <file name="nomq_index.css" crc="315162597" ref="index"/>
     <file name="design-media.css" crc="172040615" ref="design-media"/>
     <file name="nomq_design-media.css" crc="3952517126" ref="design-media"/>
-    <file name="qlx.css" crc="63601277" ref="qlx"/>
-    <file name="nomq_qlx.css" crc="3804722391" ref="qlx"/>
+    <file name="qlx.css" crc="527941901" ref="qlx"/>
+    <file name="nomq_qlx.css" crc="4197898085" ref="qlx"/>
     <file name="sm-resume.css" crc="108609283" ref="sm-resume"/>
     <file name="nomq_sm-resume.css" crc="33741650" ref="sm-resume"/>
     <file name="acting-resume.css" crc="465051971" ref="acting-resume"/>
@@ -361,8 +361,6 @@
     <file name="qlx182x107_2x.png" crc="3814646966" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
-    <file name="img_1111-u9486-fr.png" crc="4200027053" ref="qlx"/>
-    <file name="img_1111-u9486-fr_2x.png" crc="3968501975" ref="qlx"/>
     <file name="qlx144x85.png" crc="4123339047" seo="true" ref="qlx">
       <caption webpage="qlx" alt=""/>
     </file>
@@ -412,17 +410,19 @@
     <file name="arcadia preview 744 edit_2x-u6128-9-fr_2x.jpg" crc="482933448" ref="acting-photos"/>
     <file name="arcadia preview 744 edit_2x-u6128-9-r-fr.png" crc="4031485260" ref="acting-photos"/>
     <file name="arcadia preview 744 edit_2x-u6128-9-r-fr_2x.png" crc="204401398" ref="acting-photos"/>
-    <file name="img_1111-u9486-fr.jpg" crc="143488200" ref="qlx"/>
-    <file name="img_1111-u9486-fr_2x.jpg" crc="123228180" ref="qlx"/>
+    <file name="img_1111-u13445-fr.jpg" crc="3937000743" ref="qlx"/>
+    <file name="img_1111-u13445-fr_2x.jpg" crc="127189682" ref="qlx"/>
+    <file name="img_1111-u13445-fr2.jpg" crc="143488200" ref="qlx"/>
+    <file name="img_1111-u13445-fr_2x2.jpg" crc="123228180" ref="qlx"/>
   </folder>
-  <file name="index.html" crc="355686932" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="sm-resume.html" crc="3956728945" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="sm-photos.html" crc="3785994047" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="acting-photos.html" crc="369661303" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="design-media.html" crc="4035777070" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="acting-resume.html" crc="4257498038" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="design-resume.html" crc="4137512638" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="qlx.html" crc="3959549517" seo="true" mt="1623271389194" redirect="true"/>
-  <file name="qlx-app.html" crc="251159110" seo="true" mt="1623271379760" redirect="true"/>
-  <file name="contact.html" crc="4103441088" seo="true" mt="1623271379760" redirect="true"/>
+  <file name="index.html" crc="3858278959" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="sm-resume.html" crc="3956728945" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="sm-photos.html" crc="3785994047" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="acting-photos.html" crc="369661303" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="design-media.html" crc="499799568" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="acting-resume.html" crc="4257498038" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="design-resume.html" crc="4137512638" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="qlx.html" crc="344220052" seo="true" mt="1623272696522" redirect="true"/>
+  <file name="qlx-app.html" crc="251159110" seo="true" mt="1623272475099" redirect="true"/>
+  <file name="contact.html" crc="4103441088" seo="true" mt="1623272475099" redirect="true"/>
 </manifest>
