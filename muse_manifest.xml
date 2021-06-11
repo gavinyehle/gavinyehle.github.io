@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623272791240">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623444342617">
   <folder name="assets">
     <file name="resume.pdf" crc="218978833" seo="true" mt="1502772657000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
@@ -12,15 +12,15 @@
     <file name="opening-choral-to-morgoth-no-text.mp3" crc="4212493083" seo="true" mt="1619570346000"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4235833027"/>
-    <file name="master_sm-master.css" crc="4160202584" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
-    <file name="nomq_preview_master_sm-master.css" crc="4218634847" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
+    <file name="site_global.css" crc="174029219"/>
+    <file name="master_sm-master.css" crc="4002627343" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
+    <file name="nomq_preview_master_sm-master.css" crc="3826075757" ref="index:design-media:qlx:sm-resume:acting-resume:qlx-app:sm-photos:design-resume:acting-photos:contact"/>
     <file name="index.css" crc="3775312275" ref="index"/>
     <file name="nomq_index.css" crc="315162597" ref="index"/>
     <file name="design-media.css" crc="172040615" ref="design-media"/>
     <file name="nomq_design-media.css" crc="3952517126" ref="design-media"/>
-    <file name="qlx.css" crc="527941901" ref="qlx"/>
-    <file name="nomq_qlx.css" crc="4197898085" ref="qlx"/>
+    <file name="qlx.css" crc="3820991805" ref="qlx"/>
+    <file name="nomq_qlx.css" crc="4174290918" ref="qlx"/>
     <file name="sm-resume.css" crc="108609283" ref="sm-resume"/>
     <file name="nomq_sm-resume.css" crc="33741650" ref="sm-resume"/>
     <file name="acting-resume.css" crc="465051971" ref="acting-resume"/>
@@ -49,7 +49,7 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="sm-photos:acting-photos:design-media:qlx"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="3818145440" ref="index"/>
+    <file name="favicon.ico" crc="3818145440" ref="index:qlx"/>
     <file name="img_9188-crop-u4490.jpg" crc="4111771111" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -422,7 +422,7 @@
   <file name="design-media.html" crc="499799568" seo="true" mt="1623272475099" redirect="true"/>
   <file name="acting-resume.html" crc="4257498038" seo="true" mt="1623272475099" redirect="true"/>
   <file name="design-resume.html" crc="4137512638" seo="true" mt="1623272475099" redirect="true"/>
-  <file name="qlx.html" crc="344220052" seo="true" mt="1623272696522" redirect="true"/>
+  <file name="qlx.html" crc="4132436273" seo="true" mt="1623444138249" redirect="true"/>
   <file name="qlx-app.html" crc="251159110" seo="true" mt="1623272475099" redirect="true"/>
   <file name="contact.html" crc="4103441088" seo="true" mt="1623272475099" redirect="true"/>
 </manifest>
