@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623796523234">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="gavinyehle.com" resolutions="1x,2x" timestamp="1623797036627">
   <folder name="assets">
     <file name="resume.pdf" crc="218978833" seo="true" mt="1502772657000"/>
     <file name="pod-tisserie-1.aif" crc="242204465" seo="true" mt="1502914464000"/>
@@ -19,8 +19,8 @@
     <file name="nomq_index.css" crc="315162597" ref="index"/>
     <file name="design-media.css" crc="172040615" ref="design-media"/>
     <file name="nomq_design-media.css" crc="3952517126" ref="design-media"/>
-    <file name="qlx.css" crc="4241166981" ref="qlx"/>
-    <file name="nomq_qlx.css" crc="312059587" ref="qlx"/>
+    <file name="qlx.css" crc="150905774" ref="qlx"/>
+    <file name="nomq_qlx.css" crc="361345021" ref="qlx"/>
     <file name="sm-resume.css" crc="108609283" ref="sm-resume"/>
     <file name="nomq_sm-resume.css" crc="33741650" ref="sm-resume"/>
     <file name="acting-resume.css" crc="465051971" ref="acting-resume"/>
@@ -422,7 +422,7 @@
   <file name="design-media.html" crc="499799568" seo="true" mt="1623272475099" redirect="true"/>
   <file name="acting-resume.html" crc="4257498038" seo="true" mt="1623272475099" redirect="true"/>
   <file name="design-resume.html" crc="4137512638" seo="true" mt="1623272475099" redirect="true"/>
-  <file name="qlx.html" crc="159390649" seo="true" mt="1623796501489" redirect="true"/>
+  <file name="qlx.html" crc="3927851731" seo="true" mt="1623797024377" redirect="true"/>
   <file name="qlx-app.html" crc="251159110" seo="true" mt="1623272475099" redirect="true"/>
-  <file name="contact.html" crc="227835782" seo="true" mt="1623796461642" redirect="true"/>
+  <file name="contact.html" crc="3762509153" seo="true" mt="1623796996415" redirect="true"/>
 </manifest>
