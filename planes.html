@@ -1,163 +1,126 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>West Seattle Plane Tracker</title>
+  <meta charset="utf-8" />
+  <title>Plane Overhead</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    #plane { font-size: 18px; margin-top: 20px; }
-    img { max-height: 40px; vertical-align: middle; }
+    body { font-family: system-ui, sans-serif; margin:0; padding:1rem; background:#f9fafb; }
+    h1 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .plane-card { background:#fff; border-radius:8px; padding:1rem; box-shadow:0 2px 6px rgba(0,0,0,.1); max-width:420px; }
+    .label { font-weight:600; margin-right:0.5rem; }
+    .route { font-family:monospace; background:#eee; padding:2px 6px; border-radius:4px; }
+    .small { color:#555; font-size:0.9rem; }
+    .airline { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+    .airline img { height:24px; border-radius:4px; background:#fff; }
   </style>
 </head>
 <body>
-  <h1>✈️ Plane Tracker</h1>
-  <div id="plane">Loading...</div>
+  <h1>What's Overhead:</h1>
+  <div id="output" class="plane-card">Loading…</div>
 
-  <script>
-    // === CONFIG ===
-    const clientId = "ravioli-api-client";
-    const clientSecret = "UnhFTieTu4LzuXnjXkmdlB7CyWREDNRl";
-    const lat = 47.57, lon = -122.39; // West Seattle
-    const maxDist = 4 * 1852; // 4 miles in meters
-    const maxAlt = 3048; // 10,000 ft in meters
+<script>
+const CENTER = { lat: 47.564379, lon: -122.323950 }; // West Seattle center
+const MAX_ALT_METERS = 3048; // 10,000 ft
+const RADIUS_MILES = 4;
+const RADIUS_KM = RADIUS_MILES * 1.609344;
+const POLL_INTERVAL_MS = 30000;
 
-    // === Aircraft ICAO → Friendly Name ===
-    const aircraftMap = {
-      "A320": "Airbus A320",
-      "A319": "Airbus A319",
-      "A321": "Airbus A321",
-      "A20N": "Airbus A320neo",
-      "B738": "Boeing 737-800",
-      "B739": "Boeing 737-900",
-      "B737": "Boeing 737",
-      "B752": "Boeing 757-200",
-      "B763": "Boeing 767-300",
-      "B772": "Boeing 777-200",
-      "B77W": "Boeing 777-300ER",
-      "B788": "Boeing 787-8 Dreamliner",
-      "B789": "Boeing 787-9 Dreamliner",
-      "E75L": "Embraer 175 (long wing)",
-      "E190": "Embraer 190",
-      "CRJ9": "Bombardier CRJ-900",
-      "CRJ7": "Bombardier CRJ-700"
-    };
+const ADSBDB = { baseUrl: 'https://api.adsbdb.com/v0/callsign', apiKey: '' };
 
-    // === Airline IATA → Name ===
-    const airlineMap = {
-      "DL": "Delta Air Lines",
-      "AA": "American Airlines",
-      "UA": "United Airlines",
-      "AS": "Alaska Airlines",
-      "WN": "Southwest Airlines",
-      "B6": "JetBlue Airways",
-      "F9": "Frontier Airlines",
-      "NK": "Spirit Airlines",
-      "HA": "Hawaiian Airlines",
-      "AC": "Air Canada",
-      "WS": "WestJet",
-      "AF": "Air France",
-      "KL": "KLM",
-      "BA": "British Airways",
-      "LH": "Lufthansa",
-      "QF": "Qantas",
-      "NZ": "Air New Zealand",
-      "NH": "ANA (All Nippon Airways)",
-      "JL": "Japan Airlines"
-    };
+// Airline ICAO prefix map (small sample; add more as needed)
+const AIRLINES = {
+  "ASA": "Alaska Airlines",
+  "UAL": "United Airlines",
+  "DAL": "Delta Air Lines",
+  "AAL": "American Airlines",
+  "SWA": "Southwest Airlines",
+  "JBU": "JetBlue",
+  "ACA": "Air Canada",
+  "QXE": "Horizon Air"
+};
 
-    function distance(lat1, lon1, lat2, lon2) {
-      const R = 6371000;
-      const φ1 = lat1 * Math.PI / 180;
-      const φ2 = lat2 * Math.PI / 180;
-      const dφ = (lat2-lat1) * Math.PI / 180;
-      const dλ = (lon2-lon1) * Math.PI / 180;
-      const a = Math.sin(dφ/2)**2 + Math.cos(φ1)*Math.cos(φ2)*Math.sin(dλ/2)**2;
-      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-    }
+function deg2rad(d){return d*Math.PI/180;}
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R=6371.0088;
+  const dLat=deg2rad(lat2-lat1), dLon=deg2rad(lon2-lon1);
+  const a=Math.sin(dLat/2)**2+Math.cos(deg2rad(lat1))*Math.cos(deg2rad(lat2))*Math.sin(dLon/2)**2;
+  return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+}
+function bboxForRadiusKm(lat, lon, radiusKm){
+  const dLat=radiusKm/111.32;
+  const dLon=radiusKm/(111.32*Math.cos(deg2rad(lat)));
+  return {minLat:lat-dLat,maxLat:lat+dLat,minLon:lon-dLon,maxLon:lon+dLon};
+}
 
-    async function getAccessToken() {
-      const res = await fetch("https://opensky-network.org/oauth/token", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({
-          grant_type: "client_credentials",
-          client_id: clientId,
-          client_secret: clientSecret,
-        }),
-      });
-      return res.json();
-    }
+async function fetchOpenSky(){
+  const bb=bboxForRadiusKm(CENTER.lat,CENTER.lon,RADIUS_KM);
+  const url=`https://opensky-network.org/api/states/all?lamin=${bb.minLat}&lomin=${bb.minLon}&lamax=${bb.maxLat}&lomax=${bb.maxLon}`;
+  const res=await fetch(url);
+  if(!res.ok) throw new Error("OpenSky error");
+  return res.json();
+}
 
-    async function getCallsignInfo(callsign) {
-      if (!callsign) return null;
-      try {
-        const res = await fetch(`https://api.adsbdb.com/v0/callsign/${callsign.trim()}`);
-        const data = await res.json();
-        if (data && data.response) {
-          const typeCode = data.response.aircraft?.icao_code;
-          const airlineIata = data.response.airline?.iata_code;
-          return {
-            airline: data.response.airline?.name || airlineMap[airlineIata] || airlineIata || null,
-            logo: data.response.airline?.logo || null,
-            origin: data.response.origin?.iata_code || null,
-            destination: data.response.destination?.iata_code || null,
-            aircraftType: typeCode ? (aircraftMap[typeCode] || typeCode) : null,
-          };
-        }
-      } catch (e) {
-        console.error("Callsign lookup failed:", e);
+async function fetchAdsbdb(callsign){
+  if(!callsign) return null;
+  try{
+    const res=await fetch(`${ADSBDB.baseUrl}/${encodeURIComponent(callsign.trim())}`,
+      {headers:ADSBDB.apiKey?{'x-api-key':ADSBDB.apiKey}:{}} );
+    if(!res.ok) return null;
+    const d=await res.json();
+    const from=d.response.flightroute.origin.iata_code;
+    const to=d.response.flightroute.destination.iata_code;
+    console.log(`ADSBDB for ${callsign}:`,d,'->',from,to);
+    return {from,to};
+  }catch{ return null; }
+}
+
+function airlineFromCallsign(callsign){
+  if(!callsign) return null;
+  const prefix=callsign.trim().substring(0,3).toUpperCase();
+  const name=AIRLINES[prefix]||null;
+  const logoUrl=`https://content.airhex.com/content/logos/airlines_${prefix}_200_200_s.png`;
+  return {code:prefix,name,logo:logoUrl};
+}
+
+async function update(){
+  try{
+    const json=await fetchOpenSky();
+    let closest=null;
+    for(const s of (json.states||[])){
+      const [icao24,callsign,, , ,lon,lat,alt]=s;
+      if(lat==null||lon==null||alt==null) continue;
+      if(alt>MAX_ALT_METERS) continue;
+      const distKm=haversineKm(CENTER.lat,CENTER.lon,lat,lon);
+      if(distKm>RADIUS_KM) continue;
+      if(!closest||distKm<closest.distKm){
+        closest={icao24,callsign:(callsign||'').trim(),lat,lon,alt,distKm};
       }
-      return null;
     }
+    const out=document.getElementById('output');
+    if(!closest){ out.textContent="No plane within 4 miles"; return; }
+    const adsb=await fetchAdsbdb(closest.callsign);
+    const route=(adsb&&(adsb.from||adsb.to))?`${adsb.from||'---'} → ${adsb.to||'---'}`:closest.callsign||'Unknown';
 
-    async function fetchPlane() {
-      const tokenData = await getAccessToken();
-      const token = tokenData.access_token;
+    const airline=airlineFromCallsign(closest.callsign);
 
-      const res = await fetch("https://opensky-network.org/api/states/all", {
-        headers: { Authorization: "Bearer " + token },
-      });
-      const data = await res.json();
-      const states = data.states || [];
+    out.innerHTML=`
+      ${airline && (airline.name||airline.logo) ? 
+        `<div class="airline">
+           ${airline.logo?`<img src="${airline.logo}" alt="${airline.code}">`:``}
+           <div>${airline.name||'Unknown Airline'} (${airline.code})</div>
+         </div>` : ``}
+      <div><span class="label">Callsign:</span>${closest.callsign||'N/A'}</div>
+      <div><span class="label">Route:</span><span class="route">${route}</span></div>
+      <div class="small">Alt: ${Math.round(closest.alt)} m · Dist: ${closest.distKm.toFixed(2)} km</div>`;
+  }catch(e){
+    console.error(e);
+    document.getElementById('output').textContent="Error fetching data";
+  }
+}
 
-      let closest = null;
-      let minDist = Infinity;
-
-      for (const s of states) {
-        const callsign = s[1]?.trim();
-        const lonP = s[5];
-        const latP = s[6];
-        const alt = s[13];
-
-        if (!latP || !lonP || !alt) continue;
-        if (alt > maxAlt) continue;
-
-        const d = distance(lat, lon, latP, lonP);
-        if (d < maxDist && d < minDist) {
-          minDist = d;
-          closest = { callsign, lat: latP, lon: lonP, alt };
-        }
-      }
-
-      const div = document.getElementById("plane");
-      if (!closest) {
-        div.textContent = "No planes within 4 miles under 10,000 ft.";
-        return;
-      }
-
-      const info = await getCallsignInfo(closest.callsign);
-
-      div.innerHTML = `
-        <strong>${closest.callsign || "Unknown"}</strong><br>
-        Altitude: ${(closest.alt * 3.281).toFixed(0)} ft<br>
-        Distance: ${(minDist / 1852).toFixed(1)} miles<br>
-        Airline: ${info?.airline || "Unknown"} ${info?.logo ? `<img src="${info.logo}" alt="logo">` : ""}<br>
-        Route: ${info?.origin || "?"} → ${info?.destination || "?"}<br>
-        Aircraft: ${info?.aircraftType || "Unknown"}
-      `;
-    }
-
-    fetchPlane();
-    setInterval(fetchPlane, 10000);
-  </script>
+update();
+setInterval(update,POLL_INTERVAL_MS);
+</script>
 </body>
 </html>
