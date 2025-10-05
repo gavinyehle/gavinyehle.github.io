@@ -13,29 +13,151 @@
   <div id="plane">Loading...</div>
 
   <script>
-    async function getPlane() {
-      const res = await fetch("/planes");
+    // === CONFIG ===
+    const clientId = "YOUR_CLIENT_ID";
+    const clientSecret = "YOUR_CLIENT_SECRET";
+    const lat = 47.57, lon = -122.39; // West Seattle
+    const maxDist = 4 * 1852; // 4 miles in meters
+    const maxAlt = 3048; // 10,000 ft in meters
+
+    // === Aircraft ICAO → Friendly Name ===
+    const aircraftMap = {
+      "A320": "Airbus A320",
+      "A319": "Airbus A319",
+      "A321": "Airbus A321",
+      "A20N": "Airbus A320neo",
+      "B738": "Boeing 737-800",
+      "B739": "Boeing 737-900",
+      "B737": "Boeing 737",
+      "B752": "Boeing 757-200",
+      "B763": "Boeing 767-300",
+      "B772": "Boeing 777-200",
+      "B77W": "Boeing 777-300ER",
+      "B788": "Boeing 787-8 Dreamliner",
+      "B789": "Boeing 787-9 Dreamliner",
+      "E75L": "Embraer 175 (long wing)",
+      "E190": "Embraer 190",
+      "CRJ9": "Bombardier CRJ-900",
+      "CRJ7": "Bombardier CRJ-700"
+    };
+
+    // === Airline IATA → Name ===
+    const airlineMap = {
+      "DL": "Delta Air Lines",
+      "AA": "American Airlines",
+      "UA": "United Airlines",
+      "AS": "Alaska Airlines",
+      "WN": "Southwest Airlines",
+      "B6": "JetBlue Airways",
+      "F9": "Frontier Airlines",
+      "NK": "Spirit Airlines",
+      "HA": "Hawaiian Airlines",
+      "AC": "Air Canada",
+      "WS": "WestJet",
+      "AF": "Air France",
+      "KL": "KLM",
+      "BA": "British Airways",
+      "LH": "Lufthansa",
+      "QF": "Qantas",
+      "NZ": "Air New Zealand",
+      "NH": "ANA (All Nippon Airways)",
+      "JL": "Japan Airlines"
+    };
+
+    function distance(lat1, lon1, lat2, lon2) {
+      const R = 6371000;
+      const φ1 = lat1 * Math.PI / 180;
+      const φ2 = lat2 * Math.PI / 180;
+      const dφ = (lat2-lat1) * Math.PI / 180;
+      const dλ = (lon2-lon1) * Math.PI / 180;
+      const a = Math.sin(dφ/2)**2 + Math.cos(φ1)*Math.cos(φ2)*Math.sin(dλ/2)**2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    }
+
+    async function getAccessToken() {
+      const res = await fetch("https://opensky-network.org/oauth/token", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          grant_type: "client_credentials",
+          client_id: clientId,
+          client_secret: clientSecret,
+        }),
+      });
+      return res.json();
+    }
+
+    async function getCallsignInfo(callsign) {
+      if (!callsign) return null;
+      try {
+        const res = await fetch(`https://api.adsbdb.com/v0/callsign/${callsign.trim()}`);
+        const data = await res.json();
+        if (data && data.response) {
+          const typeCode = data.response.aircraft?.icao_code;
+          const airlineIata = data.response.airline?.iata_code;
+          return {
+            airline: data.response.airline?.name || airlineMap[airlineIata] || airlineIata || null,
+            logo: data.response.airline?.logo || null,
+            origin: data.response.origin?.iata_code || null,
+            destination: data.response.destination?.iata_code || null,
+            aircraftType: typeCode ? (aircraftMap[typeCode] || typeCode) : null,
+          };
+        }
+      } catch (e) {
+        console.error("Callsign lookup failed:", e);
+      }
+      return null;
+    }
+
+    async function fetchPlane() {
+      const tokenData = await getAccessToken();
+      const token = tokenData.access_token;
+
+      const res = await fetch("https://opensky-network.org/api/states/all", {
+        headers: { Authorization: "Bearer " + token },
+      });
       const data = await res.json();
-      const p = data.plane;
+      const states = data.states || [];
+
+      let closest = null;
+      let minDist = Infinity;
+
+      for (const s of states) {
+        const callsign = s[1]?.trim();
+        const lonP = s[5];
+        const latP = s[6];
+        const alt = s[13];
+
+        if (!latP || !lonP || !alt) continue;
+        if (alt > maxAlt) continue;
+
+        const d = distance(lat, lon, latP, lonP);
+        if (d < maxDist && d < minDist) {
+          minDist = d;
+          closest = { callsign, lat: latP, lon: lonP, alt };
+        }
+      }
 
       const div = document.getElementById("plane");
-      if (!p) {
+      if (!closest) {
         div.textContent = "No planes within 4 miles under 10,000 ft.";
         return;
       }
 
+      const info = await getCallsignInfo(closest.callsign);
+
       div.innerHTML = `
-        <strong>${p.callsign || "Unknown"}</strong><br>
-        Altitude: ${p.altitude_ft} ft<br>
-        Distance: ${p.distance_miles} miles<br>
-        Airline: ${p.airline || "Unknown"} ${p.logo ? `<img src="${p.logo}" alt="logo">` : ""}<br>
-        Route: ${p.origin || "?"} → ${p.destination || "?"}<br>
-        Aircraft: ${p.aircraftType || "Unknown"}
+        <strong>${closest.callsign || "Unknown"}</strong><br>
+        Altitude: ${(closest.alt * 3.281).toFixed(0)} ft<br>
+        Distance: ${(minDist / 1852).toFixed(1)} miles<br>
+        Airline: ${info?.airline || "Unknown"} ${info?.logo ? `<img src="${info.logo}" alt="logo">` : ""}<br>
+        Route: ${info?.origin || "?"} → ${info?.destination || "?"}<br>
+        Aircraft: ${info?.aircraftType || "Unknown"}
       `;
     }
 
-    getPlane();
-    setInterval(getPlane, 10000);
+    fetchPlane();
+    setInterval(fetchPlane, 10000);
   </script>
 </body>
 </html>
