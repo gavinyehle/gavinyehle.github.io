@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Replace with your OpenSky OAuth2 credentials
-const clientId = "YOUR_CLIENT_ID";
-const clientSecret = "YOUR_CLIENT_SECRET";
+const clientId = "ravioli-api-client";
+const clientSecret = "UnhFTieTu4LzuXnjXkmdlB7CyWREDNRl";
 
 let cachedToken = null;
 let tokenExpiry = null;
