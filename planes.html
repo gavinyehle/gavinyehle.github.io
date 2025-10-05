@@ -28,17 +28,49 @@ const POLL_INTERVAL_MS = 30000;
 
 const ADSBDB = { baseUrl: 'https://api.adsbdb.com/v0/callsign', apiKey: '' };
 
-// Airline ICAO prefix map (small sample; add more as needed)
-const AIRLINES = {
-  "ASA": "Alaska Airlines",
-  "UAL": "United Airlines",
-  "DAL": "Delta Air Lines",
-  "AAL": "American Airlines",
-  "SWA": "Southwest Airlines",
-  "JBU": "JetBlue",
-  "ACA": "Air Canada",
-  "QXE": "Horizon Air"
-};
+  const aircraftMap = {
+      "A320": "Airbus A320",
+      "A319": "Airbus A319",
+      "A321": "Airbus A321",
+      "A20N": "Airbus A320neo",
+      "B738": "Boeing 737-800",
+      "B739": "Boeing 737-900",
+      "B737": "Boeing 737",
+      "B752": "Boeing 757-200",
+      "B763": "Boeing 767-300",
+      "B772": "Boeing 777-200",
+      "B77W": "Boeing 777-300ER",
+      "B788": "Boeing 787-8 Dreamliner",
+      "B789": "Boeing 787-9 Dreamliner",
+      "E75L": "Embraer 175",
+      "E190": "Embraer 190",
+      "CRJ9": "Bombardier CRJ-900",
+      "CRJ7": "Bombardier CRJ-700"
+    };
+
+    // === Airline ICAO → Name ===
+    const AIRLINES = {
+      "DAL": "Delta Air Lines",
+      "AAL": "American Airlines",
+      "UAL": "United Airlines",
+      "ASA": "Alaska Airlines",
+      "SWA": "Southwest Airlines",
+      "JBU": "JetBlue Airways",
+      "FFT": "Frontier Airlines",
+      "NKS": "Spirit Airlines",
+      "HAL": "Hawaiian Airlines",
+      "ACA": "Air Canada",
+      "WJA": "WestJet",
+      "AFR": "Air France",
+      "KAL": "KLM",
+      "BAW": "British Airways",
+      "DLH": "Lufthansa",
+      "QFA": "Qantas",
+      "QXE": "Horizon Air",
+      "SKW": "SkyWest Airlines",
+      "ANA": "ANA (All Nippon Airways)",
+      "JAL": "Japan Airlines"
+    };
 
 function deg2rad(d){return d*Math.PI/180;}
 function haversineKm(lat1, lon1, lat2, lon2){
