@@ -40,6 +40,12 @@ const AIRLINES = {
   "QXE": "Horizon Air"
 };
 
+// 🔑 Enter your OpenSky username/password here
+const OPENSKY = {
+  username: "ravioli",
+  password: "enlisted!SHAMAN_auction6right"
+}
+
 function deg2rad(d){return d*Math.PI/180;}
 function haversineKm(lat1, lon1, lat2, lon2){
   const R=6371.0088;
@@ -56,10 +62,15 @@ function bboxForRadiusKm(lat, lon, radiusKm){
 async function fetchOpenSky(){
   const bb=bboxForRadiusKm(CENTER.lat,CENTER.lon,RADIUS_KM);
   const url=`https://opensky-network.org/api/states/all?lamin=${bb.minLat}&lomin=${bb.minLon}&lamax=${bb.maxLat}&lomax=${bb.maxLon}`;
-  const res=await fetch(url);
-  if(!res.ok) throw new Error("OpenSky error");
+  const headers = {};
+  if (OPENSKY.username && OPENSKY.password) {
+    headers['Authorization'] = 'Basic ' + btoa(`${OPENSKY.username}:${OPENSKY.password}`);
+  }
+  const res=await fetch(url,{headers});
+  if(!res.ok) throw new Error("OpenSky error " + res.status);
   return res.json();
 }
+
 
 async function fetchAdsbdb(callsign){
   if(!callsign) return null;
