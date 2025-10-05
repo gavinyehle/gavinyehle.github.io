@@ -1,137 +1,41 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8" />
-  <title>Plane Overhead</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>West Seattle Plane Tracker</title>
   <style>
-    body { font-family: system-ui, sans-serif; margin:0; padding:1rem; background:#f9fafb; }
-    h1 { font-size: 1.2rem; margin-bottom: 0.5rem; }
-    .plane-card { background:#fff; border-radius:8px; padding:1rem; box-shadow:0 2px 6px rgba(0,0,0,.1); max-width:420px; }
-    .label { font-weight:600; margin-right:0.5rem; }
-    .route { font-family:monospace; background:#eee; padding:2px 6px; border-radius:4px; }
-    .small { color:#555; font-size:0.9rem; }
-    .airline { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
-    .airline img { height:24px; border-radius:4px; background:#fff; }
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #plane { font-size: 18px; margin-top: 20px; }
+    img { max-height: 40px; vertical-align: middle; }
   </style>
 </head>
 <body>
-  <h1>What's Overhead:</h1>
-  <div id="output" class="plane-card">Loading…</div>
+  <h1>✈️ West Seattle Plane Tracker</h1>
+  <div id="plane">Loading...</div>
 
-<script>
-const CENTER = { lat: 47.564379, lon: -122.323950 }; // West Seattle center
-const MAX_ALT_METERS = 3048; // 10,000 ft
-const RADIUS_MILES = 4;
-const RADIUS_KM = RADIUS_MILES * 1.609344;
-const POLL_INTERVAL_MS = 30000;
+  <script>
+    async function getPlane() {
+      const res = await fetch("/planes");
+      const data = await res.json();
+      const p = data.plane;
 
-const ADSBDB = { baseUrl: 'https://api.adsbdb.com/v0/callsign', apiKey: '' };
-
-// Airline ICAO prefix map (small sample; add more as needed)
-const AIRLINES = {
-  "ASA": "Alaska Airlines",
-  "UAL": "United Airlines",
-  "DAL": "Delta Air Lines",
-  "AAL": "American Airlines",
-  "SWA": "Southwest Airlines",
-  "JBU": "JetBlue",
-  "ACA": "Air Canada",
-  "QXE": "Horizon Air"
-};
-
-// 🔑 Enter your OpenSky username/password here
-const OPENSKY = {
-  username: "ravioli",
-  password: "enlisted!SHAMAN_auction6right"
-}
-
-function deg2rad(d){return d*Math.PI/180;}
-function haversineKm(lat1, lon1, lat2, lon2){
-  const R=6371.0088;
-  const dLat=deg2rad(lat2-lat1), dLon=deg2rad(lon2-lon1);
-  const a=Math.sin(dLat/2)**2+Math.cos(deg2rad(lat1))*Math.cos(deg2rad(lat2))*Math.sin(dLon/2)**2;
-  return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
-}
-function bboxForRadiusKm(lat, lon, radiusKm){
-  const dLat=radiusKm/111.32;
-  const dLon=radiusKm/(111.32*Math.cos(deg2rad(lat)));
-  return {minLat:lat-dLat,maxLat:lat+dLat,minLon:lon-dLon,maxLon:lon+dLon};
-}
-
-async function fetchOpenSky(){
-  const bb=bboxForRadiusKm(CENTER.lat,CENTER.lon,RADIUS_KM);
-  const url=`https://opensky-network.org/api/states/all?lamin=${bb.minLat}&lomin=${bb.minLon}&lamax=${bb.maxLat}&lomax=${bb.maxLon}`;
-  const headers = {};
-  if (OPENSKY.username && OPENSKY.password) {
-    headers['Authorization'] = 'Basic ' + btoa(`${OPENSKY.username}:${OPENSKY.password}`);
-  }
-  const res=await fetch(url,{headers});
-  if(!res.ok) throw new Error("OpenSky error " + res.status);
-  return res.json();
-}
-
-
-async function fetchAdsbdb(callsign){
-  if(!callsign) return null;
-  try{
-    const res=await fetch(`${ADSBDB.baseUrl}/${encodeURIComponent(callsign.trim())}`,
-      {headers:ADSBDB.apiKey?{'x-api-key':ADSBDB.apiKey}:{}} );
-    if(!res.ok) return null;
-    const d=await res.json();
-    const from=d.response.flightroute.origin.iata_code;
-    const to=d.response.flightroute.destination.iata_code;
-    console.log(`ADSBDB for ${callsign}:`,d,'->',from,to);
-    return {from,to};
-  }catch{ return null; }
-}
-
-function airlineFromCallsign(callsign){
-  if(!callsign) return null;
-  const prefix=callsign.trim().substring(0,3).toUpperCase();
-  const name=AIRLINES[prefix]||null;
-  const logoUrl=`https://content.airhex.com/content/logos/airlines_${prefix}_200_200_s.png`;
-  return {code:prefix,name,logo:logoUrl};
-}
-
-async function update(){
-  try{
-    const json=await fetchOpenSky();
-    let closest=null;
-    for(const s of (json.states||[])){
-      const [icao24,callsign,, , ,lon,lat,alt]=s;
-      if(lat==null||lon==null||alt==null) continue;
-      if(alt>MAX_ALT_METERS) continue;
-      const distKm=haversineKm(CENTER.lat,CENTER.lon,lat,lon);
-      if(distKm>RADIUS_KM) continue;
-      if(!closest||distKm<closest.distKm){
-        closest={icao24,callsign:(callsign||'').trim(),lat,lon,alt,distKm};
+      const div = document.getElementById("plane");
+      if (!p) {
+        div.textContent = "No planes within 4 miles under 10,000 ft.";
+        return;
       }
+
+      div.innerHTML = `
+        <strong>${p.callsign || "Unknown"}</strong><br>
+        Altitude: ${p.altitude_ft} ft<br>
+        Distance: ${p.distance_miles} miles<br>
+        Airline: ${p.airline || "Unknown"} ${p.logo ? `<img src="${p.logo}" alt="logo">` : ""}<br>
+        Route: ${p.origin || "?"} → ${p.destination || "?"}<br>
+        Aircraft: ${p.aircraftType || "Unknown"}
+      `;
     }
-    const out=document.getElementById('output');
-    if(!closest){ out.textContent="No plane within 4 miles"; return; }
-    const adsb=await fetchAdsbdb(closest.callsign);
-    const route=(adsb&&(adsb.from||adsb.to))?`${adsb.from||'---'} → ${adsb.to||'---'}`:closest.callsign||'Unknown';
 
-    const airline=airlineFromCallsign(closest.callsign);
-
-    out.innerHTML=`
-      ${airline && (airline.name||airline.logo) ? 
-        `<div class="airline">
-           ${airline.logo?`<img src="${airline.logo}" alt="${airline.code}">`:``}
-           <div>${airline.name||'Unknown Airline'} (${airline.code})</div>
-         </div>` : ``}
-      <div><span class="label">Callsign:</span>${closest.callsign||'N/A'}</div>
-      <div><span class="label">Route:</span><span class="route">${route}</span></div>
-      <div class="small">Alt: ${Math.round(closest.alt)} m · Dist: ${closest.distKm.toFixed(2)} km</div>`;
-  }catch(e){
-    console.error(e);
-    document.getElementById('output').textContent="Error fetching data";
-  }
-}
-
-update();
-setInterval(update,POLL_INTERVAL_MS);
-</script>
+    getPlane();
+    setInterval(getPlane, 10000);
+  </script>
 </body>
 </html>
